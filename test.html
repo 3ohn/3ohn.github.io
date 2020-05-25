@@ -13,39 +13,31 @@ div {
 }
     </style>
     <script type="text/javascript">//<![CDATA[ 
-        (function() {
-            var configuration = {
-            "token": "eb2d577976008ba14bd4e5d3ddb1df6f",
-            "domains": [
-                "3ohn.com"
-            ],
-            "capping": {
-                "limit": 5,
-                "timeout": 24
-            },
-            "entryScript": {
-                "type": "timeout",
-                "timeout": 3000,
-                "capping": {
-                    "limit": 5,
-                    "timeout": 24
-                }
-            },
-            "exitScript": {
-                "enabled": true
-            },
-            "popUnder": {
-                "enabled": true
-            }
-        };
-            var script = document.createElement('script');
-            script.async = true;
-            script.src = '//cdn.shorte.st/link-converter.min.js';
-            script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
-            var entry = document.getElementsByTagName('script')[0];
-            entry.parentNode.insertBefore(script, entry);
-        })();
-        //]]></script>
+(function() {
+    var configuration = {
+    "token": "eb2d577976008ba14bd4e5d3ddb1df6f",
+    "excludeDomains": [
+        "yourowndomain.com"
+    ],
+    "capping": {
+        "limit": 5,
+        "timeout": 24
+    },
+    "exitScript": {
+        "enabled": true
+    },
+    "popUnder": {
+        "enabled": true
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+//]]></script>
 </head>
 <body>
     <div><iframe width="1120" height="630" src="https://www.youtube.com/embed/kWvs5H32Oyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
