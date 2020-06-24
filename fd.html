@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Full Stack Development From Zero To Hero - FullDiv</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>FullDiv - Full Stack Development From Zero To Hero</title>
+    <meta name="title" content="FullDiv - Full Stack Development From Zero To Hero">
+    <meta name="description" content="Learn to code making 10 real world projects live with a mentor and get a tech job in as little as 10 months. No prior coding experience required!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fulldiv.com/">
+    <meta property="og:title" content="FullDiv - Full Stack Development From Zero To Hero">
+    <meta property="og:description" content="Learn to code making 10 real world projects live with a mentor and get a tech job in as little as 10 months. No prior coding experience required!">
+    <meta property="og:image" content="https://fulldiv.com/meta2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fulldiv.com/">
+    <meta property="twitter:title" content="FullDiv - Full Stack Development From Zero To Hero">
+    <meta property="twitter:description" content="Learn to code making 10 real world projects live with a mentor and get a tech job in as little as 10 months. No prior coding experience required!">
+    <meta property="twitter:image" content="https://fulldiv.com/meta2.png">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAErUlEQVR4Ae3dA5BsRxhA4Twztm3btm3btp1CbNu2bdu28bRW5wTFON1vdv+956/6ypjpPat7b/eMssqOe6rCuucbkwHIAGQAMgAZgAxABiADkAHIAGQAMgAZgAwABiADkAHIAGQAMgAZgAxABiADkAHIAJgBWAObYzP9qY2xDlbGYpgdU2As9I0ewER4B0l/qQNtaEIdfsTHeBG34kRsjYUwPnoZQDUjGYbXcQm2wLToYwDV1IZPcSlWx5jVDUCNeBSbY6zqBqBmPIa1MaC6AagOl2DGagegt7Auelc3AA3BIRhc3QDUjLMwVnUDUBsuwFjVDUDtOAuDax3Au1W5nPs/tCPVUAsORe9aBTAYW2Ff7NMF7Y0j8A1Shgexwe82/Jc2wKbYAYfgLNyNd1GHNJIMxfreDv4dMz7eQMpwbqHX0g8TY2kchWfQiFTYW5ipcAAGUBozFtbGPWhCKugyDCgegAGUx4yG7fA+UiH1WM8Aah1ABmZ23IdUyBMYL0QABgAwk+BadBS6PrBjmAAMAGAmwt1IBTyJscMEYAAAMxNeQ8rUhHVDBWAAALMGhiBluhZ94wVgAH1wFlKmLzBTqAAMAGBmxacFLmXvGDMAA+iBkwr9GugTKgADAJj58ANShvcwacwADGAA7ixwZXDZcAEYAMDsgZRpr7gBGMD8+Akpw0XoETMAAxgHLyFleAyDYwZgAL1wNVKG9zFJuAAMAGAOR8rwPWavaQDMpFgfG3SC9bE9Pu8mAWyWeZewAUvXOoB10Yb2TpS6SQDLoiHzyeH1ah3AepnVlhM/gLkK3BzaPm4ABjA9vkLKsHfcAAxgCnyElOHQuAEYwMQFNuIcFTcAAyixFe+4agdgAMfGDcAAJsMHSBkOjxuAAUxT4KLW/nEDMIBZCzwYsnPcAAxgMdRlXgncOG4ABrAuWjOPk1mx1gHMgVM60Xn4oZsEsHeBQ6Xm83Zw3ADORcrwGaYKGIABMIPxKFKG5zBmzAAMYAZ8iZThOvSOGYABbIhWpAxHBnwq2ACYnriowAli68QMwACmLHB8zJeYMWYABrBjgUfbHsCgYAEYADMOnkTKdETM3cEGsANaCxweuWiwAAyAmSb7tQMPY7RAARgAMxAXFjrneI9AZwQZANMb+xQ6PfQDTBMkAANgemF7DEUq4Lgg5wQaADMAe2EIUgEfYcYAARgAMy0uKHh6eAcO9azgLhwA0wMTYTe8hVTQ05jIALpYAEwPjImFcDReRStSQUOwarnPCzCAqzD5/zAVZsT8WA274zw8iyHoQCqsHceid7kADGA4PvofPsU3GIZmpBq4Kf/TwwwgqicxTf66GUBEL2DO/DUzgIiew1z562UA0XTgbsyQv1YGEE09TscE+etkANG8g83RP3+NDCCSH3Emps9fGwOI5CdciyXQJ39dDCCCVryPM7BwgR/3BhBAI97DVdgCU6BX3hoYwAR4E6kLaUM9vsbLuA6HYiVMit7l1sAARscJuA7XdIIrcCFOxzHYAxthKcyEsUfaF9wAAKZHZ6rx+zUAGYAMQAYgA5AByABkADIAGYAMQAYgA5AByABkADIAGYAMQAYgA5AByAD0M4iyM/c8axoFAAAAAElFTkSuQmCC" />
+    <meta name="google-site-verification" content="cWGauJelSe8L4kAkg6zDECYyPawH1hQ3cD3ptxdOtQM" />
+<style>
+html {
+    
+    font-size: 16px;
+    margin: auto;
+    max-width: 1920px;
+}
+body {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+}
+.section {
+    padding: 5rem 10rem;
+}
+.section2 {
+    padding: 1rem 0;
+}
+.footer {
+    padding: 0 2rem;
+}
+.heroGrid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.textCenter {
+    
+    text-align: center;
+}
+.iframe {
+    width: 40vw;
+    
+}
+iframe {
+    border: 0px;
+}
+.heroText {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    margin: 0;
+}
+hr {
+    margin-top: 50px;
+    border: 2px solid black;
+    width: 40%;
+}
+.heroInfoWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem;
+    margin-bottom: 3rem;
+}
+.heroInfoWrapper2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem;
+    padding: 2rem 0;
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15vw;
+}
+.heroInfo {
+    font-size: 1.5rem;
+    
+
+}
+.heroInfo2 {
+    font-size: 1.5rem;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.gridContainer2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.HeroVideoContainer {
+        margin-top: 3rem;
+    }
+.pricingWrapper {
+    border: 1px solid black;
+    padding: 2rem 3rem;
+}
+h2 {
+    font-size: 3rem;
+}
+.price {
+    font-size: 3rem;
+}
+.strike {
+    text-decoration: line-through;
+}
+h3 {
+    font-size: 2rem;
+}
+.qa {
+    font-size: 2rem;
+}
+p {
+    font-size: 1.8rem;
+}
+.number {
+    font-size: 4rem;
+}
+.numberDesc {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+mark {
+    background-color: black;
+    color: white;
+}
+.pricingMark {
+    padding: 0.5rem 1.5rem;
+}
+#gumFrame {
+    position:fixed;
+    top:0px;
+    left:0;
+    z-index:-100;
+    width: 100vw;
+    height: 100vh;
+}
+#gumClose {
+    position:fixed;
+    top:30px;
+    right:30px;
+    display: none;
+    z-index: 1111;
+    cursor: pointer;
+    margin: 5px 10px;
+    
+}
+#blurBG {
+    position:fixed;
+    top:0px;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(80,80,80);
+    z-index: -50;
+}
+#button {
+    display: none;
+}
+#gum {
+    display: none;
+}
+.noLink {
+    cursor: text;
+    pointer-events: none;
+}
+.certificate {
+    position: fixed;
+    top: 40vh;
+    width: 30vw;
+    min-width: 300px;
+    z-index: 20;
+    display: none;
+}
+.topLang {
+    width: 100%;
+}
+#monthly {
+    display: none;
+}
+.certificateWrapper:hover .certificate{
+    display: none;
+}
+li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1em;
+}
+li span {
+    display: block;
+    font-size: 2rem;
+}
+.timerContainer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media all and (max-width: 1440px) {
+    html {
+        font-size: 14px;
+    }
+    .section {
+        padding: 5rem 5rem;
+    }
+    .iframe {
+    width: 60vw;
+    }
+      
+}
+@media all and (max-width: 1280px) {
+    html {
+        font-size: 13px;
+    }
+    .section {
+        padding: 5rem 4rem;
+    }
+}
+@media all and (max-width: 991px) {
+    html {
+        font-size: 11px;
+    }
+    .section {
+        padding: 5rem 4rem;
+    }
+    .iframe {
+    width: 80vw;
+    }
+}
+@media all and (max-width: 767px) {
+    html {
+        font-size: 10px;
+    }
+    .section {
+        padding: 5rem 1rem;
+    }
+    .gridContainer2 {
+        
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+    .pricingWrapper {
+        padding: 2rem 1.5rem;
+    }
+    .gridContainer {
+        grid-template-columns: auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 20px;
+    }
+    .gridContainer2 {
+        grid-template-columns: auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 20px;
+    }
+    
+    .heroText {
+        font-size: 3.5rem;
+        line-height: 5rem;
+    }  
+}
+@media all and (max-width: 475px) {
+    html {
+        font-size: 8px;
+    }
+    .section {
+        padding: 5rem 2rem;
+    }
+    .gridContainer {
+        grid-template-columns: auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 20px;
+    }
+    .gridContainer2 {
+        grid-template-columns: auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 20px;
+    }
+    .heroInfoWrapper {
+        margin: 0 0.5rem;
+        margin-bottom: 3rem;
+    }
+    .heroInfoWrapper2 {
+        margin: 0 2rem;
+    }
+    .heroText {
+        padding-top: 10rem;
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+}
+</style>
+
+<script>
+     window.onload = function() {
+        document.getElementById("loading").style.display = "none";
+        document.getElementById("loading2").style.display = "none";
+        document.getElementById("button").style.display = "block";
+        document.getElementById("gum").style.display = "block";
+        //get email from url param
+        const gumPre = "https://gumroad.com/l/sylAu"
+        let email = window.location.search;
+        let param = email.slice(0, 6)
+        // check is there is an email parameter in url, if so run validation function
+        if (param === "?email") {
+            console.log("Email found in parameter");
+            email = email.slice(7);
+            // update html SRC if email if valid (email includes @ and .)
+            if (email.includes("@") && email.includes(".")) {
+                replaceSRC();
+            } else {
+            }
+        } else {
+        }
+        // construct new gum url and update src in html
+        function replaceSRC (){
+            let gumFinal = gumPre + "?email=" + email + "&price=66" + "&wanted=true"
+            console.log(gumFinal);
+            document.getElementById("gumFrame").src=gumFinal;
+        }
+      gum.onclick = function() {
+        document.getElementById("blurBG").style.zIndex = "555";
+        document.getElementById("gumFrame").style.zIndex = "1000";
+        document.getElementById("gumClose").style.display = "block";
+        return false;
+      }
+      gumClose.onclick = function() {
+        document.getElementById("gumClose").style.display = "none";
+        document.getElementById("gumFrame").style.zIndex = "-100";
+        document.getElementById("blurBG").style.zIndex = "-111";
+        return false;
+      }
+    }
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168761391-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168761391-1');
+</script>
+<script type="text/javascript">
+    (function() {
+      window._pa = window._pa || {};
+      // _pa.orderId = "myOrderId"; // OPTIONAL: attach unique conversion identifier to conversions
+      // _pa.revenue = "19.99"; // OPTIONAL: attach dynamic purchase values to conversions
+      // _pa.productId = "myProductId"; // OPTIONAL: Include product ID for use with dynamic ads
+          
+      var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+      pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/5edc88ab11bc34d83c000068.js";
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+    })();
+  </script>
+  <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0095/6683.js" async="async"></script>
+<script>const second=1e3,minute=6e4,hour=36e5,day=864e5;let countDown=new Date("Jun 30, 2020 00:00:00").getTime(),x=setInterval(function(){let e=(new Date).getTime(),t=countDown-e;document.getElementById("days").innerText=Math.floor(t/day),document.getElementById("hours").innerText=Math.floor(t%day/36e5),document.getElementById("minutes").innerText=Math.floor(t%36e5/6e4),document.getElementById("seconds").innerText=Math.floor(t%6e4/1e3),t<0&&(document.getElementById("timer").style.display="none",document.getElementById("preOrder").style.display="none",document.getElementById("monthly").style.display="block")},1e3);</script>
+
+</head>
+<body>
+    
+    <img id="gumClose" height="32" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkBRYHGTBEBfs2AAABSUlEQVRo3s2ZuQ3DMBRDiczhwoX3X0HZw4WLDKIUAaIosnV+mnL7AfLJ0PEPIHwrnljB/hY4bGeBFQc8DjLCgh0erxThY+/JCB97nyIEeyZCsP9DiO1ZCLH9D0Jqz0BI7b8I7iTg4bFjIdt7eLhc0OovFB24CFXqPIRqZQ5Ck6o9QrOiLUKXmh1Ct5INwpDKOMKwwpiAyT/sFzHbRX1CpueoXcz8JmkTpNyl9aK016ROmPqelsXpGUXegJ/QZBH2TMQupcsi0Fffg0CqLGoRiLVVDQK5uiwhsIvbAkKH/YPNe+f6J9gBE5yBCW6BCe5BAoL4MRI/x+KERJySiZNScVouLkzEpZm4OBWX5+IGhbhFI25Sidt04kaluFUrblaL2/XygYW7CN42spEPreRjuxTh9sFljCAZ3QYE2fAaADY4287WBUI0vn8Dx9FscaAu/KQAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDUtMjJUMDc6MjU6NDgrMDA6MDAVGWqsAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA1LTIyVDA3OjI1OjQ4KzAwOjAwZETSEAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII=" alt="close button">
+    <iframe id="gumFrame" src="https://gumroad.com/l/sylAu?wanted=true&price=66" ></iframe>
+    <div id="blurBG" ></div>
+    
+    <section id="hero" class="heroSection section" style="background-color: white;">
+        <p class="heroInfo">10 - months | 10 - projects | 17 - modules</p><br><br><br>
+        <div class="gridContainer">
+            <div><h1 class="heroText">The career ready <br>javascript course <br>that prepares you <br>for the future</h1><br><p class="heroDesc">Be ready for the future with live coding sessions and build a portfolio with 10 projects.</p><br><br><br><div><a href="#pricing"><mark class="mark">&nbsp;Join FullDiv&nbsp;</mark></a></div></div>
+            <div class="HeroVideoContainer"><script src="https://fast.wistia.com/embed/medias/j7wly6bcwb.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_j7wly6bcwb videoFoam=true" style="height:100%;position:relative;width:100%">&nbsp;</div></div></div></div>
+        </div>
+    </section>
+    <div class="section" style="background-color: rgb(255,255,204);">
+        <h2 class="textCenter">What you will learn and make</h2>
+
+        <p>This online program is the most comprehensive development courses on the internet that provides plain and easy to comprehend materials for every.</p><br><br>
+        <p><strong>Hand code responsive websites, Develop APIs, games, and applications with:</strong></p>
+        <div class="gridContainer">
+            <div class="gidItem">
+                <div>
+                    <h3>10 projects</h3>
+                    <p>■ Online resume website<br>■ Random news generator<br>■ Random chat application<br>■ To do application<br>■ Cryptocurrency market cap<br>■ Website screenshot API<br>■ Cryptocurrency miner<br>■ Direct download service<br>■ Tic tac toe game<br>■ Trading with Machine Learning<br></p>
+    
+                </div>
+                
+            </div>
+            <div class="gridsvg">
+                <div>
+                    <h3>17 modules</h3>
+                    
+                    <p>■ HTML 5 & CSS 3<br>■ JavaScript & Node.js<br>■ Git & Dev Tools<br>■ React & React Native<br>■ Databases & APIs<br>■ Libraries & Frameworks<br>■ Server Management & Cloud Hosting<br>■ Machine Learning with Tensorflow<br>■ Serverless framework<br>■ Web development without any code</p><br>
+                </div>
+            </div>
+        </div><br>
+        <p class="textCenter"><strong>The FullDiv course will start in July 2020.</strong></p><br><br><br><br>
+        <div class=" pricingWrapper">
+            <h2 class="textCenter">We’ve got you <mark>&nbsp;covered!&nbsp;</mark></h2>
+
+            <div class="gridContainer2">
+                <div>
+                    <p style="text-align: left; font-weight: 500; font-size: 2rem;">✔️ Full access to this course.<br>✔️ 1:1 mentor-ship and guidance.<br>✔️ Quizzes and coding assignments.<br>✔️ Community and Chat room access.<br>✔️ 10 real world Projects.<br>✔️ Printed certificate<br>✔️ 14-day money back guarantee</p>
+                </div>
+                <div>
+                    <br><br><br><h3>Printed certificate</h3>
+                    <p style="text-align: left;">You will receive a printed certificate in a beautiful leather folder once you graduate.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" style="background-color: rgb(255,255,204);">
+        <div class="gridContainer2">
+            <div class="gidItem">
+                <div  style="padding: 2rem 2rem; margin-bottom: 2rem;">
+                    <p><strong>I'm so excited, can't wait to start making games and webapps!</strong><br>- Duangjan</p>
+                    <p><strong>I'm so excited, can't wait to start making games and webapps!</strong><br>- Duangjan</p>
+                    <p><strong>I'm so excited, can't wait to start making games and webapps!</strong><br>- Duangjan</p>
+    
+                </div>
+            </div>
+            <div class="gidItem flexCenter">
+                <div>
+                    <div class="number"><mark>&nbsp;152&nbsp;</mark></div>
+                    <div class="numberDesc">Students Enrolled</div><br><br><br>
+                    <div class="number"><mark>&nbsp;4.8/5&nbsp;</mark></div>
+                    <div class="numberDesc">Average Rating</div><br><br><br>
+                    <div class="number"><mark>&nbsp;$113,117&nbsp;</mark></div>
+                    <div class="numberDesc">Average Salary*</div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div class="section" style="background-color: white;">
+        <h2>Meet your <mark>&nbsp;instructors&nbsp;</mark></h2>
+        <p>FullDiv instructors are among the top <strong>1.1%</strong> of JavaScript developers, vetted by senior engineers at leading companies, using Silicon Valley-caliber technical assessments.</p><br><br><br>
+        <div class="gridContainer2">
+            <div class="gidItem">
+                <div  style="padding: 2rem 2rem; margin-bottom: 2rem;">
+                    <img style="display: flex; justify-content: center;" src="jj.jpg" alt="">
+                    <p>Software engineer with 15+ years of professional experience. If you have a problem feel free to contact me, I always go above and beyond to try to help you.</p><br>
+                    <p><strong>JavaScript</strong><br> 8 years experience </p>
+                    <p><strong>Game development</strong><br> 6 years experience </p>
+                    <p><strong>APIs</strong><br> 5 years experience </p>
+                    <p><strong>Server Management</strong><br> 12 years experience </p>
+                </div>
+            </div>
+            <div class="gidItem flexCenter">
+                <div style="padding: 2rem 2rem; margin-bottom: 2rem;">
+                    <img style="display: flex; justify-content: center;" src="jj.jpg" alt="">
+                    <p>Software engineer with 15+ years of professional experience. If you have a problem feel free to contact me, I always go above and beyond to try to help you.</p><br>
+                    <p><strong>JavaScript</strong><br> 8 years experience </p>
+                    <p><strong>Game development</strong><br> 6 years experience </p>
+                    <p><strong>APIs</strong><br> 5 years experience </p>
+                    <p><strong>Server Management</strong><br> 12 years experience </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div id="pricing" class="section" style="background-color: rgb(255,255,204);">
+        <h2>A learning experience you <mark>&nbsp;can afford.&nbsp;</mark></h2>
+        <p>Pre-order today for $289 , Only 100 spots are available for pre-order.</p><br><br>
+        <div class="gridContainer2">
+            <div id="noLoad" class="pricingWrapper">
+                <h2 class="price">$590/Year</h2>
+                <p>You will be charged $590 today.</p>
+                <p>✔️ Full digital access<br>✔️ Live Sessions<br>✔️ 1:1 mentorship<br>✔️ Digital certificate<br>❌ No discount<br>❌ Lifetime membership</p>
+                <a id="button" class="noLink" href="#"><mark class="pricingMark">&nbsp;Available July 1st&nbsp;</mark></a>
+                <p id="loading2"><strong>Loading ...</strong></p>
+                <br><br>
+            </div>
+            <div id="preOrder" class="pricingWrapper">
+                <h2 class="price">$295 Pre-order</h2>
+                <p>You will be charged $289 today.</p>
+                <p>✔️ Full digital access.<br>✔️ Live Sessions<br>✔️ 1:1 mentorship<br>✔️ <strong>Printed</strong> certificate<br>✔️ Save $295 (-50%)<br>✔️ Lifetime membership</p>
+                <a id="gum" href=""><mark class="pricingMark">&nbsp;Pre-order&nbsp;</mark></a>
+                <p id="loading"><strong>Loading ...</strong></p>
+
+                <br><span style="display: flex; justify-content: center;">Only 100 spots available untill June 30th</span>
+                <div id="timer" class="timerContainer">
+                    <ul>
+                      <li><span id="days"></span>days</li>
+                      <li><span id="hours"></span>Hours</li>
+                      <li><span id="minutes"></span>Minutes</li>
+                      <li><span id="seconds"></span>Seconds</li>
+                    </ul>
+                </div>
+                <br><br>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section" style="background-color: white;">
+        <h2 class="textCenter">Common <mark>&nbsp;Questions.&nbsp;</mark></h2><br><br><br>
+        <h2  class="qa">Is this program is right for me?</h2>
+        <p>This online program provides plain and easy to comprehend materials for every person no matter their background or experience.</p><br><br><br>
+        <h2  class="qa">Do I need to have any prior coding experience?</h2>
+        <p>You don't need any prior coding experience to join this program, our live sessions are easy to understand, and engaging.</p><br><br><br>
+        <h2  class="qa">How long is this course?</h2>
+        <p>You will need up to 10 months to develop a strong foundation and go through all our lessons, live sessions, quizzes, and complete all projects.</p><br><br><br>
+        <h2  class="qa">What is your refund /cancellation policy?</h2>
+        <p>You can ask for a refund upto 7 days of the date we launch this course.</p><br><br><br>
+        <h2  class="qa">What about X & Y?</h2>
+        <p>Contact us at <a href="mailto:info@fulldiv.com">info@fulldiv.com</a></p>
+    </div>
+    <div class="section2 flexCenter" style="background-color: rgb(255,255,204);">
+        <div class="footer grid3">
+            <div class="heroInfo2">Coded with ❤️ in <strong>Bangkok</strong></div>
+            <div class="heroInfo2">Hosted on <strong>Github Pages</strong></div>
+            <div class="heroInfo2">Last update: <strong>June 7</strong></div>
+        </div>
+    </div>
+</body>
+</html>
+<!--
+    add drift img
+    add fomo
+    You can listen to purchases that happen as part of the Overlay or Embed too:
+    get copy inspiration from nexf
+    add conversion tag
+    design banners/posts
+    get lp reviewed
+    add viral campaign
+    add thank you
+    make email sequence
+    create gum, add ty page redirect, track frame events
+-->
