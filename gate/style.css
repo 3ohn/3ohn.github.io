@@ -297,12 +297,12 @@ span.tooltiptext.grade {
 .backnextMobile {
     display: none;
     position: relative;
-    left: 31px;
+    left: 3px;
 }
 
 .backnextMobile a {
     display: block;
-    width: 46px;
+    width: 32px;
     float: left;
     margin-top: 17px;
 }
