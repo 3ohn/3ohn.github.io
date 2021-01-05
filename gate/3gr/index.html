@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>Grammar 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+        <div class="row lesson-titles">
+            <div class="question-section">
+            </div>
+        </div>
+        <div class="check">
+            <button id="check-answers" type="button" class="btn btn-success btn-lg blue">Check</button>&nbsp;&nbsp;
+            <button id="show-answers" type="button" class="btn btn-success btn-lg green">Answers</button>&nbsp;&nbsp;
+            <button id="tryagain" type="button" class="btn btn-success btn-lg gray">Try again</button>
+            <p id="message"></p>
+        </div>
+        <input type="hidden" id="testUnit" name="testUnit">
+    </div>
+</body>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<!-- I tried to send data within iframe -->
+<script>
+    function recieveMessage(event) {
+      $("#testUnit").val(event.data);
+    }
+    window.addEventListener('message', recieveMessage, false);
+</script>
+<script src="script.js"></script>
+</html>

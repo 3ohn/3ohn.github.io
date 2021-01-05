@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet" />
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Template</title>
+    </head>
+    <body>
+        <header>
+            <div class="mobileSpace">
+                <img class="mobileMenuButton" src="images/menu-icon.png" alt="menu-icon" />
+                <!-- make the unit navigation for the mobile -->
+                <div class="unitMobile" style="display:none">
+                    <div class="typeHeader vo"><span>Vocabularies</span><i class="fa fa-angle-right"></i>
+                        <div class="unitSelectTop">
+                            <div onclick="setIframe('./1vo?unit=1','1vo','1')" class="unitSelect">1</div>
+                            <div onclick="setIframe('./1vo?unit=1','1vo','2')" class="unitSelect">2</div>
+                            <div onclick="setIframe('./1vo?unit=1','1vo','3')" class="unitSelect">3</div>
+                            <div onclick="setIframe('./1vo?unit=1','1vo','4')" class="unitSelect">4</div>
+                            <div onclick="setIframe('./1vo?unit=1','1vo','5')" class="unitSelect">5</div>
+                            <div onclick="setIframe('./1vo?unit=1','1vo','6')" class="unitSelect">6</div>
+                            <div onclick="setIframe('./1vo?unit=1','1vo','7')" class="unitSelect">7</div>
+                            <div onclick="setIframe('./1vo?unit=1','1vo','8')" class="unitSelect">8</div>
+                            <div onclick="setIframe('./1vo?unit=1','1vo','9')" class="unitSelect">9</div>
+                            <div onclick="setIframe('./1vo?unit=1','1vo','10')" class="unitSelect">10</div>
+                            <div onclick="setIframe('./1vo?unit=1','1vo','11')" class="unitSelect">11</div>
+                            <div onclick="setIframe('./1vo?unit=1','1vo','12')" class="unitSelect">12</div>
+                        </div>
+                    </div>
+                    <div class="typeHeader gr1"><scan>Grammar 1</scan><i class="fa fa-angle-right"></i>
+                        <div class="unitSelectTop">
+                            <div onclick="setIframe('./2gr?unit=1','2gr','1')" class="unitSelect">1</div>
+                            <div onclick="setIframe('./2gr?unit=1','2gr','2')" class="unitSelect">2</div>
+                            <div onclick="setIframe('./2gr?unit=1','2gr','3')" class="unitSelect">3</div>
+                            <div onclick="setIframe('./2gr?unit=1','2gr','4')" class="unitSelect">4</div>
+                            <div onclick="setIframe('./2gr?unit=1','2gr','5')" class="unitSelect">5</div>
+                            <div onclick="setIframe('./2gr?unit=1','2gr','6')" class="unitSelect">6</div>
+                            <div onclick="setIframe('./2gr?unit=1','2gr','7')" class="unitSelect">7</div>
+                            <div onclick="setIframe('./2gr?unit=1','2gr','8')" class="unitSelect">8</div>
+                            <div onclick="setIframe('./2gr?unit=1','2gr','9')" class="unitSelect">9</div>
+                            <div onclick="setIframe('./2gr?unit=1','2gr','10')" class="unitSelect">10</div>
+                            <div onclick="setIframe('./2gr?unit=1','2gr','11')" class="unitSelect">11</div>
+                            <div onclick="setIframe('./2gr?unit=1','2gr','12')" class="unitSelect">12</div>
+                        </div>
+                    </div>
+                    <div class="typeHeader gr2"><span>Grammar 2</span><i class="fa fa-angle-right"></i>
+                        <div class="unitSelectTop">
+                            <div onclick="setIframe('./3gr?unit=1','3gr','1')" class="unitSelect">1</div>
+                            <div onclick="setIframe('./3gr?unit=1','3gr','2')"  class="unitSelect">2</div>
+                            <div onclick="setIframe('./3gr?unit=1','3gr','3')" class="unitSelect">3</div>
+                            <div onclick="setIframe('./3gr?unit=1','3gr','4')" class="unitSelect">4</div>
+                            <div onclick="setIframe('./3gr?unit=1','3gr','5')" class="unitSelect">5</div>
+                            <div onclick="setIframe('./3gr?unit=1','3gr','6')" class="unitSelect">6</div>
+                            <div onclick="setIframe('./3gr?unit=1','3gr','7')" class="unitSelect">7</div>
+                            <div onclick="setIframe('./3gr?unit=1','3gr','8')" class="unitSelect">8</div>
+                            <div onclick="setIframe('./3gr?unit=1','3gr','9')" class="unitSelect">9</div>
+                            <div onclick="setIframe('./3gr?unit=1','3gr','10')" class="unitSelect">10</div>
+                            <div onclick="setIframe('./3gr?unit=1','3gr','11')" class="unitSelect">11</div>
+                            <div onclick="setIframe('./3gr?unit=1','3gr','12')" class="unitSelect">12</div>
+                        </div>
+                    </div>
+                    <div class="typeHeader co"><span>Conversation</span><i class="fa fa-angle-right"></i>
+                        <div class="unitSelectTop">
+                            <div onclick="setIframe('./4co?unit=1','4co','1')" class="unitSelect">1</div>
+                            <div onclick="setIframe('./4co?unit=1','4co','2')" class="unitSelect">2</div>
+                            <div onclick="setIframe('./4co?unit=1','4co','3')" class="unitSelect">3</div>
+                            <div onclick="setIframe('./4co?unit=1','4co','4')" class="unitSelect">4</div>
+                            <div onclick="setIframe('./4co?unit=1','4co','5')" class="unitSelect">5</div>
+                            <div onclick="setIframe('./4co?unit=1','4co','6')" class="unitSelect">6</div>
+                            <div onclick="setIframe('./4co?unit=1','4co','7')" class="unitSelect">7</div>
+                            <div onclick="setIframe('./4co?unit=1','4co','8')" class="unitSelect">8</div>
+                            <div onclick="setIframe('./4co?unit=1','4co','9')" class="unitSelect">9</div>
+                            <div onclick="setIframe('./4co?unit=1','4co','10')" class="unitSelect">10</div>
+                            <div onclick="setIframe('./4co?unit=1','4co','11')" class="unitSelect">11</div>
+                            <div onclick="setIframe('./4co?unit=1','4co','12')" class="unitSelect">12</div>
+                        </div>
+                    </div>
+                    <div class="typeHeader li"><span>Listening</span><i class="fa fa-angle-right"></i>
+                        <div class="unitSelectTop">
+                            <div onclick="setIframe('./5li?unit=1','5li','1')" class="unitSelect">1</div>
+                            <div onclick="setIframe('./5li?unit=1','5li','2')" class="unitSelect">2</div>
+                            <div onclick="setIframe('./5li?unit=1','5li','3')" class="unitSelect">3</div>
+                            <div onclick="setIframe('./5li?unit=1','5li','4')" class="unitSelect">4</div>
+                            <div onclick="setIframe('./5li?unit=1','5li','5')" class="unitSelect">5</div>
+                            <div onclick="setIframe('./5li?unit=1','5li','6')" class="unitSelect">6</div>
+                            <div onclick="setIframe('./5li?unit=1','5li','7')" class="unitSelect">7</div>
+                            <div onclick="setIframe('./5li?unit=1','5li','8')" class="unitSelect">8</div>
+                            <div onclick="setIframe('./5li?unit=1','5li','9')" class="unitSelect">9</div>
+                            <div onclick="setIframe('./5li?unit=1','5li','10')" class="unitSelect">10</div>
+                            <div onclick="setIframe('./5li?unit=1','5li','11')" class="unitSelect">11</div>
+                            <div onclick="setIframe('./5li?unit=1','5li','12')" class="unitSelect">12</div>
+                        </div>
+                    </div>
+                    <div class="typeHeader to"><span>TOEIC Test</span><i class="fa fa-angle-right"></i>
+                        <div class="unitSelectTop">
+                            <div onclick="setIframe('./6to?unit=1','6to','1')" class="unitSelect">1</div>
+                            <div onclick="setIframe('./6to?unit=1','6to','2')" class="unitSelect">2</div>
+                            <div onclick="setIframe('./6to?unit=1','6to','3')" class="unitSelect">3</div>
+                            <div onclick="setIframe('./6to?unit=1','6to','4')" class="unitSelect">4</div>
+                            <div onclick="setIframe('./6to?unit=1','6to','5')" class="unitSelect">5</div>
+                            <div onclick="setIframe('./6to?unit=1','6to','6')" class="unitSelect">6</div>
+                            <div onclick="setIframe('./6to?unit=1','6to','7')" class="unitSelect">7</div>
+                            <div onclick="setIframe('./6to?unit=1','6to','8')" class="unitSelect">8</div>
+                            <div onclick="setIframe('./6to?unit=1','6to','9')" class="unitSelect">9</div>
+                            <div onclick="setIframe('./6to?unit=1','6to','10')" class="unitSelect">10</div>
+                            <div onclick="setIframe('./6to?unit=1','6to','11')" class="unitSelect">11</div>
+                            <div onclick="setIframe('./6to?unit=1','6to','12')" class="unitSelect">12</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header">
+                <div class="grade">
+                    <div class="tooltip"><span class="logo">PEI&nbsp;&nbsp;</span>
+                        <span class="tooltiptext">Tooltip text</span>
+                    </div>
+                    <div class="tooltip"> <a class="gradeTxt" href="#">Grade 1</a>
+                        <span class="tooltiptext grade">Tooltip text</span><a href="#"></a>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="unit">
+                <div>
+                    <h3>Unit:&nbsp;</h3>
+                </div>
+                <div>
+                    <!--  -->
+                    <div class="navbar">
+                        <div class="dropdown">
+                            <button class="dropbtn">1
+                                <div class="dropdown-content" id="myDropdown">
+                                    <a href="javascript:setIframe('./1vo?unit=1','1vo','1')">1. Vocabularies</a> 
+                                    <a href="javascript:setIframe('./2gr?unit=1','2gr','1')">2. Grammar 1</a> 
+                                    <a href="javascript:setIframe('./3gr?unit=1','3gr','1')">3. Grammar 2</a> 
+                                    <a href="javascript:setIframe('./4co/index.html?unit=1','4co','1')">4. Conversation</a> 
+                                    <a href="javascript:setIframe('./5li','5li','1')">5. Listening</a> 
+                                    <a href="javascript:setIframe('./6to?unit=1','6to','1')">6. TOEIC Test</a>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <button id="dropbtn2" class="dropbtn">2
+                                <div style="background-color: #b3ffec;" class="dropdown-content" id="myDropdown2">
+                                    <a href="javascript:setIframe('./1vo?unit=1','1vo','2')">1. Vocabularies</a> 
+                                    <a href="javascript:setIframe('./2gr?unit=1','2gr','2')">2. Grammar 1</a> 
+                                    <a href="javascript:setIframe('./3gr?unit=1','3gr','2')">3. Grammar 2</a> 
+                                    <a href="javascript:setIframe('./4co/index.html?unit=1','4co','2')">4. Conversation</a> 
+                                    <a href="javascript:setIframe('./5li','5li','2')">5. Listening</a> 
+                                    <a href="javascript:setIframe('./6to?unit=1','6to','2')">6. TOEIC Test</a>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">3
+                                <div class="dropdown-content" id="myDropdown3">
+                                    <a href="javascript:setIframe('./1vo?unit=1','1vo','3')">1. Vocabularies</a> 
+                                    <a href="javascript:setIframe('./2gr?unit=1','2gr','3')">2. Grammar 1.</a> 
+                                    <a href="javascript:setIframe('./3gr?unit=1','3gr','3')">3. Grammar 2</a> 
+                                    <a href="javascript:setIframe('./4co/index.html?unit=1','4co','3')">4. Conversation</a> 
+                                    <a href="javascript:setIframe('./5li','5li','3')">5. Listening</a> 
+                                    <a href="javascript:setIframe('./6to?unit=1','6to','3')">6. TOEIC Test</a>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <button id="dropbtn4" class="dropbtn">4
+                                <div style="background-color: #b3ffec;" class="dropdown-content" id="myDropdown4">
+                                    <a href="javascript:setIframe('./1vo?unit=1','1vo','4')">1. Vocabularies</a> 
+                                    <a href="javascript:setIframe('./2gr?unit=1','2gr','4')">2. Grammar 1</a> 
+                                    <a href="javascript:setIframe('./3gr?unit=1','3gr','4')">3. Grammar 2</a> 
+                                    <a href="javascript:setIframe('./4co/index.html?unit=1','4co','4')">4. Conversation</a> 
+                                    <a href="javascript:setIframe('./5li','5li','4')">5. Listening</a> 
+                                    <a href="javascript:setIframe('./6to?unit=1','6to','4')">6. TOEIC Test</a>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">5
+                                <div class="dropdown-content" id="myDropdown5">
+                                    <a href="javascript:setIframe('./1vo?unit=1','1vo','5')">1. Vocabularies</a> 
+                                    <a href="javascript:setIframe('./2gr?unit=1','2gr','5')">2. Grammar 1</a> 
+                                    <a href="javascript:setIframe('./3gr?unit=1','3gr','5')">3. Grammar 2</a> 
+                                    <a href="javascript:setIframe('./4co/index.html?unit=1','4co','5')">4. Conversation</a> 
+                                    <a href="javascript:setIframe('./5li','5li','5')">5. Listening</a> 
+                                    <a href="javascript:setIframe('./6to?unit=1','6to','5')">6. TOEIC Test</a>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <button id="dropbtn6" class="dropbtn">6
+                                <div style="background-color: #b3ffec;" class="dropdown-content" id="myDropdown6">
+                                    <a href="javascript:setIframe('./1vo?unit=1','1vo','6')">1. Vocabularies</a> 
+                                    <a href="javascript:setIframe('./2gr?unit=1','2gr','6')">2. Grammar 1</a> 
+                                    <a href="javascript:setIframe('./3gr?unit=1','3gr','6')">3. Grammar 2</a> 
+                                    <a href="javascript:setIframe('./4co/index.html?unit=1','4co','6')">4. Conversation</a> 
+                                    <a href="javascript:setIframe('./5li','5li','6')">5. Listening</a> 
+                                    <a href="javascript:setIframe('./6to?unit=1','6to','6')">6. TOEIC Test</a>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">7
+                                <div class="dropdown-content" id="myDropdown7">
+                                    <a href="javascript:setIframe('./1vo?unit=1','1vo','7')">1. Vocabularies</a> 
+                                    <a href="javascript:setIframe('./2gr?unit=1','2gr','7')">2. Grammar 1</a> 
+                                    <a href="javascript:setIframe('./3gr?unit=1','3gr','7')">3. Grammar 2</a> 
+                                    <a href="javascript:setIframe('./4co/index.html?unit=1','4co','7')">4. Conversation</a> 
+                                    <a href="javascript:setIframe('./5li','5li','7')">5. Listening</a> 
+                                    <a href="javascript:setIframe('./6to?unit=1','6to','7')">6. TOEIC Test</a>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <button id="dropbtn8" class="dropbtn">8
+                                <div style="background-color: #b3ffec;" class="dropdown-content" id="myDropdown8">
+                                    <a href="javascript:setIframe('./1vo?unit=1','1vo','8')">1. Vocabularies</a> 
+                                    <a href="javascript:setIframe('./2gr?unit=1','2gr','8')">2. Grammar 1</a> 
+                                    <a href="javascript:setIframe('./3gr?unit=1','3gr','8')">3. Grammar 2</a> 
+                                    <a href="javascript:setIframe('./4co/index.html?unit=1','4co','8')">4. Conversation</a> 
+                                    <a href="javascript:setIframe('./5li','5li','8')">5. Listening</a> 
+                                    <a href="javascript:setIframe('./6to?unit=1','6to','8')">6. TOEIC Test</a>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">9
+                                <div class="dropdown-content" id="myDropdown9">
+                                    <a href="javascript:setIframe('./1vo?unit=1','1vo','9')">1. Vocabularies</a> 
+                                    <a href="javascript:setIframe('./2gr?unit=1','2gr','9')">2. Grammar 1</a> 
+                                    <a href="javascript:setIframe('./3gr?unit=1','3gr','9')">3. Grammar 2</a> 
+                                    <a href="javascript:setIframe('./4co/index.html?unit=1','4co','9')">4. Conversation</a>
+                                    <a href="javascript:setIframe('./5li','5li','9')">5. Listening</a> 
+                                    <a href="javascript:setIframe('./6to?unit=1','6to','10')">6. TOEIC Test</a>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <button id="dropbtn10" class="dropbtn">10
+                                <div style="background-color: #b3ffec;" class="dropdown-content" id="myDropdown10">
+                                    <a href="javascript:setIframe('./1vo?unit=1','1vo','10')">1. Vocabularies</a> 
+                                    <a href="javascript:setIframe('./2gr?unit=1','2gr','10')">2. Grammar 1</a> 
+                                    <a href="javascript:setIframe('./3gr?unit=1','3gr','10')">3. Grammar 2</a> 
+                                    <a href="javascript:setIframe('./4co/index.html?unit=1','4co','10')">4. Conversation</a> 
+                                    <a href="javascript:setIframe('./5li','5li','10')">5. Listening</a> 
+                                    <a href="javascript:setIframe('./6to?unit=1','6to','10')">6. TOEIC Test</a>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">11
+                                <div class="dropdown-content" id="myDropdown11">
+                                    <a href="javascript:setIframe('./1vo?unit=1','1vo','11')">1. Vocabularies</a> 
+                                    <a href="javascript:setIframe('./2gr?unit=1','2gr','11')">2. Grammar 1</a> 
+                                    <a href="javascript:setIframe('./3gr?unit=1','3gr','11')">3. Grammar 2</a> 
+                                    <a href="javascript:setIframe('./4co/index.html?unit=1','4co','11')">4. Conversation</a> 
+                                    <a href="javascript:setIframe('./5li','5li','11')">5. Listening</a> 
+                                    <a href="javascript:setIframe('./6to?unit=1','6to','11')">6. TOEIC Test</a>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <button id="dropbtn12" class="dropbtn">12
+                                <div style="background-color: #b3ffec;" class="dropdown-content" id="myDropdown12">
+                                    <a href="javascript:setIframe('./1vo?unit=1','1vo','12')">1. Vocabularies</a> 
+                                    <a href="javascript:setIframe('./2gr?unit=1','2gr','12')">2. Grammar 1</a> 
+                                    <a href="javascript:setIframe('./3gr?unit=1','3gr','12')">3. Grammar 2</a> 
+                                    <a href="javascript:setIframe('./4co/index.html?unit=1','4co','12')">4. Conversation</a> 
+                                    <a href="javascript:setIframe('./5li','5li','12')">5. Listening</a> 
+                                    <a href="javascript:setIframe('./6to?unit=1','6to','12')">6. TOEIC Test</a>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="backnext">
+                <div class="nav">
+                    <a href="javascript:goBack()">
+                        <img
+                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwb2x5Z29uIHBvaW50cz0iMjQyLDE4MC42IDI0Miw0Mi42MDIgMCwyNTYgMjQyLDQ2OS4zOTggMjQyLDMzMS4yIDUxMiwzMzEuMiA1MTIsMTgwLjYgCQkiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="
+                            width="25"
+                            alt="Back"
+                        />
+                        &nbsp;&nbsp;Back
+                    </a>
+                </div>
+                <div class="spacer"></div>
+                <div class="nav">
+                    <a href="javascript:goForward()" >
+                        
+                        &nbsp;&nbsp;Next&nbsp;&nbsp;
+                        <img
+                        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwb2x5Z29uIHBvaW50cz0iNTEyLDI1NiAyNzAsNDIuNjAyIDI3MCwxODAuOCAwLDE4MC44IDAsMzMxLjQgMjcwLDMzMS40IDI3MCw0NjkuMzk4IAkJIi8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
+                        width="25"
+                        alt="Next"
+                    /></a>
+                </div>
+            </div>
+
+            <div class="backnextMobile">
+                <a href="javascript:goBack()">
+                    <img
+                        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwb2x5Z29uIHBvaW50cz0iMjQyLDE4MC42IDI0Miw0Mi42MDIgMCwyNTYgMjQyLDQ2OS4zOTggMjQyLDMzMS4yIDUxMiwzMzEuMiA1MTIsMTgwLjYgCQkiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="
+                        alt="Back"
+                    />
+                </a>
+                <a href="javascript:goForward()" >
+                    <img
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwb2x5Z29uIHBvaW50cz0iNTEyLDI1NiAyNzAsNDIuNjAyIDI3MCwxODAuOCAwLDE4MC44IDAsMzMxLjQgMjcwLDMzMS40IDI3MCw0NjkuMzk4IAkJIi8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
+                    alt="Next"
+                /></a>    
+            </div>
+        </header>
+        <main>
+            <div class="iframe">
+                <iframe id="iframe-src2" class="iframe-src" src="./1vo?level=1/" frameborder="0" width="100%" height="100%"></iframe>
+            </div>
+        </main>
+        <!-- this is for display the status and store level of the question -->
+        <input type="hidden" id="testTypeTemplate" name="testTypeTemplate" value="1vo">
+        <input type="hidden" id="testUnitTemplate" name="testUnitTemplate" value="1">
+        <input type="hidden" id="navType" name="navType" value="0">
+        <input type="hidden" id="navUnit" name="navUnit" value="0">
+
+        <!-- Added jquery -->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <!-- This is the script that I added -->
+        <script src="my.js"></script>
+    </body>
+</html>

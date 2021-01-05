@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<title>Video quiz</title>
+	<link rel='stylesheet' href='https://unpkg.com/plyr@3/dist/plyr.css'>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="containerWrapper">
+	<div class="container2">
+		<video controls crossorigin playsinline poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg">
+			 <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" >
+		</video>
+	</div>
+	<div class="container2">
+		<div id="div-question_answer"></div>
+		<div class="check">
+			<button id="check-answers" type="button" class="btn btn-success btn-lg blue" onclick="checkAnswer()">Check</button>&nbsp;&nbsp;
+			<button id="show-answers" type="button" class="btn btn-success btn-lg green" onclick="getAnswer()">Answers</button>&nbsp;&nbsp;
+		</div>
+	</div>
+	<input type="hidden" id="testUnit" name="testUnit">
+</div>
+<!-- Plyr resources and browser polyfills are specified in the pen settings -->
+<!-- partial -->
+<script src='https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL'></script>
+<script src='https://unpkg.com/plyr@3'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src="script.js"></script>
+<script>
+    function recieveMessage(event) {
+		$("#testUnit").val(event.data);
+		generateQuestionAnswer();
+		// set up video image and link
+		$('.video-image').attr('poster',getQuestionFromUnit()[0].video.cover);
+		$('.video-links').attr('src',getQuestionFromUnit()[0].video.src);
+    }
+    window.addEventListener('message', recieveMessage, false);
+</script>
+</body>
+</html>

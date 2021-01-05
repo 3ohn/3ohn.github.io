@@ -1,0 +1,376 @@
+html {
+    background-color: #f6f7fb;
+    font-family: 'Roboto Slab', serif;
+    height: 100%
+}
+
+body {
+    margin: 0;
+    height: 100%
+}
+
+header {
+    background-color: #d3d3d3;
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+}
+
+button {
+    border-left: solid 1.5px #21209C;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.logo {
+    font-size: 4rem;
+    color: #21209C;
+    margin: 0;
+}
+
+.gradeTxt {
+    font-size: 1.7rem;
+    margin-top: 9px;
+}
+
+.grade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    height: 90vh;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #00f;
+}
+
+a img {
+    display: block;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backnext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 37px;
+}
+
+.spacer {
+    margin: 0 .5rem;
+}
+
+.navbar {
+    background-color: #d3d3d3;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.unit h3 {
+    position: relative;
+    top: -5px;
+    right: 8px;
+}
+
+.dropdown {
+    float: left;
+    width: 45px;
+}
+
+.dropdown .dropbtn {
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 700;
+    outline: 0;
+    color: #000;
+    background-color: inherit;
+    position: relative;
+    top: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.dropbtn:focus, .dropdown:hover .dropbtn, .navbar a:hover {
+    background-color: #b3ffb3;
+}
+
+#dropbtn2:focus, #dropbtn2:hover {
+    background-color: #b3ffec;
+}
+
+#dropbtn4:focus, #dropbtn4:hover {
+    background-color: #b3ffec;
+}
+
+#dropbtn6:focus, #dropbtn6:hover {
+    background-color: #b3ffec;
+}
+
+#dropbtn8:focus, #dropbtn8:hover {
+    background-color: #b3ffec;
+}
+
+#dropbtn10:focus, #dropbtn10:hover {
+    background-color: #b3ffec;
+}
+
+#dropbtn12:focus, #dropbtn12:hover {
+    background-color: #b3ffec;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b3ffb3;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-family: "Open Sans", sans-serif;
+    right: -115px;
+    top: 42px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropbtn:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+    width: fit-content;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 222px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: .5rem 1rem;
+    position: absolute;
+    top: 49px;
+    z-index: 1;
+    margin-left: 6px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    width: 58px;
+    left: -5px;
+}
+
+span.tooltiptext.grade {
+    top: 38px;
+}
+
+.iframe {
+    height: 100%;
+}
+
+.unitMobile {
+    outline: none;
+    position: absolute;
+    z-index: 100000;
+    top: 57px;
+}
+
+.typeHeader {
+    font-size: 17px;
+    background-color: bisque;
+    text-align: center;
+    cursor: pointer;
+    width: 197px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+    border-style: solid;
+    border-width: 0 0 1px 0px;
+    border-color: #f7d2a6;
+}
+
+.unitSelect {
+    background-color: aqua;
+    border-style: solid;
+    border-width: 0.1px 0 0 0;
+    border-color: rgb(222 219 219);
+    font-size: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.unitSelectTop {
+    display: none;
+    overflow: hidden;
+    margin-top: 8px;
+    position: absolute;
+    width: 117px;
+    left: 197px;
+    margin-top: -33px;
+}
+
+.mobileSpace {
+    display: none;
+}
+
+.mobileSpace img {
+    width: 43px;
+    height: 43px;
+    margin-left: 17px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.typeHeader i {
+    font-size: 16px;
+    position: relative;
+    top: 1px;
+    left: 9px;
+}
+
+.backnextMobile {
+    display: none;
+}
+
+/* Above CSS for monitors with screen width 1366px or above */
+
+/*  Below CSS for tablets in landscape mode, older desktop monitors */
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+
+}
+
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .unit {
+        display: none;
+    }
+
+    .mobileSpace {
+        display: flex;
+    }
+
+}
+
+/*  Smartphones in landscape mode */
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+    .unit {
+        display: none;
+    }
+
+    .mobileSpace {
+        display: flex;
+    }
+
+    .backnext {
+        display: none;
+    }
+
+    .backnextMobile {
+        display: block;
+    }
+
+    .backnextMobile a {
+        display: block;
+        width: 35px;
+        float: left;
+        margin-top: 17px;
+    }
+
+    .backnextMobile img {
+        width: 17px;
+    }
+
+}
+
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+    .unit {
+        display: none;
+    }
+
+    .mobileSpace {
+        display: flex;
+    }
+
+    .backnext {
+        display: none;
+    }
+
+    .backnextMobile {
+        display: block;
+    }
+
+    .backnextMobile a {
+        display: block;
+        width: 35px;
+        float: left;
+        margin-top: 17px;
+    }
+
+    .backnextMobile img {
+        width: 17px;
+    }
+}
