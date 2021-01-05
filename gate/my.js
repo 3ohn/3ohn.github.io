@@ -129,11 +129,19 @@ $(".typeHeader").click(function() {
     // manage colr
     var el2 = $(this)[0].children[0];
     if(oldEl2 != el2){
-        $(el2).css('color','green');
+        if($(el2).css('color') == 'rgb(0, 0, 0)'){
+            $(el2).css('color','green');
+        }else {
+            $(el2).css('color','black');
+        }
         $(oldEl2).css('color','black');
         oldEl2 = el2;
     }else{
-        $(el2).css('color','black');
+        if($(el2).css('color') == 'rgb(0, 0, 0)'){
+            $(el2).css('color','green');
+        }else {
+            $(el2).css('color','black');
+        }
         oldEl2 = el2;
     }
 
@@ -141,6 +149,10 @@ $(".typeHeader").click(function() {
 });
 
 $(".mobileMenuButton").click(function() {
+    $(".unitMobile").toggle();
+});
+
+$('.unitSelectTop').click(function(){
     $(".unitMobile").toggle();
 });
 

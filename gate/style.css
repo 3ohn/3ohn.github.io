@@ -239,7 +239,7 @@ span.tooltiptext.grade {
     background-color: bisque;
     text-align: center;
     cursor: pointer;
-    width: 197px;
+    width: 81px;
     padding-top: 9px;
     padding-bottom: 7px;
     border-style: solid;
@@ -253,8 +253,10 @@ span.tooltiptext.grade {
     border-width: 0.1px 0 0 0;
     border-color: rgb(222 219 219);
     font-size: 13px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    text-align: left;
+    padding-left: 11px;
 }
 
 .unitSelectTop {
@@ -263,7 +265,7 @@ span.tooltiptext.grade {
     margin-top: 8px;
     position: absolute;
     width: 117px;
-    left: 197px;
+    left: 80px;
     margin-top: -33px;
 }
 
@@ -286,8 +288,47 @@ span.tooltiptext.grade {
     left: 9px;
 }
 
+.typeHeader span {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
 .backnextMobile {
     display: none;
+    position: relative;
+    left: 31px;
+}
+
+.backnextMobile a {
+    display: block;
+    width: 46px;
+    float: left;
+    margin-top: 17px;
+}
+
+.backnextMobile img {
+    width: 26px;
+}
+
+.unitSelectTop.fix8 {
+    margin-top: -75px;
+}
+
+.unitSelectTop.fix9 {
+    margin-top: -115px;
+}
+
+.unitSelectTop.fix10 {
+    margin-top: -158px;
+}
+
+.unitSelectTop.fix11 {
+    margin-top: -201px;
+}
+
+.unitSelectTop.fix12 {
+    margin-top: -242px;
 }
 
 /* Above CSS for monitors with screen width 1366px or above */
@@ -331,15 +372,8 @@ span.tooltiptext.grade {
         display: block;
     }
 
-    .backnextMobile a {
-        display: block;
-        width: 35px;
-        float: left;
-        margin-top: 17px;
-    }
-
     .backnextMobile img {
-        width: 17px;
+        width: 26px;
     }
 
 }
@@ -361,13 +395,6 @@ span.tooltiptext.grade {
 
     .backnextMobile {
         display: block;
-    }
-
-    .backnextMobile a {
-        display: block;
-        width: 35px;
-        float: left;
-        margin-top: 17px;
     }
 
     .backnextMobile img {
