@@ -42,7 +42,6 @@ button {
 .header {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .unit {
@@ -202,7 +201,7 @@ a img {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 222px;
+    width: fit-content;
     background-color: blue;
     color: #fff;
     text-align: center;
@@ -296,8 +295,7 @@ span.tooltiptext.grade {
 
 .backnextMobile {
     display: none;
-    position: relative;
-    left: 3px;
+    justify-content: center;
 }
 
 .backnextMobile a {
@@ -369,11 +367,15 @@ span.tooltiptext.grade {
     }
 
     .backnextMobile {
-        display: block;
+        display: flex;
     }
 
     .backnextMobile img {
-        width: 26px;
+        width: 17px;
+    }
+
+    .logo {
+        font-size: 24px;
     }
 
 }
@@ -385,6 +387,10 @@ span.tooltiptext.grade {
         display: none;
     }
 
+    .logo {
+        font-size: 24px;
+    }
+
     .mobileSpace {
         display: flex;
     }
@@ -394,7 +400,7 @@ span.tooltiptext.grade {
     }
 
     .backnextMobile {
-        display: block;
+        display: flex;
     }
 
     .backnextMobile img {
