@@ -6,7 +6,7 @@ html {
 
 body {
     margin: 0;
-    height: 100%
+    min-height: 553px;
 }
 
 header {
@@ -378,6 +378,10 @@ span.tooltiptext.grade {
         font-size: 24px;
     }
 
+    .unitMobile {
+        top: 49px;
+    }
+
 }
 
 /*  Smartphones in portrait mode  */
@@ -406,4 +410,9 @@ span.tooltiptext.grade {
     .backnextMobile img {
         width: 17px;
     }
+
+    .unitMobile {
+        top: 49px;
+    }
+
 }
