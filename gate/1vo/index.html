@@ -42,7 +42,7 @@
   </transition>
   <!-- this is for display the status and store level of the question -->
   <input type="hidden" id="testType" name="testType" value="vo">
-  <input type="hidden" id="testUnit" name="testUnit" value="1">
+  <input type="hidden" id="testUnit" name="testUnit" v-model="myUnit">
 </div>
 <script type="text/x-template" id="finalresults">
  <div>
@@ -52,14 +52,7 @@
 <!-- partial -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
-<!-- I tried to send data within iframe -->
-<script>
-  function recieveMessage(event) {
-    $("#testUnit").val(event.data);
-  }
-  window.addEventListener('message', recieveMessage, false);
-</script>
-
-<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script><script  src="./script.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script>
+<script  src="./script.js"></script>
 </body>
 </html>

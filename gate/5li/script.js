@@ -490,6 +490,9 @@ function generateQuestionAnswer() {
 setTimeout(function(){
 	generateQuestionAnswer();
 	// set up video image and link
-	$('.video-image').attr('poster',getQuestionFromUnit()[0].video.cover);
-	$('.video-links').attr('src',getQuestionFromUnit()[0].video.src);
+    var video = document.getElementById('myVideoTag');
+	var sources = video.getElementsByTagName('source');
+	video.setAttribute("poster",getQuestionFromUnit()[0].video.cover);
+    sources[0].src = getQuestionFromUnit()[0].video.src;
+    video.load();
 },301);

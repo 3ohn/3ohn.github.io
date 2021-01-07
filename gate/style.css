@@ -6,7 +6,7 @@ html {
 
 body {
     margin: 0;
-    min-height: 553px;
+    height: 100%;
 }
 
 header {
@@ -131,31 +131,38 @@ a img {
     padding-bottom: 6px;
 }
 
-.dropbtn:focus, .dropdown:hover .dropbtn, .navbar a:hover {
+.dropdown:hover .dropbtn, .navbar a:hover,
+.dropbtn.active {
     background-color: #b3ffb3;
 }
 
-#dropbtn2:focus, #dropbtn2:hover {
+#dropbtn2:hover,
+#dropbtn2.active {
     background-color: #b3ffec;
 }
 
-#dropbtn4:focus, #dropbtn4:hover {
+#dropbtn4:hover,
+#dropbtn4.active {
     background-color: #b3ffec;
 }
 
-#dropbtn6:focus, #dropbtn6:hover {
+#dropbtn6:hover,
+#dropbtn6.active {
     background-color: #b3ffec;
 }
 
-#dropbtn8:focus, #dropbtn8:hover {
+#dropbtn8:hover,
+#dropbtn8.active {
     background-color: #b3ffec;
 }
 
-#dropbtn10:focus, #dropbtn10:hover {
+#dropbtn10:hover,
+#dropbtn10.active {
     background-color: #b3ffec;
 }
 
-#dropbtn12:focus, #dropbtn12:hover {
+#dropbtn12:hover,
+#dropbtn12.active {
     background-color: #b3ffec;
 }
 
@@ -180,9 +187,9 @@ a img {
     text-align: left;
 }
 
-.dropbtn:hover .dropdown-content {
+/* .dropbtn:hover .dropdown-content {
     display: block;
-}
+} */
 
 .dropdown-content a:hover {
     background-color: #ddd;
@@ -354,6 +361,11 @@ span.tooltiptext.grade {
 /*  Smartphones in landscape mode */
 
 @media only screen and (min-width: 421px) and (max-width: 767px) {
+
+    body {
+        min-height: 557px;
+    }
+    
     .unit {
         display: none;
     }
@@ -387,6 +399,11 @@ span.tooltiptext.grade {
 /*  Smartphones in portrait mode  */
 
 @media only screen and (max-width: 420px) {
+
+    body {
+        min-height: 557px;
+    }
+
     .unit {
         display: none;
     }
@@ -414,5 +431,4 @@ span.tooltiptext.grade {
     .unitMobile {
         top: 49px;
     }
-
 }

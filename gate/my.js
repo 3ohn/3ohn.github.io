@@ -1,5 +1,7 @@
 var oldEl = null;
 var oldEl2 = null;
+var oldColor = null;
+var oldColorMobile = null;
 
 // Use for setting the iframe and the unit
 function setIframe(link,type,unit){
@@ -24,8 +26,15 @@ function setIframe(link,type,unit){
     // set the unit for back and next
     $("#navUnit").val(unit-1);
 
+    // style the dropdown background
+    colorNav(unit)
+
     setTimeout(function(){
         var iframe = document.getElementById("iframe-src2");
+        // Do Exception for 1vo
+        if(type == "1vo"){
+            sessionStorage.setItem('unit1vo',unit);
+        }
         iframe.contentWindow.postMessage(unit,window.location.origin);
     },200)
 }
@@ -51,6 +60,9 @@ function goBack() {
 
     $("#navType").val(type);
     $("#navUnit").val(unit);
+
+    //set background color
+    colorNav(parseInt(unit)+1)
 
     var link = null;
     if(parseInt(type) == 0){
@@ -92,6 +104,9 @@ function goForward() {
     $("#navType").val(type);
     $("#navUnit").val(unit);
 
+    //set background color
+    colorNav(parseInt(unit)+1)
+
     var link = null;
     if(parseInt(type) == 0){
         link = "./1vo";
@@ -112,6 +127,28 @@ function goForward() {
         var iframe = document.getElementById("iframe-src2");
         iframe.contentWindow.postMessage((parseInt(unit)+1),window.location.origin);
     },200)
+}
+
+function colorNav(unit) {
+    // For Desktop
+    if(oldColor != null){
+        $(oldColor).css('background-color','inherit');
+    }
+    var myDropDown = $('.navbar').children()[unit-1];
+    var dropBtn = myDropDown.childNodes[1];
+    var colorGet = $(dropBtn).children()[0]
+    var color = $(colorGet).css('background-color');
+    $(dropBtn).css("background-color",color);
+    oldColor = dropBtn;
+
+    // For Mobile
+    if(oldColorMobile != null){
+        $(oldColorMobile).css('background-color','#ffe4c4');
+    }
+
+    var mobileEl = $('.unitMobile').children()[unit-1]
+    $(mobileEl).css('background-color','#00ffff');
+    oldColorMobile = mobileEl
 }
 
 $(".typeHeader").click(function() {
@@ -155,6 +192,18 @@ $(".mobileMenuButton").click(function() {
 $('.unitSelectTop').click(function(){
     $(".unitMobile").toggle();
 });
+
+$('.dropbtn').click(function(){
+    var content = $(this).children()[0];
+    $(this).toggleClass( "active" )
+    $(content).toggle();
+});
+
+// set back ground color first
+colorNav(1)
+
+
+
 
 
 
