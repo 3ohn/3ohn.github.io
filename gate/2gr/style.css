@@ -17,6 +17,13 @@ p {
     padding: 0.2rem;
     margin-bottom: 0.2rem;
     font-weight: 400;
+    margin-left: 6px;
+    line-height: 51px;
+    display: inline;
+}
+
+.sentence:first-child {
+    margin-left: 0;
 }
 
 .dropdown-answers {
@@ -29,14 +36,11 @@ p {
     margin-right: 4px;
 }
 
-#check-answers {
-    margin-top: 0.5rem;
-}
-
 .check {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
 }
 
 .container {
@@ -46,7 +50,6 @@ p {
 
 .sentence {
     font-size: 1.5rem;
-    display: inline-block;
     margin: .3rem 0;
     padding: 0;
 }
@@ -83,4 +86,84 @@ button {
 
 .gray {
     background-color: #616161;
+}
+
+
+/* Above CSS for monitors with screen width 1366px or above */
+
+/*  Below CSS for tablets in landscape mode, older desktop monitors */
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+
+}
+
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .sentence {
+        font-size: 18px;
+    }
+
+    .dropdown-answers {
+        width: fit-content;
+        font-size: 17px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+/*  Smartphones in landscape mode */
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+
+    .sentence {
+        font-size: 14px;
+    }
+
+    .dropdown-answers {
+        width: 63px;
+        height: 27px;
+        position: relative;
+        top: 3px;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    .dropdown-answers {
+        width: fit-content;
+        font-size: 14px;
+        top: 0;
+    }
+
+}
+
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+    
+    .sentence {
+        font-size: 14px;
+    }
+
+    .dropdown-answers {
+        width: 63px;
+        height: 27px;
+        position: relative;
+        top: 3px;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    .dropdown-answers {
+        width: fit-content;
+        font-size: 14px;
+        top: 0;
+    }
+
 }

@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -18,17 +19,19 @@
         <button type="button" @click="start">Start!</button>
       </header>
       <div class="main-ctnr" v-else>
-        <div>
-          <hexquestion class="hex" :q="question" :answers="answers" @played="setAnswerDisable"></hexquestion>
-          <answers class="answers" :v="v" :q="question" :answers="answers" @answered="go" :disabled="{disabledQuestion: disabled, disabledAnswer: disabledAnswer}"></answers>
-        </div>
-        <div>
-          <transition name="fade">
-            <button v-show="shouldShowNext" type="button" @click="displayNext">Next</button>
-          </transition>
-          <transition name="fade">
-            <button v-show="allDone" type="button" @click="showResults">Results</button>
-          </transition>
+        <div class="container">
+          <div>
+            <hexquestion class="hex" :q="question" :answers="answers" @played="setAnswerDisable"></hexquestion>
+            <answers class="answers" :v="v" :q="question" :answers="answers" @answered="go" :disabled="{disabledQuestion: disabled, disabledAnswer: disabledAnswer}"></answers>
+          </div>
+          <div>
+            <transition name="fade">
+              <button v-show="shouldShowNext" type="button" @click="displayNext">Next</button>
+            </transition>
+            <transition name="fade">
+              <button v-show="allDone" type="button" @click="showResults">Results</button>
+            </transition>
+          </div>
         </div>
       </div>
     </transition>

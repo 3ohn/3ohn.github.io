@@ -1,5 +1,5 @@
 html {
-    background-color: #f6f7fb;
+    background-color: #fff;
     font-family: 'Roboto Slab', serif;
     height: 100%
 }
@@ -55,7 +55,7 @@ h1 {
 }
 
 main {
-    height: 90vh;
+    height: 100%;
 }
 
 a {
@@ -431,4 +431,5 @@ span.tooltiptext.grade {
     .unitMobile {
         top: 49px;
     }
+
 }

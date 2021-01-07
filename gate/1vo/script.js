@@ -3,14 +3,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q1.mp3'),
+        'file': new Audio('audio/u1_q1.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': 'red', 'image': 'images/q1_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q1_a2.jpg'},
-      { 'answer': '#fff', 'image': 'images/q1_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q1_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u1_q1_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q1_a3.jpg'},
     ],
     'why': '' 
   },
@@ -18,14 +18,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q2.mp3'),
+        'file': new Audio('audio/u1_q2.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': '#BA0BAB', 'image': 'images/q2_a1.jpg'}, 
-      { 'answer': '#fff', 'image': 'images/q2_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q2_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q2_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q2_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q2_a3.jpg'},
     ],
     'why': '' 
   },
@@ -33,14 +33,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q3.mp3'),
+        'file': new Audio('audio/u1_q3.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q3_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q3_a2.jpg'},
-      { 'answer': '#000000', 'image': 'images/q3_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q3_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q3_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q3_a3.jpg'},
     ],
     'why': '' 
   },
@@ -48,14 +48,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q4.mp3'),
+        'file': new Audio('audio/u1_q4.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q4_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q4_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q4_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q4_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q4_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q4_a3.jpg'},
     ],
     'why': '' 
   },
@@ -63,14 +63,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q5.mp3'),
+        'file': new Audio('audio/u1_q5.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q5_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q5_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q5_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q5_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q5_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q5_a3.jpg'},
     ],
     'why': '' 
   },
@@ -78,14 +78,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q6.mp3'),
+        'file': new Audio('audio/u1_q6.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q6_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q6_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q6_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q6_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q6_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q6_a3.jpg'},
     ],
     'why': '' 
   },
@@ -93,14 +93,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q7.mp3'),
+        'file': new Audio('audio/u1_q7.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q7_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q7_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q7_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q7_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q7_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q7_a3.jpg'},
     ],
     'why': '' 
   },
@@ -108,14 +108,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q8.mp3'),
+        'file': new Audio('audio/u1_q8.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q8_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q8_a2.jpg'},
-      { 'answer': '00', 'image': 'images/q8_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q8_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u1_q8_a2.jpg'},
+      { 'answer': '00', 'image': 'images/u1_q8_a3.jpg'},
     ],
     'why': '' 
   },
@@ -123,14 +123,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q9.mp3'),
+        'file': new Audio('audio/u1_q9.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q9_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q9_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q9_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q9_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q9_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q9_a3.jpg'},
     ],
     'why': '' 
   },
@@ -138,14 +138,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q10.mp3'),
+        'file': new Audio('audio/u1_q10.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q10_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q10_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q10_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q10_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q10_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q10_a3.jpg'},
     ],
     'why': '' 
   },
@@ -153,14 +153,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q11.mp3'),
+        'file': new Audio('audio/u1_q11.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q11_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q11_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q11_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q11_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q11_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q11_a3.jpg'},
     ],
     'why': '' 
   },
@@ -168,14 +168,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q12.mp3'),
+        'file': new Audio('audio/u1_q12.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q12_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q12_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q12_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q12_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u1_q12_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q12_a3.jpg'},
     ],
     'why': '' 
   },
@@ -183,14 +183,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q13.mp3'),
+        'file': new Audio('audio/u1_q13.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q13_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q13_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q13_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q13_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q13_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q13_a3.jpg'},
     ],
     'why': '' 
   },
@@ -198,14 +198,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q14.mp3'),
+        'file': new Audio('audio/u1_q14.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q14_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q14_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q14_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q14_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u1_q14_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q14_a3.jpg'},
     ],
     'why': '' 
   },
@@ -213,14 +213,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q15.mp3'),
+        'file': new Audio('audio/u1_q15.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q15_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q15_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q15_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q15_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u1_q15_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q15_a3.jpg'},
     ],
     'why': '' 
   },
@@ -228,14 +228,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q16.mp3'),
+        'file': new Audio('audio/u1_q16.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q16_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q16_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q16_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q16_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q16_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q16_a3.jpg'},
     ],
     'why': '' 
   },
@@ -243,14 +243,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q17.mp3'),
+        'file': new Audio('audio/u1_q17.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q17_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q17_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q17_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q17_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u1_q17_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q17_a3.jpg'},
     ],
     'why': '' 
   },
@@ -258,14 +258,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q18.mp3'),
+        'file': new Audio('audio/u1_q18.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q18_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q18_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q18_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q18_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q18_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q18_a3.jpg'},
     ],
     'why': '' 
   },
@@ -273,14 +273,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q19.mp3'),
+        'file': new Audio('audio/u1_q19.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q19_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q19_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q19_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q19_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q19_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q19_a3.jpg'},
     ],
     'why': '' 
   },
@@ -293,9 +293,9 @@ const questions = [
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q20_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q20_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q20_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q20_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u1_q20_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q20_a3.jpg'},
     ],
     'why': '' 
   },
@@ -303,14 +303,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q21.mp3'),
+        'file': new Audio('audio/u1_q21.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q21_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q21_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q21_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q21_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q21_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q21_a3.jpg'},
     ],
     'why': '' 
   },
@@ -318,14 +318,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q22.mp3'),
+        'file': new Audio('audio/u1_q22.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q22_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q22_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q22_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q22_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u1_q22_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q22_a3.jpg'},
     ],
     'why': '' 
   },
@@ -333,14 +333,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q23.mp3'),
+        'file': new Audio('audio/u1_q23.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q23_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q23_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q23_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q23_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q23_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q23_a3.jpg'},
     ],
     'why': '' 
   },
@@ -348,14 +348,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q24.mp3'),
+        'file': new Audio('audio/u1_q24.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q24_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q24_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q24_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q24_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q24_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q24_a3.jpg'},
     ],
     'why': '' 
   },
@@ -363,14 +363,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q25.mp3'),
+        'file': new Audio('audio/u1_q25.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q25_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q25_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q25_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q25_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u1_q25_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q25_a3.jpg'},
     ],
     'why': '' 
   },
@@ -378,14 +378,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q26.mp3'),
+        'file': new Audio('audio/u1_q26.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q26_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q26_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q26_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q26_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q26_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q26_a3.jpg'},
     ],
     'why': '' 
   },
@@ -393,14 +393,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q27.mp3'),
+        'file': new Audio('audio/u1_q27.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q27_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q27_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q27_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q27_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q27_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q27_a3.jpg'},
     ],
     'why': '' 
   },
@@ -413,9 +413,9 @@ const questions = [
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q28_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q28_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q28_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q28_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u1_q28_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q28_a3.jpg'},
     ],
     'why': '' 
   },
@@ -423,14 +423,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q29.mp3'),
+        'file': new Audio('audio/u1_q29.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q29_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q29_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q29_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u1_q29_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u1_q29_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q29_a3.jpg'},
     ],
     'why': '' 
   },
@@ -438,14 +438,14 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q30.mp3'),
+        'file': new Audio('audio/u1_q30.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': '#000000', 'image': 'images/q30_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q30_a2.jpg'},
-      { 'answer': '000', 'image': 'images/q30_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q30_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u1_q30_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u1_q30_a3.jpg'},
     ],
     'why': '' 
   }
@@ -455,46 +455,511 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q1.mp3'),
+        'file': new Audio('audio/u2_q1.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': 'red', 'image': 'images/q1_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q1_a2.jpg'},
-      { 'answer': '#fff', 'image': 'images/q1_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q1_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q1_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q1_a3.jpg'},
     ],
-    'why': 'The green <em class="green">FF</em> and blue <em class="blue">EE</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q2.mp3'),
+        'file': new Audio('audio/u2_q2.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': '#BA0BAB', 'image': 'images/q2_a1.jpg'}, 
-      { 'answer': '#fff', 'image': 'images/q2_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q2_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q2_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q2_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q2_a3.jpg'},
     ],
-    'why': 'The red <em class="red">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q3.mp3'),
+        'file': new Audio('audio/u2_q3.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q3_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q3_a2.jpg'},
-      { 'answer': '#000000', 'image': 'images/q3_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q3_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q3_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q3_a3.jpg'},
     ],
-    'why': 'Only the red value <em class="red">C0</em> is high.' 
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q4.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q4_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q4_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q4_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q5.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q5_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q5_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q5_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q6.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q6_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q6_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q6_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q7.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q7_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q7_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q7_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q8.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q8_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q8_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q8_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q9.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q9_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q9_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q9_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q10.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q10_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q10_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q10_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q11.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q11_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q11_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q11_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q12.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q12_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q12_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q12_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q13.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q13_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q13_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q13_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q14.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q14_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q14_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q14_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q15.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q15_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q15_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q15_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q16.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q16_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q16_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q16_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q17.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q17_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q17_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q17_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q18.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q18_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q18_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q18_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q19.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q19_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q19_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q19_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q20.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q20_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q20_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q20_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q21.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q21_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q21_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q21_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q22.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q22_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q22_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q22_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q23.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q23_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q23_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q23_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q24.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q24_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q24_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q24_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q25.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q25_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q25_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q25_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q26.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q26_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q26_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q26_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q27.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q27_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q27_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q27_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q28.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q28_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q28_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q28_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q29.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q29_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q29_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q29_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q30.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q30_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q30_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q30_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q31.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q31_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q31_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q31_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q32.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q32_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q32_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q32_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q33.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q33_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q33_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q33_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q34.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q34_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q34_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q34_a3.jpg'},
+    ],
+    'why': '' 
   }
 ];
 const questionsU3 = [
@@ -502,46 +967,511 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q1.mp3'),
+        'file': new Audio('audio/u2_q1.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': 'red', 'image': 'images/q1_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q1_a2.jpg'},
-      { 'answer': '#fff', 'image': 'images/q1_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q1_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q1_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q1_a3.jpg'},
     ],
-    'why': 'The green <em class="green">FF</em> and blue <em class="blue">EE</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q2.mp3'),
+        'file': new Audio('audio/u2_q2.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': '#BA0BAB', 'image': 'images/q2_a1.jpg'}, 
-      { 'answer': '#fff', 'image': 'images/q2_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q2_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q2_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q2_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q2_a3.jpg'},
     ],
-    'why': 'The red <em class="red">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q3.mp3'),
+        'file': new Audio('audio/u2_q3.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q3_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q3_a2.jpg'},
-      { 'answer': '#000000', 'image': 'images/q3_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q3_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q3_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q3_a3.jpg'},
     ],
-    'why': 'Only the red value <em class="red">C0</em> is high.' 
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q4.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q4_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q4_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q4_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q5.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q5_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q5_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q5_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q6.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q6_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q6_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q6_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q7.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q7_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q7_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q7_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q8.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q8_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q8_a2.jpg'},
+      { 'answer': '00', 'image': 'images/u2_q8_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q9.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q9_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q9_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q9_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q10.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q10_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q10_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q10_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q11.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q11_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q11_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q11_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q12.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q12_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q12_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q12_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q13.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q13_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q13_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q13_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q14.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q14_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q14_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q14_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q15.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q15_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q15_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q15_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q16.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q16_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q16_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q16_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q17.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q17_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q17_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q17_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q18.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q18_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q18_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q18_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q19.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q19_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q19_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q19_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q20.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q20_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q20_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q20_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q21.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q21_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q21_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q21_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q22.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q22_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q22_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q22_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q23.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q23_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q23_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q23_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q24.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q24_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q24_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q24_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q25.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q25_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q25_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q25_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q26.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q26_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q26_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q26_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q27.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q27_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q27_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q27_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q28.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q28_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q28_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q28_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q29.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q29_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q29_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q29_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q30.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q30_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q30_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q30_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q31.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q31_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q31_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q31_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q32.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u2_q32_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q32_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q32_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q33.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q33_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u2_q33_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u2_q33_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u2_q34.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u2_q34_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u2_q34_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u2_q34_a3.jpg'},
+    ],
+    'why': '' 
   }
 ];
 const questionsU4 = [
@@ -549,46 +1479,601 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q1.mp3'),
+        'file': new Audio('audio/u4_q1.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': 'red', 'image': 'images/q1_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q1_a2.jpg'},
-      { 'answer': '#fff', 'image': 'images/q1_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q1_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q1_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q1_a3.jpg'},
     ],
-    'why': 'The green <em class="green">FF</em> and blue <em class="blue">EE</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q2.mp3'),
+        'file': new Audio('audio/u4_q2.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': '#BA0BAB', 'image': 'images/q2_a1.jpg'}, 
-      { 'answer': '#fff', 'image': 'images/q2_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q2_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q2_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q2_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q2_a3.jpg'},
     ],
-    'why': 'The red <em class="red">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q3.mp3'),
+        'file': new Audio('audio/u4_q3.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q3_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q3_a2.jpg'},
-      { 'answer': '#000000', 'image': 'images/q3_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q3_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q3_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q3_a3.jpg'},
     ],
-    'why': 'Only the red value <em class="red">C0</em> is high.' 
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q4.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q4_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q4_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q4_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q5.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q5_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q5_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q5_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q6.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u4_q6_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q6_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q6_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q7.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q7_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q7_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q7_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q8.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q8_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q8_a2.jpg'},
+      { 'answer': '00', 'image': 'images/u4_q8_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q9.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q9_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q9_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q9_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q10.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q10_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q10_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q10_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q11.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u4_q11_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q11_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q11_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q12.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u4_q12_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q12_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q12_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q13.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u4_q13_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q13_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q13_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q14.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q14_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q14_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q14_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q15.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u4_q15_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q15_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q15_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q16.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q16_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q16_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q16_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q17.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q17_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q17_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q17_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q18.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q18_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q18_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q18_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q19.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q19_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q19_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q19_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q20.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u4_q20_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q20_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q20_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q21.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q21_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q21_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q21_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q22.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q22_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q22_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q22_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q23.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q23_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q23_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q23_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q24.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q24_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q24_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q24_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q25.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q25_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q25_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q25_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q26.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q26_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q26_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q26_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q27.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u4_q27_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q27_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q27_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q28.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q28_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q28_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q28_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q29.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q29_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q29_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q29_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q30.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q30_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q30_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q30_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q31.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q31_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q31_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q31_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q32.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u4_q32_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q32_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q32_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q33.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q33_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q33_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q33_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q34.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u4_q34_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q34_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q34_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q35.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u4_q35_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q35_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q35_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q36.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q36_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q36_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q36_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q37.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q37_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u4_q37_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q37_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q38.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q38_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q38_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q38_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q39.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u4_q39_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q39_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u4_q39_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u4_q40.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u4_q40_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u4_q40_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u4_q40_a3.jpg'},
+    ],
+    'why': '' 
   }
 ];
 const questionsU5 = [
@@ -596,46 +2081,316 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q1.mp3'),
+        'file': new Audio('audio/u5_q1.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': 'red', 'image': 'images/q1_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q1_a2.jpg'},
-      { 'answer': '#fff', 'image': 'images/q1_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u5_q1_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q1_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q1_a3.jpg'},
     ],
-    'why': 'The green <em class="green">FF</em> and blue <em class="blue">EE</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q2.mp3'),
+        'file': new Audio('audio/u5_q2.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': '#BA0BAB', 'image': 'images/q2_a1.jpg'}, 
-      { 'answer': '#fff', 'image': 'images/q2_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q2_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u5_q2_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q2_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q2_a3.jpg'},
     ],
-    'why': 'The red <em class="red">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q3.mp3'),
+        'file': new Audio('audio/u5_q3.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q3_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q3_a2.jpg'},
-      { 'answer': '#000000', 'image': 'images/q3_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q3_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q3_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u5_q3_a3.jpg'},
     ],
-    'why': 'Only the red value <em class="red">C0</em> is high.' 
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q4.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u5_q4_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q4_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q4_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q5.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u5_q5_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q5_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q5_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q6.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u5_q6_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u5_q6_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q6_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q7.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u5_q7_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q7_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q7_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q8.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u5_q8_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u5_q8_a2.jpg'},
+      { 'answer': '00', 'image': 'images/u5_q8_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q9.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u5_q9_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q9_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u5_q9_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q10.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u5_q10_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q10_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q10_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q11.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u5_q11_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u5_q11_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q11_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q12.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u5_q12_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q12_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u5_q12_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q13.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u5_q13_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q13_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q13_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q14.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u5_q14_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u5_q14_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q14_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q15.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u5_q15_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q15_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u5_q15_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q16.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u5_q16_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q16_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q16_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q17.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u5_q17_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u5_q17_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q17_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q18.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u5_q18_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q18_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u5_q18_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q19.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u5_q19_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q19_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q19_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q20.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u5_q20_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u5_q20_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u5_q20_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u5_q21.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u5_q21_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u5_q21_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u5_q21_a3.jpg'},
+    ],
+    'why': '' 
   }
 ];
 const questionsU6 = [
@@ -643,46 +2398,586 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q1.mp3'),
+        'file': new Audio('audio/u6_q1.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': 'red', 'image': 'images/q1_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q1_a2.jpg'},
-      { 'answer': '#fff', 'image': 'images/q1_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q1_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q1_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q1_a3.jpg'},
     ],
-    'why': 'The green <em class="green">FF</em> and blue <em class="blue">EE</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q2.mp3'),
+        'file': new Audio('audio/u6_q2.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': '#BA0BAB', 'image': 'images/q2_a1.jpg'}, 
-      { 'answer': '#fff', 'image': 'images/q2_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q2_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q2_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q2_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q2_a3.jpg'},
     ],
-    'why': 'The red <em class="red">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q3.mp3'),
+        'file': new Audio('audio/u6_q3.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q3_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q3_a2.jpg'},
-      { 'answer': '#000000', 'image': 'images/q3_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q3_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q3_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q3_a3.jpg'},
     ],
-    'why': 'Only the red value <em class="red">C0</em> is high.' 
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q4.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u6_q4_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q4_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q4_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q5.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q5_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q5_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q5_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q6.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q6_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q6_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q6_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q7.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q7_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q7_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q7_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q8.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q8_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q8_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q8_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q9.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q9_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q9_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q9_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q10.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u6_q10_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q10_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q10_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q11.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q11_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q11_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q11_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q12.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q12_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q12_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q12_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q13.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q13_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q13_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q13_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q14.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q14_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q14_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q14_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q15.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q15_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q15_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q15_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q16.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u6_q16_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q16_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q16_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q17.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q17_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q17_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q17_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q18.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q18_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q18_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q18_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q19.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q19_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q19_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q19_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q20.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q20_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q20_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q20_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q21.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q21_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q21_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q21_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q22.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u6_q22_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q22_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q22_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q23.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q23_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q23_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q23_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q24.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q24_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q24_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q24_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q25.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q25_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q25_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q25_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q26.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q26_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q26_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q26_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q27.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q27_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q27_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q27_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q28.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u6_q28_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q28_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q28_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q29.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q29_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q29_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q29_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q30.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q30_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q30_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q30_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q31.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q31_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q31_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q31_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q32.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q32_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q32_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q32_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q33.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q33_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q33_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q33_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q34.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u6_q34_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q34_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q34_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q35.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q35_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q35_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q35_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q36.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q36_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q36_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q36_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q37.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q37_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q37_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q37_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q38.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q38_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u6_q38_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u6_q38_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u6_q39.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u6_q39_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u6_q39_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u6_q39_a3.jpg'},
+    ],
+    'why': '' 
   }
 ];
 const questionsU7 = [
@@ -690,46 +2985,631 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q1.mp3'),
+        'file': new Audio('audio/u7_q1.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': 'red', 'image': 'images/q1_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q1_a2.jpg'},
-      { 'answer': '#fff', 'image': 'images/q1_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u7_q1_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q1_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q1_a3.jpg'},
     ],
-    'why': 'The green <em class="green">FF</em> and blue <em class="blue">EE</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q2.mp3'),
+        'file': new Audio('audio/u7_q2.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': '#BA0BAB', 'image': 'images/q2_a1.jpg'}, 
-      { 'answer': '#fff', 'image': 'images/q2_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q2_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q2_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q2_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q2_a3.jpg'},
     ],
-    'why': 'The red <em class="red">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q3.mp3'),
+        'file': new Audio('audio/u7_q3.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q3_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q3_a2.jpg'},
-      { 'answer': '#000000', 'image': 'images/q3_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q3_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q3_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u7_q3_a3.jpg'},
     ],
-    'why': 'Only the red value <em class="red">C0</em> is high.' 
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q4.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q4_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q4_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u7_q4_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q5.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q5_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q5_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q5_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q6.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q6_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q6_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q6_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q7.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q7_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q7_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q7_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q8.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q8_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q8_a2.jpg'},
+      { 'answer': '00', 'image': 'images/u7_q8_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q9.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q9_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q9_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q9_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q10.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q10_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q10_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u7_q10_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q11.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q11_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q11_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q11_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q12.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q12_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q12_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q12_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q13.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q13_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q13_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u7_q13_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q14.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q14_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q14_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u7_q14_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q15.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q15_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q15_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q15_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q16.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q16_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q16_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u7_q16_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q17.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q17_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q17_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q17_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q18.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q18_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q18_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u7_q18_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q19.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q19_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q19_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u7_q19_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q20.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q20_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q20_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q20_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q21.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q21_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q21_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q21_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q22.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q22_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q22_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q22_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q23.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q23_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q23_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q23_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q24.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q24_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q24_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q24_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q25.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q25_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q25_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q25_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q26.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q26_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q26_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q26_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q27.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q27_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q27_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q27_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q28.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q28_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q28_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q28_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q29.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q29_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q29_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q29_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q30.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q30_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q30_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q30_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q31.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q31_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q31_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q31_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q32.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q32_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q32_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q32_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q33.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q33_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q33_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u7_q33_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q34.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q34_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q34_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q34_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q35.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q35_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q35_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q35_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q36.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q36_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q36_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u7_q36_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q37.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q37_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q37_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q37_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q38.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q38_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q38_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q38_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q39.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q39_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q39_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u7_q39_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q40.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q40_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q40_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q40_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q41.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u7_q41_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u7_q41_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q41_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u7_q42.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u7_q42_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u7_q42_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u7_q42_a3.jpg'},
+    ],
+    'why': '' 
   }
 ];
 const questionsU8 = [
@@ -737,46 +3617,361 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q1.mp3'),
+        'file': new Audio('audio/u8_q1.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': 'red', 'image': 'images/q1_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q1_a2.jpg'},
-      { 'answer': '#fff', 'image': 'images/q1_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q1_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u8_q1_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u8_q1_a3.jpg'},
     ],
-    'why': 'The green <em class="green">FF</em> and blue <em class="blue">EE</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q2.mp3'),
+        'file': new Audio('audio/u8_q2.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': '#BA0BAB', 'image': 'images/q2_a1.jpg'}, 
-      { 'answer': '#fff', 'image': 'images/q2_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q2_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q2_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u8_q2_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q2_a3.jpg'},
     ],
-    'why': 'The red <em class="red">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q3.mp3'),
+        'file': new Audio('audio/u8_q3.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q3_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q3_a2.jpg'},
-      { 'answer': '#000000', 'image': 'images/q3_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u8_q3_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u8_q3_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q3_a3.jpg'},
     ],
-    'why': 'Only the red value <em class="red">C0</em> is high.' 
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q4.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q4_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u8_q4_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u8_q4_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q5.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q5_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u8_q5_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q5_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q6.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q6_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u8_q6_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q6_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q7.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u8_q7_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u8_q7_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q7_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q8.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q8_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u8_q8_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q8_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q9.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q9_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u8_q9_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u8_q9_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q10.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u8_q10_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u8_q10_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q10_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q11.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q11_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u8_q11_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u8_q11_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q12.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q12_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u8_q12_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q12_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q13.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q13_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u8_q13_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q13_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q14.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q14_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u8_q14_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q14_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q15.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q15_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u8_q15_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q15_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q16.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u8_q16_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u8_q16_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q16_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q17.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u8_q17_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u8_q17_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q17_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q18.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q18_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u8_q18_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q18_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q19.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u8_q19_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u8_q19_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q19_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q20.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q20_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u8_q20_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q20_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q21.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q21_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u8_q21_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q21_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q22.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q22_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u8_q22_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u8_q22_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q23.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q23_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u8_q23_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u8_q23_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u8_q24.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u8_q24_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u8_q24_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u8_q24_a3.jpg'},
+    ],
+    'why': '' 
   }
 ];
 const questionsU9 = [
@@ -784,46 +3979,361 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q1.mp3'),
+        'file': new Audio('audio/u9_q1.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': 'red', 'image': 'images/q1_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q1_a2.jpg'},
-      { 'answer': '#fff', 'image': 'images/q1_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q1_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q1_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q1_a3.jpg'},
     ],
-    'why': 'The green <em class="green">FF</em> and blue <em class="blue">EE</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q2.mp3'),
+        'file': new Audio('audio/u9_q2.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': '#BA0BAB', 'image': 'images/q2_a1.jpg'}, 
-      { 'answer': '#fff', 'image': 'images/q2_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q2_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q2_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q2_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q2_a3.jpg'},
     ],
-    'why': 'The red <em class="red">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q3.mp3'),
+        'file': new Audio('audio/u9_q3.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q3_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q3_a2.jpg'},
-      { 'answer': '#000000', 'image': 'images/q3_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q3_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q3_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q3_a3.jpg'},
     ],
-    'why': 'Only the red value <em class="red">C0</em> is high.' 
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q4.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q4_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q4_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q4_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q5.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q5_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q5_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q5_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q6.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q6_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q6_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q6_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q7.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q7_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q7_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q7_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q8.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q8_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q8_a2.jpg'},
+      { 'answer': '00', 'image': 'images/u9_q8_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q9.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q9_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q9_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q9_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q10.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q10_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q10_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q10_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q11.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q11_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q11_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q11_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q12.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q12_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q12_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q12_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q13.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q13_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q13_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q13_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q14.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q14_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q14_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q14_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q15.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q15_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q15_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q15_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q16.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q16_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q16_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q16_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q17.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q17_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q17_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q17_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q18.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q18_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q18_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q18_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q19.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q19_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q19_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q19_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q20.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q20_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q20_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q20_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q21.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q21_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q21_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q21_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q22.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q22_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q22_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q22_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q23.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q23_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q23_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q23_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u9_q24.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u9_q24_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u9_q24_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u9_q24_a3.jpg'},
+    ],
+    'why': '' 
   }
 ];
 const questionsU10 = [
@@ -836,9 +4346,9 @@ const questionsU10 = [
       }
     },
     'answers': [
-      { 'answer': 'red', 'image': 'images/q1_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q1_a2.jpg'},
-      { 'answer': '#fff', 'image': 'images/q1_a3.jpg'},
+      { 'answer': '000', 'image': 'images/q1_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/q1_a2.jpg'},
+      { 'answer': '000', 'image': 'images/q1_a3.jpg'},
     ],
     'why': 'The green <em class="green">FF</em> and blue <em class="blue">EE</em> values are the strongest.' 
   },
@@ -851,11 +4361,11 @@ const questionsU10 = [
       }
     },
     'answers': [
-      { 'answer': '#BA0BAB', 'image': 'images/q2_a1.jpg'}, 
-      { 'answer': '#fff', 'image': 'images/q2_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q2_a3.jpg'},
+      { 'answer': '000', 'image': 'images/q2_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/q2_a2.jpg'},
+      { 'answer': '000', 'image': 'images/q2_a3.jpg'},
     ],
-    'why': 'The red <em class="red">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
+    'why': 'The 000 <em class="000">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
   },
   {
     'question': { 
@@ -866,11 +4376,11 @@ const questionsU10 = [
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q3_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q3_a2.jpg'},
-      { 'answer': '#000000', 'image': 'images/q3_a3.jpg'},
+      { 'answer': '000', 'image': 'images/q3_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/q3_a2.jpg'},
+      { 'answer': '000', 'image': 'images/q3_a3.jpg'},
     ],
-    'why': 'Only the red value <em class="red">C0</em> is high.' 
+    'why': 'Only the 000 value <em class="000">C0</em> is high.' 
   }
 ];
 const questionsU11 = [
@@ -878,46 +4388,586 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q1.mp3'),
+        'file': new Audio('audio/u11_q1.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': 'red', 'image': 'images/q1_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q1_a2.jpg'},
-      { 'answer': '#fff', 'image': 'images/q1_a3.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q1_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q1_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q1_a3.jpg'},
     ],
-    'why': 'The green <em class="green">FF</em> and blue <em class="blue">EE</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q2.mp3'),
+        'file': new Audio('audio/u11_q2.mp3'),
         'isPlaying': false,
       }
     },
     'answers': [
-      { 'answer': '#BA0BAB', 'image': 'images/q2_a1.jpg'}, 
-      { 'answer': '#fff', 'image': 'images/q2_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q2_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q2_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q2_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q2_a3.jpg'},
     ],
-    'why': 'The red <em class="red">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
+    'why': '' 
   },
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q3.mp3'),
+        'file': new Audio('audio/u11_q3.mp3'),
         'isPlaying': false,
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q3_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q3_a2.jpg'},
-      { 'answer': '#000000', 'image': 'images/q3_a3.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q3_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u11_q3_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q3_a3.jpg'},
     ],
-    'why': 'Only the red value <em class="red">C0</em> is high.' 
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q4.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q4_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q4_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q4_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q5.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q5_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q5_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q5_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q6.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q6_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u11_q6_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q6_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q7.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u11_q7_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q7_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q7_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q8.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q8_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q8_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q8_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q9.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q9_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u11_q9_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q9_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q10.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q10_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q10_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q10_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q11.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q11_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q11_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q11_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q12.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q12_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u11_q12_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q12_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q13.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u11_q13_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q13_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q13_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q14.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q14_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q14_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q14_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q15.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q15_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u11_q15_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q15_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q16.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q16_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q16_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q16_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q17.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q17_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q17_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q17_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q18.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q18_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u11_q18_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q18_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q19.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u11_q19_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q19_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q19_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q20.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q20_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q20_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q20_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q21.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q21_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u11_q21_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q21_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q22.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q22_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q22_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q22_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q23.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q23_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q23_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q23_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q24.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q24_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u11_q24_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q24_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q25.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u11_q25_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q25_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q25_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q26.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q26_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q26_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q26_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q27.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q27_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u11_q27_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q27_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q28.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q28_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q28_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q28_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q29.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q29_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q29_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q29_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q30.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q30_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u11_q30_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q30_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q31.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u11_q31_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q31_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q31_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q32.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q32_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q32_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q32_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q33.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q33_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u11_q33_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q33_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q34.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q34_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q34_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q34_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q35.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q35_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q35_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q35_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q36.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q36_a1.jpg'}, 
+      { 'answer': 'correct', 'image': 'images/u11_q36_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q36_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q37.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u11_q37_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q37_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q37_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q38.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': 'correct', 'image': 'images/u11_q38_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q38_a2.jpg'},
+      { 'answer': '000', 'image': 'images/u11_q38_a3.jpg'},
+    ],
+    'why': '' 
+  },
+  {
+    'question': { 
+      'description': 'correct', 
+      'audio': {
+        'file': new Audio('audio/u11_q39.mp3'),
+        'isPlaying': false,
+      }  
+    },
+    'answers': [
+      { 'answer': '000', 'image': 'images/u11_q39_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/u11_q39_a2.jpg'},
+      { 'answer': 'correct', 'image': 'images/u11_q39_a3.jpg'},
+    ],
+    'why': '' 
   }
 ];
 const questionsU12 = [
@@ -930,9 +4980,9 @@ const questionsU12 = [
       }
     },
     'answers': [
-      { 'answer': 'red', 'image': 'images/q1_a1.jpg'}, 
-      { 'answer': 'correct', 'image': 'images/q1_a2.jpg'},
-      { 'answer': '#fff', 'image': 'images/q1_a3.jpg'},
+      { 'answer': '000', 'image': 'images/q1_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/q1_a2.jpg'},
+      { 'answer': '000', 'image': 'images/q1_a3.jpg'},
     ],
     'why': 'The green <em class="green">FF</em> and blue <em class="blue">EE</em> values are the strongest.' 
   },
@@ -945,11 +4995,11 @@ const questionsU12 = [
       }
     },
     'answers': [
-      { 'answer': '#BA0BAB', 'image': 'images/q2_a1.jpg'}, 
-      { 'answer': '#fff', 'image': 'images/q2_a2.jpg'},
-      { 'answer': 'correct', 'image': 'images/q2_a3.jpg'},
+      { 'answer': '000', 'image': 'images/q2_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/q2_a2.jpg'},
+      { 'answer': '000', 'image': 'images/q2_a3.jpg'},
     ],
-    'why': 'The red <em class="red">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
+    'why': 'The 000 <em class="000">BA</em> and blue <em class="blue">AB</em> values are the strongest.' 
   },
   {
     'question': { 
@@ -960,21 +5010,23 @@ const questionsU12 = [
       }  
     },
     'answers': [
-      { 'answer': 'correct', 'image': 'images/q3_a1.jpg'}, 
-      { 'answer': '#f54242', 'image': 'images/q3_a2.jpg'},
-      { 'answer': '#000000', 'image': 'images/q3_a3.jpg'},
+      { 'answer': '000', 'image': 'images/q3_a1.jpg'}, 
+      { 'answer': '000', 'image': 'images/q3_a2.jpg'},
+      { 'answer': '000', 'image': 'images/q3_a3.jpg'},
     ],
-    'why': 'Only the red value <em class="red">C0</em> is high.' 
+    'why': 'Only the 000 value <em class="000">C0</em> is high.' 
   }
 ];
 
 Vue.component('hexquestion', {
   props: ['q', 'answers'],
   template: `
-  <div>
+<div>
   <pre class="code">{{this.q.description}}</pre>
   <img src="pause-play.svg" width="42" alt="" class="btn-audioplay" @click.prevent="!q.audio.isPlaying ? playQuestion(q.audio) : pauseQuestion(q.audio)">
+  <span class='clickPlayText'>
     {{ this.q.audio.isPlaying ? 'Click' : 'Click' }}
+  </span>
   </img>
 </div>
   `,
@@ -1063,7 +5115,7 @@ Vue.component('answers', {
     itemWithColor(item) {
       return `
         <span class="helper">
-          <img src="${item.image}" style="width: 350px; height: 350px;">
+          <img src="${item.image}">
         </span>`;
     } 
   } 

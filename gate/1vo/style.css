@@ -68,10 +68,9 @@ pre {
 header,
 .main-ctnr {
 	position: relative;
-	margin: 0 auto 0;
-	height: calc(100vh - 13rem);
-	width: 96%;
-	max-width: 37.5rem;
+    margin: 0 auto 0;
+    height: calc(100vh - 13rem);
+    width: 96%;
 }
 
 .main-ctnr {
@@ -122,7 +121,7 @@ a {
 }
 
 .progress {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	font-size: 2rem;
@@ -185,6 +184,12 @@ button:focus:after {
 .checked.correct {
 	-webkit-animation: yay 3s ease-in-out infinite both;
 	animation: yay 3s ease-in-out infinite both;
+}
+
+.clickPlayText {
+    position: relative;
+    top: -17px;
+    left: 6px;
 }
 
 @-webkit-keyframes yay {
@@ -275,6 +280,7 @@ button:focus:after {
 .label-ctnr label {
 	padding: 0.5rem 1rem 0.5rem 1.5rem;
 	transition: 0.3s;
+	position: relative;
 }
 
 .label-ctnr:not(.disabled) label:hover {
@@ -309,9 +315,11 @@ button:focus:after {
 
 .label-ctnr .span-not_selected svg {
 	position: absolute;
-	width: 11rem;
-	pointer-events: none;
-	color: green;
+    width: 10rem;
+    pointer-events: none;
+    color: green;
+    right: 0;
+    top: -25px;
 }
 
 .path {
@@ -430,11 +438,14 @@ button:focus:after {
 	}
 }
 .helper {
-	width: 350px;
-	height: 350px;
-	display: inline-block;
-	vertical-align: middle;
-	margin-right: 0.25rem;
+    width: 20%;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 0.25rem;
+}
+
+.helper img {
+	width: 100%;
 }
 
 .why em {
@@ -449,4 +460,50 @@ button:focus:after {
 }
 .why em.blue {
 	color: blue;
+}
+
+
+/* Above CSS for monitors with screen width 1366px or above */
+
+/*  Below CSS for tablets in landscape mode, older desktop monitors */
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+
+}
+
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+	.label-ctnr .span-not_selected svg {
+		width: 7rem;
+		right: 0;
+		top: -14px;
+	}
+
+	.label-ctnr .span-selected svg {
+		width: 7rem;
+		top: -13px;
+		right: -2px;
+	}
+
+}
+
+/*  Smartphones in landscape mode */
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+	.label-ctnr {
+		display: block;
+		justify-content: center;
+	}
+}
+
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+	.label-ctnr {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 }
