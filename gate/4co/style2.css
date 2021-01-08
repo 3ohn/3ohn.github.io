@@ -126,3 +126,128 @@ img {
     cursor: pointer;
     margin-left: .5rem;
 }
+
+/* Above CSS for monitors with screen width 1366px or above */
+
+/*  Below CSS for tablets in landscape mode, older desktop monitors */
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+
+}
+
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .playerWrapper {
+        width: 80%;
+    }
+
+    .container {
+        margin: 0 12vw;
+    }
+
+}
+
+/*  Smartphones in landscape mode */
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+
+    .playerContainer {
+        display: flex;
+        margin-top: 1.2rem;
+        margin-left: 14px;
+        justify-content: end;
+    }
+
+    .playerWrapper {
+        width: 86%;
+        margin-left: 0;
+        padding-top: 5px;
+        padding-bottom: 4px;
+    }
+
+    .container {
+        margin: 0 5vw;
+    }
+
+    .horizontal {
+        padding: 0 0.8rem;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    #div-listen_both_parts img {
+        width: 21px;
+        position: relative;
+        left: 10px;
+        top: 2px;
+    }
+
+    #div-listen_part_a img {
+        width: 21px;
+        position: relative;
+        top: -1px;
+    }
+
+    #div-listen_part_b img {
+        width: 21px;
+        position: relative;
+        top: -1px;
+    }
+
+    #div-text_audio h1 {
+        font-size: 22px;
+    }
+
+}
+
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+
+    .playerContainer {
+        display: flex;
+        margin-top: 1.2rem;
+        margin-left: 14px;
+        justify-content: end;
+    }
+
+    .playerWrapper {
+        width: 86%;
+        margin-left: 0;
+        padding-top: 5px;
+        padding-bottom: 4px;
+    }
+
+    .container {
+        margin: 0 5vw;
+    }
+
+    .horizontal {
+        padding: 0 0.3rem;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    #div-listen_part_a img {
+        width: 21px;
+        position: relative;
+        top: -1px;
+    }
+
+    #div-listen_part_b img {
+        width: 21px;
+        position: relative;
+        top: -1px;
+    }
+
+    #div-text_audio h1 {
+        font-size: 22px;
+    }
+
+}

@@ -39,14 +39,11 @@ p {
     margin-right: 4px;
 }
 
-#check-answers {
-    margin-top: 0.5rem;
-}
-
 .check {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
 }
 
 .container {
@@ -88,5 +85,71 @@ button {
 
 .gray {
     background-color: #616161;
+
+}
+
+
+/* Above CSS for monitors with screen width 1366px or above */
+
+/*  Below CSS for tablets in landscape mode, older desktop monitors */
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+
+}
+
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+}
+
+/*  Smartphones in landscape mode */
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+
+    .personOne {
+        font-size: 21px;
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .sentence {
+        font-size: 21px;
+        padding: 0.2rem;
+    }
+
+    .dropdown-answers {
+        width: 70%;
+    }
+
+    .text-center {
+        text-align: left;
+    }
+
+}
+
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+
+    .personOne {
+        font-size: 21px;
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .sentence {
+        font-size: 21px;
+        padding: 0.2rem;
+    }
+
+    .dropdown-answers {
+        width: 70%;
+    }
+
+    .text-center {
+        text-align: left;
+    }
 
 }

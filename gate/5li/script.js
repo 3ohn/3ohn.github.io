@@ -470,10 +470,10 @@ function generateQuestionAnswer() {
 	for(const [i, v] of myQuestion.question.entries()) {
 		divQuestionAnswer.innerHTML = divQuestionAnswer.innerHTML
 									+ `<div class="choices">
-										<div>
+										<div class="choice-number">
 										<p>${i+1 + ":"}</p>
 										</div>
-										<div>
+										<div class="choice-bullet">
 											<label class="container">${myQuestion.questionText[i].optionA}
 												<input type="radio" name="option_answer_${i+1}" class="option-answer" value="A">
 												<span class="checkmark"></span>

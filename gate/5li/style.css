@@ -16,9 +16,9 @@ button {
 }
 
 .containerWrapper {
-	display: grid;
-	grid-template-columns: 70% 25%;
-	grid-column-gap: 5%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column-gap: 5%;
 }
 
 body {
@@ -29,7 +29,16 @@ body {
 .choices {
 	display: flex;
 	justify-content: left;
-	align-items: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.choice-bullet {
+    position: absolute;
+    left: 31px;
+    top: 14px;
+    width: 146px;
 }
 
 p {
@@ -49,6 +58,7 @@ p {
     -ms-user-select: none;
     user-select: none;
     margin-left: 0.5rem;
+    width: 146px;
 }
 
 /* Hide the browser's default radio button */
@@ -104,4 +114,192 @@ p {
 
 .check {
     margin-top: 0.5rem;
+}
+
+.choice-bullet .container:nth-child(2) {
+    position: absolute;
+    left: 173px;
+    width: 146px;
+}
+
+/* Above CSS for monitors with screen width 1366px or above */
+
+/*  Below CSS for tablets in landscape mode, older desktop monitors */
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+
+}
+
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .containerWrapper {
+        grid-template-columns: 58% auto;
+        grid-column-gap: 5%;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .choice-bullet {
+        left: 25px;
+        top: 15px;
+        width: 80px;
+    }
+
+    .container {
+        position: absolute;
+        padding-left: 1.2rem;
+        cursor: pointer;
+        font-size: 15px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-left: 0.2rem;
+        width: 100px;
+        word-break: break-word;
+
+    }
+
+    .choice-bullet .container:nth-child(2) {
+        left: 124px;
+        top: 1px;
+        width: 100px;
+    }
+
+    .checkmark {
+        height: 14px;
+        width: 13px;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+
+    .container .checkmark:after {
+        top: 4px;
+        left: 4px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    #div-question_answer {
+        height: 330px;
+        overflow: scroll;
+    }
+
+}
+
+/*  Smartphones in landscape mode */
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+
+    .containerWrapper {
+        grid-template-columns: 52% auto;
+        grid-column-gap: 3%;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .choice-bullet {
+        left: 22px;
+        top: 8px;
+        width: 80px;
+    }
+
+    .container {
+        position: absolute;
+        padding-left: 1.2rem;
+        cursor: pointer;
+        font-size: 13px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-left: 0.2rem;
+        width: 62px;
+        word-break: break-word;
+
+    }
+
+    .choice-bullet .container:nth-child(2) {
+        left: 83px;
+        top: 1px;
+        width: 62px;
+    }
+
+    .checkmark {
+        height: 14px;
+        width: 13px;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+
+    .container .checkmark:after {
+        top: 4px;
+        left: 4px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    #div-question_answer {
+        height: 250px;
+        overflow: scroll;
+    }
+  
+}
+
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+
+    .containerWrapper {
+        display: block;
+    }
+
+    .container2.vid {
+        position: fixed;
+        z-index: 100;
+        background-color: #fff!important;
+        padding-bottom: 8px;
+        margin-left: 4px;
+        margin-right: 8px;
+    }
+
+    .container2.choice {
+        padding-top: 258px;
+        padding-left: 13px;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    .choice-bullet .container:nth-child(2) {
+        left: 128px;
+        top: 1px;
+    }
+
+    .container {
+        font-size: 17px;
+        word-break: break-word;
+        width: 82px;
+        position: absolute;
+    }
+
+    .choice-bullet {
+        width: 122px;
+    }
+
 }

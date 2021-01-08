@@ -15,7 +15,7 @@ button {
 
 .containerWrapper {
 	display: grid;
-	grid-template-columns: 70% 25%;
+	grid-template-columns: 66% auto;
 	grid-column-gap: 5%;
 }
 body {
@@ -92,3 +92,103 @@ p {
   .check {
 	  margin-top: 2rem;
   }
+
+	#div-question_answer {
+		height: 330px;
+		overflow: scroll;
+	}
+
+  
+/* Above CSS for monitors with screen width 1366px or above */
+
+/*  Below CSS for tablets in landscape mode, older desktop monitors */
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+
+}
+
+/*  Tablets in portrait mode, large display smartphones landscape mode */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .containerWrapper {
+        grid-template-columns: 60% auto;
+        grid-column-gap: 3%;
+    }
+
+}
+
+/*  Smartphones in landscape mode */
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+
+	.containerWrapper {
+		grid-column-gap: 2%;
+	}
+
+	.container {
+		font-size: 13px;
+		padding-left: 9px;
+	}
+
+	.checkmark {
+		height: 9px;
+		width: 9px;
+		top: 4px;
+		left: -5px;
+	}
+
+	p {
+		font-size: 13px;
+		margin: -0.3rem 0px .5rem 0;
+		position: relative;
+		top: 7px;
+	}
+
+	button {
+		padding: 8px;
+		width: 57px;
+		font-size: 1px;
+	}
+
+	.container .checkmark:after {
+		top: 2px;
+		left: 3px;
+		width: 4px;
+		height: 4px;
+	}
+
+	.check {
+		margin-top: 1rem;
+	}
+
+}
+
+/*  Smartphones in portrait mode  */
+
+@media only screen and (max-width: 420px) {
+
+    .containerWrapper {
+        display: block;
+    }
+
+    .container2.vid {
+        position: fixed;
+        z-index: 100;
+        background-color: #fff!important;
+        padding-bottom: 8px;
+        margin-left: 4px;
+        margin-right: 8px;
+	}
+	
+	.choices {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.check {
+		text-align: center;
+	}
+
+}

@@ -2,6 +2,7 @@
 <html lang="en" >
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Video quiz</title>
 	<link rel='stylesheet' href='https://unpkg.com/plyr@3/dist/plyr.css'>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,12 +12,14 @@
 <body>
 <!-- partial:index.partial.html -->
 <div class="containerWrapper">
-	<div class="container2">
-		<video id="myVideoTag" class="video-image" controls crossorigin playsinline poster="">
-			 <source class="video-link" src="" type="video/mp4" >
-		</video>
+	<div class="center-vid">
+		<div class="container2 vid">
+			<video id="myVideoTag" class="video-image" controls crossorigin playsinline poster="">
+				 <source class="video-link" src="" type="video/mp4" >
+			</video>
+		</div>
 	</div>
-	<div class="container2">
+	<div class="container2 choice">
 		<div id="div-question_answer"></div>
 		<div class="check">
 			<button id="check-answers" type="button" class="btn btn-success btn-lg blue" onclick="checkAnswer()">Check</button>&nbsp;&nbsp;
