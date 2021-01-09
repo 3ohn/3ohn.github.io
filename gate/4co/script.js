@@ -1,5 +1,6 @@
 function getQuestionFromUnit(){
-    var level = $("#testUnit").val();
+    //var level = $("#testUnit").val();
+    var level = sessionStorage.getItem('unitIframe');
     var myQuestions = questions;
     if(level == 1)
       myQuestions = questions;  

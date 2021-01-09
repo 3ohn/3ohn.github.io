@@ -393,7 +393,8 @@ const questionsU12 = [
 ];
 
 function getQuestionFromUnit(){
-    var level = $("#testUnit").val();
+	// var level = $("#testUnit").val();
+	var level = sessionStorage.getItem('unitIframe');
     var myQuestions = questions;
     if(level == 1)
       myQuestions = questions;  
@@ -482,15 +483,14 @@ function generateQuestionAnswer() {
                                             </label>
                                         </div>
                                     </div>`;
-    }
+	}
+	console.log("fnish generate question");
 }
 
-setTimeout(function(){
-	generateQuestionAnswer();
-	// set up video image and link
-    var video = document.getElementById('myVideoTag');
-	var sources = video.getElementsByTagName('source');
-	video.setAttribute("poster",getQuestionFromUnit()[0].video.cover);
-    sources[0].src = getQuestionFromUnit()[0].video.src;
-    video.load();
-},301);
+generateQuestionAnswer();
+// set up video image and link
+var video = document.getElementById('myVideoTag');
+var sources = video.getElementsByTagName('source');
+video.setAttribute("poster",getQuestionFromUnit()[0].video.cover);
+sources[0].src = getQuestionFromUnit()[0].video.src;
+video.load();

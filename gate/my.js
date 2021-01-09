@@ -2,6 +2,7 @@ var oldEl = null;
 var oldEl2 = null;
 var oldColor = null;
 var oldColorMobile = null;
+var oldDropBtn = null;
 
 // Use for setting the iframe and the unit
 function setIframe(link,type,unit){
@@ -29,14 +30,12 @@ function setIframe(link,type,unit){
     // style the dropdown background
     colorNav(unit)
 
-    setTimeout(function(){
-        var iframe = document.getElementById("iframe-src2");
-        // Do Exception for 1vo
-        if(type == "1vo"){
-            sessionStorage.setItem('unit1vo',unit);
-        }
-        iframe.contentWindow.postMessage(unit,window.location.origin);
-    },200)
+    // Keep the info of the current page incase we refresh
+    sessionStorage.setItem('previousType', parseInt($('#navType').val())+1);
+    sessionStorage.setItem('previousUnit', parseInt($('#navUnit').val())+1);
+
+    sessionStorage.setItem('unitIframe', (parseInt(unit)));
+
 }
 
 function goBack() {
@@ -79,11 +78,12 @@ function goBack() {
         link = "./6to";       
     }
 
+    // Keep the info of the current page incase we refresh
+    sessionStorage.setItem('previousType', parseInt($('#navType').val())+1);
+    sessionStorage.setItem('previousUnit', parseInt($('#navUnit').val())+1);
+
     $(".iframe-src").attr('src',link);
-    setTimeout(function(){
-        var iframe = document.getElementById("iframe-src2");
-        iframe.contentWindow.postMessage((parseInt(unit)+1),window.location.origin);
-    },200)
+    sessionStorage.setItem('unitIframe', (parseInt(unit)+1));
 }
 
 function goForward() {
@@ -122,14 +122,17 @@ function goForward() {
         link = "./6to";       
     }
 
+    // Keep the info of the current page incase we refresh
+    sessionStorage.setItem('previousType', parseInt($('#navType').val())+1);
+    sessionStorage.setItem('previousUnit', parseInt($('#navUnit').val())+1);
+
     $(".iframe-src").attr('src',link);
-    setTimeout(function(){
-        var iframe = document.getElementById("iframe-src2");
-        iframe.contentWindow.postMessage((parseInt(unit)+1),window.location.origin);
-    },200)
+    sessionStorage.setItem('unitIframe', (parseInt(unit)+1));
 }
 
 function colorNav(unit) {
+    clearHov()
+
     // For Desktop
     if(oldColor != null){
         $(oldColor).css('background-color','inherit');
@@ -149,6 +152,29 @@ function colorNav(unit) {
     var mobileEl = $('.unitMobile').children()[unit-1]
     $(mobileEl).css('background-color','#00ffff');
     oldColorMobile = mobileEl
+}
+
+// use to clear the hover 
+function clearHov() {
+    var getDropdown = $('.dropdown').children()
+    for (i = 0; i < 12; i++) {
+        $(getDropdown[i]).css('background-color','');
+    }
+}
+
+function clearActive() {
+    var getDropdown = $('.dropdown').children()
+    for (i = 0; i < 12; i++) {
+        $(getDropdown[i]).removeClass('active');
+    }  
+}
+
+// put the hover to the previous refresh
+function unitHover(unit){
+    var getDropdown = $('.dropdown').children();
+    var dropBtn = getDropdown[unit].childNodes[1];
+    var color = $(dropBtn).css('background-color');
+    $(getDropdown[unit]).css("background-color",color);
 }
 
 $(".typeHeader").click(function() {
@@ -185,6 +211,22 @@ $(".typeHeader").click(function() {
     
 });
 
+function convertType(type){
+    if(type == 1){
+        return './1vo';
+    }else if(type == 2){
+        return './2gr';
+    }else if(type == 3){
+        return './3gr';
+    }else if(type == 4){
+        return './4co';
+    }else if(type == 5){
+        return './5li';
+    }else if(type == 6){
+        return './6to';
+    }
+}
+
 $(".mobileMenuButton").click(function() {
     $(".unitMobile").toggle();
 });
@@ -195,12 +237,42 @@ $('.unitSelectTop').click(function(){
 
 $('.dropbtn').click(function(){
     var content = $(this).children()[0];
-    $(this).toggleClass( "active" )
-    $(content).toggle();
+    clearActive()
+
+    if(oldDropBtn != content){
+        $(content).css('display','block');
+        $(oldDropBtn).css('display','none');
+        $(this).toggleClass( "active" )
+    }else{
+        $(content).toggle();
+    }
+
+
+    //set old dropbtn
+    oldDropBtn = content;
+
 });
 
 // set back ground color first
 colorNav(1)
+// get the previous lesson if we refresh
+if(sessionStorage.getItem('previousType') != null){
+    $(".iframe-src").attr('src',convertType(sessionStorage.getItem('previousType')));
+    setTimeout(function(){
+        var iframe = document.getElementById("iframe-src2");
+        iframe.contentWindow.postMessage(sessionStorage.getItem('previousUnit'),window.location.origin);
+    },200)
+
+    //Update the input so the next and previous bar work too
+    $('#navUnit').val(sessionStorage.getItem('previousUnit')-1);
+    $('#navType').val(sessionStorage.getItem('previousType')-1);
+
+    // clear all of the hover
+    clearHov()
+
+    // put in the previous hover
+    unitHover(sessionStorage.getItem('previousUnit')-1)
+}
 
 
 

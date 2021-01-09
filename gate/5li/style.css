@@ -49,7 +49,7 @@ p {
 
 /* The container */
 .container {
-    position: relative;
+    position: absolute;
     padding-left: 2rem;
     cursor: pointer;
     font-size: 22px;
@@ -122,6 +122,10 @@ p {
     width: 146px;
 }
 
+div#div-question_answer::-webkit-scrollbar {
+    width: 0px;
+}
+
 /* Above CSS for monitors with screen width 1366px or above */
 
 /*  Below CSS for tablets in landscape mode, older desktop monitors */
@@ -191,6 +195,8 @@ p {
     #div-question_answer {
         height: 330px;
         overflow: scroll;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
     }
 
 }

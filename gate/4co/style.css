@@ -101,6 +101,28 @@ button {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
+    .check {
+        display: block;
+        margin-top: 4rem;
+        padding-top: 0;
+        position: relative;
+        height: 152px;
+        top: -38px;
+    }
+
+    .button-zone {
+        width: 100%;
+        text-align: center;
+    }
+
+    .message-zone {
+        width: 100%;
+    }
+
+    #message {
+        margin-left: 1rem;
+        text-align: center;
+    }
 
 }
 
@@ -127,6 +149,29 @@ button {
         text-align: left;
     }
 
+    .check {
+        display: block;
+        margin-top: 4rem;
+        padding-top: 0;
+        position: relative;
+        height: 152px;
+        top: -38px;
+    }
+
+    .button-zone {
+        width: 100%;
+        text-align: center;
+    }
+
+    .message-zone {
+        width: 100%;
+    }
+
+    #message {
+        margin-left: 1rem;
+        text-align: center;
+    }
+
 }
 
 /*  Smartphones in portrait mode  */
@@ -151,5 +196,29 @@ button {
     .text-center {
         text-align: left;
     }
+
+    .check {
+        display: block;
+        margin-top: 4rem;
+        padding-top: 0;
+        position: relative;
+        height: 152px;
+        top: -38px;
+    }
+
+    .button-zone {
+        width: 100%;
+        text-align: center;
+    }
+
+    .message-zone {
+        width: 100%;
+    }
+
+    #message {
+        margin-left: 1rem;
+        text-align: center;
+    }
+
 
 }

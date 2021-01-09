@@ -11,7 +11,8 @@
 <body>
 <!-- partial:index.partial.html -->
 <div class="containerWrapper">
-	<div class="container2">
+	<div class="container2"></div>
+	<div class="container2 vid">
 		<video id="myVideoTag" controls crossorigin playsinline poster="">
 			 <source src="" type="video/mp4" >
 		</video>
@@ -32,15 +33,5 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
 <script src="script.js"></script>
-<script>
-    function recieveMessage(event) {
-		$("#testUnit").val(event.data);
-		generateQuestionAnswer();
-		// set up video image and link
-		$('.video-image').attr('poster',getQuestionFromUnit()[0].video.cover);
-		$('.video-links').attr('src',getQuestionFromUnit()[0].video.src);
-    }
-    window.addEventListener('message', recieveMessage, false);
-</script>
 </body>
 </html>

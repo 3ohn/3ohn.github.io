@@ -16,12 +16,14 @@
             </div>
         </div>
         <div class="check">
-            <button id="check-answers" type="button" class="btn btn-success btn-lg blue">Check</button>&nbsp;&nbsp;
-            <button id="show-answers" type="button" class="btn btn-success btn-lg green">Answers</button>&nbsp;&nbsp;
-            <button id="play-answers" type="button" class="btn btn-success btn-lg gray">Play</button>
-
-
-            <p id="message"></p>
+            <div class="button-zone">
+                <button id="check-answers" type="button" class="btn btn-success btn-lg blue">Check</button>&nbsp;&nbsp;
+                <button id="show-answers" type="button" class="btn btn-success btn-lg green">Answers</button>&nbsp;&nbsp;
+                <button id="play-answers" type="button" class="btn btn-success btn-lg gray">Play</button>
+            </div>
+            <div class="message-zone">
+                <p id="message"></p>
+            </div>
         </div>
         <input type="hidden" id="testUnit" name="testUnit">
     </div>
@@ -30,11 +32,5 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
 <script src="question.js"></script>
-<script>
-    function recieveMessage(event) {
-      $("#testUnit").val(event.data);
-    }
-    window.addEventListener('message', recieveMessage, false);
-</script>
 <script src="script.js"></script>
 </html>

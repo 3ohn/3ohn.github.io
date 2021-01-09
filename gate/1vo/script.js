@@ -3,7 +3,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q1.mp3'),
+        'file': 'audio/u1_q1.mp3',
         'isPlaying': false,
       }
     },
@@ -18,7 +18,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q2.mp3'),
+        'file': 'audio/u1_q2.mp3',
         'isPlaying': false,
       }
     },
@@ -33,7 +33,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q3.mp3'),
+        'file': 'audio/u1_q3.mp3',
         'isPlaying': false,
       }  
     },
@@ -48,7 +48,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q4.mp3'),
+        'file': 'audio/u1_q4.mp3',
         'isPlaying': false,
       }  
     },
@@ -63,7 +63,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q5.mp3'),
+        'file': 'audio/u1_q5.mp3',
         'isPlaying': false,
       }  
     },
@@ -78,7 +78,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q6.mp3'),
+        'file': 'audio/u1_q6.mp3',
         'isPlaying': false,
       }  
     },
@@ -93,7 +93,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q7.mp3'),
+        'file': 'audio/u1_q7.mp3',
         'isPlaying': false,
       }  
     },
@@ -108,7 +108,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q8.mp3'),
+        'file': 'audio/u1_q8.mp3',
         'isPlaying': false,
       }  
     },
@@ -123,7 +123,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q9.mp3'),
+        'file': 'audio/u1_q9.mp3',
         'isPlaying': false,
       }  
     },
@@ -138,7 +138,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q10.mp3'),
+        'file': 'audio/u1_q10.mp3',
         'isPlaying': false,
       }  
     },
@@ -153,7 +153,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q11.mp3'),
+        'file': 'audio/u1_q11.mp3',
         'isPlaying': false,
       }  
     },
@@ -168,7 +168,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q12.mp3'),
+        'file': 'audio/u1_q12.mp3',
         'isPlaying': false,
       }  
     },
@@ -183,7 +183,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q13.mp3'),
+        'file': 'audio/u1_q13.mp3',
         'isPlaying': false,
       }  
     },
@@ -198,7 +198,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q14.mp3'),
+        'file': 'audio/u1_q14.mp3',
         'isPlaying': false,
       }  
     },
@@ -213,7 +213,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q15.mp3'),
+        'file': 'audio/u1_q15.mp3',
         'isPlaying': false,
       }  
     },
@@ -228,7 +228,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q16.mp3'),
+        'file': 'audio/u1_q16.mp3',
         'isPlaying': false,
       }  
     },
@@ -243,7 +243,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q17.mp3'),
+        'file': 'audio/u1_q17.mp3',
         'isPlaying': false,
       }  
     },
@@ -258,7 +258,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q18.mp3'),
+        'file': 'audio/u1_q18.mp3',
         'isPlaying': false,
       }  
     },
@@ -273,7 +273,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q19.mp3'),
+        'file': 'audio/u1_q19.mp3',
         'isPlaying': false,
       }  
     },
@@ -288,7 +288,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q20.mp3'),
+        'file': 'audio/q20.mp3',
         'isPlaying': false,
       }  
     },
@@ -303,7 +303,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q21.mp3'),
+        'file': 'audio/u1_q21.mp3',
         'isPlaying': false,
       }  
     },
@@ -318,7 +318,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q22.mp3'),
+        'file': 'audio/u1_q22.mp3',
         'isPlaying': false,
       }  
     },
@@ -333,7 +333,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q23.mp3'),
+        'file': 'audio/u1_q23.mp3',
         'isPlaying': false,
       }  
     },
@@ -348,7 +348,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q24.mp3'),
+        'file': 'audio/u1_q24.mp3',
         'isPlaying': false,
       }  
     },
@@ -363,7 +363,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q25.mp3'),
+        'file': 'audio/u1_q25.mp3',
         'isPlaying': false,
       }  
     },
@@ -378,7 +378,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q26.mp3'),
+        'file': 'audio/u1_q26.mp3',
         'isPlaying': false,
       }  
     },
@@ -393,7 +393,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q27.mp3'),
+        'file': 'audio/u1_q27.mp3',
         'isPlaying': false,
       }  
     },
@@ -408,7 +408,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q28.mp3'),
+        'file': 'audio/q28.mp3',
         'isPlaying': false,
       }  
     },
@@ -423,7 +423,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q29.mp3'),
+        'file': 'audio/u1_q29.mp3',
         'isPlaying': false,
       }  
     },
@@ -438,7 +438,7 @@ const questions = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u1_q30.mp3'),
+        'file': 'audio/u1_q30.mp3',
         'isPlaying': false,
       }  
     },
@@ -450,12 +450,13 @@ const questions = [
     'why': '' 
   }
 ];
+
 const questionsU2 = [
   {
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q1.mp3'),
+        'file': 'audio/u2_q1.mp3',
         'isPlaying': false,
       }
     },
@@ -470,7 +471,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q2.mp3'),
+        'file': 'audio/u2_q2.mp3',
         'isPlaying': false,
       }
     },
@@ -485,7 +486,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q3.mp3'),
+        'file': 'audio/u2_q3.mp3',
         'isPlaying': false,
       }  
     },
@@ -500,7 +501,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q4.mp3'),
+        'file': 'audio/u2_q4.mp3',
         'isPlaying': false,
       }  
     },
@@ -515,7 +516,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q5.mp3'),
+        'file': 'audio/u2_q5.mp3',
         'isPlaying': false,
       }  
     },
@@ -530,7 +531,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q6.mp3'),
+        'file': 'audio/u2_q6.mp3',
         'isPlaying': false,
       }  
     },
@@ -545,7 +546,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q7.mp3'),
+        'file': 'audio/u2_q7.mp3',
         'isPlaying': false,
       }  
     },
@@ -560,7 +561,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q8.mp3'),
+        'file': 'audio/u2_q8.mp3',
         'isPlaying': false,
       }  
     },
@@ -575,7 +576,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q9.mp3'),
+        'file': 'audio/u2_q9.mp3',
         'isPlaying': false,
       }  
     },
@@ -590,7 +591,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q10.mp3'),
+        'file': 'audio/u2_q10.mp3',
         'isPlaying': false,
       }  
     },
@@ -605,7 +606,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q11.mp3'),
+        'file': 'audio/u2_q11.mp3',
         'isPlaying': false,
       }  
     },
@@ -620,7 +621,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q12.mp3'),
+        'file': 'audio/u2_q12.mp3',
         'isPlaying': false,
       }  
     },
@@ -635,7 +636,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q13.mp3'),
+        'file': 'audio/u2_q13.mp3',
         'isPlaying': false,
       }  
     },
@@ -650,7 +651,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q14.mp3'),
+        'file': 'audio/u2_q14.mp3',
         'isPlaying': false,
       }  
     },
@@ -665,7 +666,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q15.mp3'),
+        'file': 'audio/u2_q15.mp3',
         'isPlaying': false,
       }  
     },
@@ -680,7 +681,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q16.mp3'),
+        'file': 'audio/u2_q16.mp3',
         'isPlaying': false,
       }  
     },
@@ -695,7 +696,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q17.mp3'),
+        'file': 'audio/u2_q17.mp3',
         'isPlaying': false,
       }  
     },
@@ -710,7 +711,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q18.mp3'),
+        'file': 'audio/u2_q18.mp3',
         'isPlaying': false,
       }  
     },
@@ -725,7 +726,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q19.mp3'),
+        'file': 'audio/u2_q19.mp3',
         'isPlaying': false,
       }  
     },
@@ -740,7 +741,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q20.mp3'),
+        'file': 'audio/u2_q20.mp3',
         'isPlaying': false,
       }  
     },
@@ -755,7 +756,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q21.mp3'),
+        'file': 'audio/u2_q21.mp3',
         'isPlaying': false,
       }  
     },
@@ -770,7 +771,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q22.mp3'),
+        'file': 'audio/u2_q22.mp3',
         'isPlaying': false,
       }  
     },
@@ -785,7 +786,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q23.mp3'),
+        'file': 'audio/u2_q23.mp3',
         'isPlaying': false,
       }  
     },
@@ -800,7 +801,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q24.mp3'),
+        'file': 'audio/u2_q24.mp3',
         'isPlaying': false,
       }  
     },
@@ -815,7 +816,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q25.mp3'),
+        'file': 'audio/u2_q25.mp3',
         'isPlaying': false,
       }  
     },
@@ -830,7 +831,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q26.mp3'),
+        'file': 'audio/u2_q26.mp3',
         'isPlaying': false,
       }  
     },
@@ -845,7 +846,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q27.mp3'),
+        'file': 'audio/u2_q27.mp3',
         'isPlaying': false,
       }  
     },
@@ -860,7 +861,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q28.mp3'),
+        'file': 'audio/u2_q28.mp3',
         'isPlaying': false,
       }  
     },
@@ -875,7 +876,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q29.mp3'),
+        'file': 'audio/u2_q29.mp3',
         'isPlaying': false,
       }  
     },
@@ -890,7 +891,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q30.mp3'),
+        'file': 'audio/u2_q30.mp3',
         'isPlaying': false,
       }  
     },
@@ -905,7 +906,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q31.mp3'),
+        'file': 'audio/u2_q31.mp3',
         'isPlaying': false,
       }  
     },
@@ -920,7 +921,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q32.mp3'),
+        'file': 'audio/u2_q32.mp3',
         'isPlaying': false,
       }  
     },
@@ -935,7 +936,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q33.mp3'),
+        'file': 'audio/u2_q33.mp3',
         'isPlaying': false,
       }  
     },
@@ -950,7 +951,7 @@ const questionsU2 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q34.mp3'),
+        'file': 'audio/u2_q34.mp3',
         'isPlaying': false,
       }  
     },
@@ -967,7 +968,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q1.mp3'),
+        'file': 'audio/u2_q1.mp3',
         'isPlaying': false,
       }
     },
@@ -982,7 +983,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q2.mp3'),
+        'file': 'audio/u2_q2.mp3',
         'isPlaying': false,
       }
     },
@@ -997,7 +998,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q3.mp3'),
+        'file': 'audio/u2_q3.mp3',
         'isPlaying': false,
       }  
     },
@@ -1012,7 +1013,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q4.mp3'),
+        'file': 'audio/u2_q4.mp3',
         'isPlaying': false,
       }  
     },
@@ -1027,7 +1028,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q5.mp3'),
+        'file': 'audio/u2_q5.mp3',
         'isPlaying': false,
       }  
     },
@@ -1042,7 +1043,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q6.mp3'),
+        'file': 'audio/u2_q6.mp3',
         'isPlaying': false,
       }  
     },
@@ -1057,7 +1058,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q7.mp3'),
+        'file': 'audio/u2_q7.mp3',
         'isPlaying': false,
       }  
     },
@@ -1072,7 +1073,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q8.mp3'),
+        'file': 'audio/u2_q8.mp3',
         'isPlaying': false,
       }  
     },
@@ -1087,7 +1088,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q9.mp3'),
+        'file': 'audio/u2_q9.mp3',
         'isPlaying': false,
       }  
     },
@@ -1102,7 +1103,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q10.mp3'),
+        'file': 'audio/u2_q10.mp3',
         'isPlaying': false,
       }  
     },
@@ -1117,7 +1118,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q11.mp3'),
+        'file': 'audio/u2_q11.mp3',
         'isPlaying': false,
       }  
     },
@@ -1132,7 +1133,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q12.mp3'),
+        'file': 'audio/u2_q12.mp3',
         'isPlaying': false,
       }  
     },
@@ -1147,7 +1148,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q13.mp3'),
+        'file': 'audio/u2_q13.mp3',
         'isPlaying': false,
       }  
     },
@@ -1162,7 +1163,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q14.mp3'),
+        'file': 'audio/u2_q14.mp3',
         'isPlaying': false,
       }  
     },
@@ -1177,7 +1178,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q15.mp3'),
+        'file': 'audio/u2_q15.mp3',
         'isPlaying': false,
       }  
     },
@@ -1192,7 +1193,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q16.mp3'),
+        'file': 'audio/u2_q16.mp3',
         'isPlaying': false,
       }  
     },
@@ -1207,7 +1208,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q17.mp3'),
+        'file': 'audio/u2_q17.mp3',
         'isPlaying': false,
       }  
     },
@@ -1222,7 +1223,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q18.mp3'),
+        'file': 'audio/u2_q18.mp3',
         'isPlaying': false,
       }  
     },
@@ -1237,7 +1238,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q19.mp3'),
+        'file': 'audio/u2_q19.mp3',
         'isPlaying': false,
       }  
     },
@@ -1252,7 +1253,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q20.mp3'),
+        'file': 'audio/u2_q20.mp3',
         'isPlaying': false,
       }  
     },
@@ -1267,7 +1268,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q21.mp3'),
+        'file': 'audio/u2_q21.mp3',
         'isPlaying': false,
       }  
     },
@@ -1282,7 +1283,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q22.mp3'),
+        'file': 'audio/u2_q22.mp3',
         'isPlaying': false,
       }  
     },
@@ -1297,7 +1298,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q23.mp3'),
+        'file': 'audio/u2_q23.mp3',
         'isPlaying': false,
       }  
     },
@@ -1312,7 +1313,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q24.mp3'),
+        'file': 'audio/u2_q24.mp3',
         'isPlaying': false,
       }  
     },
@@ -1327,7 +1328,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q25.mp3'),
+        'file': 'audio/u2_q25.mp3',
         'isPlaying': false,
       }  
     },
@@ -1342,7 +1343,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q26.mp3'),
+        'file': 'audio/u2_q26.mp3',
         'isPlaying': false,
       }  
     },
@@ -1357,7 +1358,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q27.mp3'),
+        'file': 'audio/u2_q27.mp3',
         'isPlaying': false,
       }  
     },
@@ -1372,7 +1373,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q28.mp3'),
+        'file': 'audio/u2_q28.mp3',
         'isPlaying': false,
       }  
     },
@@ -1387,7 +1388,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q29.mp3'),
+        'file': 'audio/u2_q29.mp3',
         'isPlaying': false,
       }  
     },
@@ -1402,7 +1403,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q30.mp3'),
+        'file': 'audio/u2_q30.mp3',
         'isPlaying': false,
       }  
     },
@@ -1417,7 +1418,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q31.mp3'),
+        'file': 'audio/u2_q31.mp3',
         'isPlaying': false,
       }  
     },
@@ -1432,7 +1433,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q32.mp3'),
+        'file': 'audio/u2_q32.mp3',
         'isPlaying': false,
       }  
     },
@@ -1447,7 +1448,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q33.mp3'),
+        'file': 'audio/u2_q33.mp3',
         'isPlaying': false,
       }  
     },
@@ -1462,7 +1463,7 @@ const questionsU3 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u2_q34.mp3'),
+        'file': 'audio/u2_q34.mp3',
         'isPlaying': false,
       }  
     },
@@ -1479,7 +1480,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q1.mp3'),
+        'file': 'audio/u4_q1.mp3',
         'isPlaying': false,
       }
     },
@@ -1494,7 +1495,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q2.mp3'),
+        'file': 'audio/u4_q2.mp3',
         'isPlaying': false,
       }
     },
@@ -1509,7 +1510,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q3.mp3'),
+        'file': 'audio/u4_q3.mp3',
         'isPlaying': false,
       }  
     },
@@ -1524,7 +1525,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q4.mp3'),
+        'file': 'audio/u4_q4.mp3',
         'isPlaying': false,
       }  
     },
@@ -1539,7 +1540,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q5.mp3'),
+        'file': 'audio/u4_q5.mp3',
         'isPlaying': false,
       }  
     },
@@ -1554,7 +1555,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q6.mp3'),
+        'file': 'audio/u4_q6.mp3',
         'isPlaying': false,
       }  
     },
@@ -1569,7 +1570,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q7.mp3'),
+        'file': 'audio/u4_q7.mp3',
         'isPlaying': false,
       }  
     },
@@ -1584,7 +1585,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q8.mp3'),
+        'file': 'audio/u4_q8.mp3',
         'isPlaying': false,
       }  
     },
@@ -1599,7 +1600,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q9.mp3'),
+        'file': 'audio/u4_q9.mp3',
         'isPlaying': false,
       }  
     },
@@ -1614,7 +1615,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q10.mp3'),
+        'file': 'audio/u4_q10.mp3',
         'isPlaying': false,
       }  
     },
@@ -1629,7 +1630,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q11.mp3'),
+        'file': 'audio/u4_q11.mp3',
         'isPlaying': false,
       }  
     },
@@ -1644,7 +1645,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q12.mp3'),
+        'file': 'audio/u4_q12.mp3',
         'isPlaying': false,
       }  
     },
@@ -1659,7 +1660,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q13.mp3'),
+        'file': 'audio/u4_q13.mp3',
         'isPlaying': false,
       }  
     },
@@ -1674,7 +1675,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q14.mp3'),
+        'file': 'audio/u4_q14.mp3',
         'isPlaying': false,
       }  
     },
@@ -1689,7 +1690,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q15.mp3'),
+        'file': 'audio/u4_q15.mp3',
         'isPlaying': false,
       }  
     },
@@ -1704,7 +1705,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q16.mp3'),
+        'file': 'audio/u4_q16.mp3',
         'isPlaying': false,
       }  
     },
@@ -1719,7 +1720,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q17.mp3'),
+        'file': 'audio/u4_q17.mp3',
         'isPlaying': false,
       }  
     },
@@ -1734,7 +1735,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q18.mp3'),
+        'file': 'audio/u4_q18.mp3',
         'isPlaying': false,
       }  
     },
@@ -1749,7 +1750,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q19.mp3'),
+        'file': 'audio/u4_q19.mp3',
         'isPlaying': false,
       }  
     },
@@ -1764,7 +1765,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q20.mp3'),
+        'file': 'audio/u4_q20.mp3',
         'isPlaying': false,
       }  
     },
@@ -1779,7 +1780,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q21.mp3'),
+        'file': 'audio/u4_q21.mp3',
         'isPlaying': false,
       }  
     },
@@ -1794,7 +1795,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q22.mp3'),
+        'file': 'audio/u4_q22.mp3',
         'isPlaying': false,
       }  
     },
@@ -1809,7 +1810,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q23.mp3'),
+        'file': 'audio/u4_q23.mp3',
         'isPlaying': false,
       }  
     },
@@ -1824,7 +1825,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q24.mp3'),
+        'file': 'audio/u4_q24.mp3',
         'isPlaying': false,
       }  
     },
@@ -1839,7 +1840,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q25.mp3'),
+        'file': 'audio/u4_q25.mp3',
         'isPlaying': false,
       }  
     },
@@ -1854,7 +1855,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q26.mp3'),
+        'file': 'audio/u4_q26.mp3',
         'isPlaying': false,
       }  
     },
@@ -1869,7 +1870,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q27.mp3'),
+        'file': 'audio/u4_q27.mp3',
         'isPlaying': false,
       }  
     },
@@ -1884,7 +1885,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q28.mp3'),
+        'file': 'audio/u4_q28.mp3',
         'isPlaying': false,
       }  
     },
@@ -1899,7 +1900,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q29.mp3'),
+        'file': 'audio/u4_q29.mp3',
         'isPlaying': false,
       }  
     },
@@ -1914,7 +1915,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q30.mp3'),
+        'file': 'audio/u4_q30.mp3',
         'isPlaying': false,
       }  
     },
@@ -1929,7 +1930,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q31.mp3'),
+        'file': 'audio/u4_q31.mp3',
         'isPlaying': false,
       }  
     },
@@ -1944,7 +1945,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q32.mp3'),
+        'file': 'audio/u4_q32.mp3',
         'isPlaying': false,
       }  
     },
@@ -1959,7 +1960,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q33.mp3'),
+        'file': 'audio/u4_q33.mp3',
         'isPlaying': false,
       }  
     },
@@ -1974,7 +1975,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q34.mp3'),
+        'file': 'audio/u4_q34.mp3',
         'isPlaying': false,
       }  
     },
@@ -1989,7 +1990,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q35.mp3'),
+        'file': 'audio/u4_q35.mp3',
         'isPlaying': false,
       }  
     },
@@ -2004,7 +2005,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q36.mp3'),
+        'file': 'audio/u4_q36.mp3',
         'isPlaying': false,
       }  
     },
@@ -2019,7 +2020,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q37.mp3'),
+        'file': 'audio/u4_q37.mp3',
         'isPlaying': false,
       }  
     },
@@ -2034,7 +2035,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q38.mp3'),
+        'file': 'audio/u4_q38.mp3',
         'isPlaying': false,
       }  
     },
@@ -2049,7 +2050,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q39.mp3'),
+        'file': 'audio/u4_q39.mp3',
         'isPlaying': false,
       }  
     },
@@ -2064,7 +2065,7 @@ const questionsU4 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u4_q40.mp3'),
+        'file': 'audio/u4_q40.mp3',
         'isPlaying': false,
       }  
     },
@@ -2081,7 +2082,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q1.mp3'),
+        'file': 'audio/u5_q1.mp3',
         'isPlaying': false,
       }
     },
@@ -2096,7 +2097,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q2.mp3'),
+        'file': 'audio/u5_q2.mp3',
         'isPlaying': false,
       }
     },
@@ -2111,7 +2112,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q3.mp3'),
+        'file': 'audio/u5_q3.mp3',
         'isPlaying': false,
       }  
     },
@@ -2126,7 +2127,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q4.mp3'),
+        'file': 'audio/u5_q4.mp3',
         'isPlaying': false,
       }  
     },
@@ -2141,7 +2142,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q5.mp3'),
+        'file': 'audio/u5_q5.mp3',
         'isPlaying': false,
       }  
     },
@@ -2156,7 +2157,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q6.mp3'),
+        'file': 'audio/u5_q6.mp3',
         'isPlaying': false,
       }  
     },
@@ -2171,7 +2172,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q7.mp3'),
+        'file': 'audio/u5_q7.mp3',
         'isPlaying': false,
       }  
     },
@@ -2186,7 +2187,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q8.mp3'),
+        'file': 'audio/u5_q8.mp3',
         'isPlaying': false,
       }  
     },
@@ -2201,7 +2202,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q9.mp3'),
+        'file': 'audio/u5_q9.mp3',
         'isPlaying': false,
       }  
     },
@@ -2216,7 +2217,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q10.mp3'),
+        'file': 'audio/u5_q10.mp3',
         'isPlaying': false,
       }  
     },
@@ -2231,7 +2232,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q11.mp3'),
+        'file': 'audio/u5_q11.mp3',
         'isPlaying': false,
       }  
     },
@@ -2246,7 +2247,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q12.mp3'),
+        'file': 'audio/u5_q12.mp3',
         'isPlaying': false,
       }  
     },
@@ -2261,7 +2262,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q13.mp3'),
+        'file': 'audio/u5_q13.mp3',
         'isPlaying': false,
       }  
     },
@@ -2276,7 +2277,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q14.mp3'),
+        'file': 'audio/u5_q14.mp3',
         'isPlaying': false,
       }  
     },
@@ -2291,7 +2292,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q15.mp3'),
+        'file': 'audio/u5_q15.mp3',
         'isPlaying': false,
       }  
     },
@@ -2306,7 +2307,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q16.mp3'),
+        'file': 'audio/u5_q16.mp3',
         'isPlaying': false,
       }  
     },
@@ -2321,7 +2322,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q17.mp3'),
+        'file': 'audio/u5_q17.mp3',
         'isPlaying': false,
       }  
     },
@@ -2336,7 +2337,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q18.mp3'),
+        'file': 'audio/u5_q18.mp3',
         'isPlaying': false,
       }  
     },
@@ -2351,7 +2352,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q19.mp3'),
+        'file': 'audio/u5_q19.mp3',
         'isPlaying': false,
       }  
     },
@@ -2366,7 +2367,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q20.mp3'),
+        'file': 'audio/u5_q20.mp3',
         'isPlaying': false,
       }  
     },
@@ -2381,7 +2382,7 @@ const questionsU5 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u5_q21.mp3'),
+        'file': 'audio/u5_q21.mp3',
         'isPlaying': false,
       }  
     },
@@ -2398,7 +2399,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q1.mp3'),
+        'file': 'audio/u6_q1.mp3',
         'isPlaying': false,
       }
     },
@@ -2413,7 +2414,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q2.mp3'),
+        'file': 'audio/u6_q2.mp3',
         'isPlaying': false,
       }
     },
@@ -2428,7 +2429,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q3.mp3'),
+        'file': 'audio/u6_q3.mp3',
         'isPlaying': false,
       }  
     },
@@ -2443,7 +2444,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q4.mp3'),
+        'file': 'audio/u6_q4.mp3',
         'isPlaying': false,
       }  
     },
@@ -2458,7 +2459,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q5.mp3'),
+        'file': 'audio/u6_q5.mp3',
         'isPlaying': false,
       }  
     },
@@ -2473,7 +2474,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q6.mp3'),
+        'file': 'audio/u6_q6.mp3',
         'isPlaying': false,
       }  
     },
@@ -2488,7 +2489,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q7.mp3'),
+        'file': 'audio/u6_q7.mp3',
         'isPlaying': false,
       }  
     },
@@ -2503,7 +2504,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q8.mp3'),
+        'file': 'audio/u6_q8.mp3',
         'isPlaying': false,
       }  
     },
@@ -2518,7 +2519,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q9.mp3'),
+        'file': 'audio/u6_q9.mp3',
         'isPlaying': false,
       }  
     },
@@ -2533,7 +2534,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q10.mp3'),
+        'file': 'audio/u6_q10.mp3',
         'isPlaying': false,
       }  
     },
@@ -2548,7 +2549,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q11.mp3'),
+        'file': 'audio/u6_q11.mp3',
         'isPlaying': false,
       }  
     },
@@ -2563,7 +2564,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q12.mp3'),
+        'file': 'audio/u6_q12.mp3',
         'isPlaying': false,
       }  
     },
@@ -2578,7 +2579,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q13.mp3'),
+        'file': 'audio/u6_q13.mp3',
         'isPlaying': false,
       }  
     },
@@ -2593,7 +2594,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q14.mp3'),
+        'file': 'audio/u6_q14.mp3',
         'isPlaying': false,
       }  
     },
@@ -2608,7 +2609,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q15.mp3'),
+        'file': 'audio/u6_q15.mp3',
         'isPlaying': false,
       }  
     },
@@ -2623,7 +2624,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q16.mp3'),
+        'file': 'audio/u6_q16.mp3',
         'isPlaying': false,
       }  
     },
@@ -2638,7 +2639,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q17.mp3'),
+        'file': 'audio/u6_q17.mp3',
         'isPlaying': false,
       }  
     },
@@ -2653,7 +2654,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q18.mp3'),
+        'file': 'audio/u6_q18.mp3',
         'isPlaying': false,
       }  
     },
@@ -2668,7 +2669,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q19.mp3'),
+        'file': 'audio/u6_q19.mp3',
         'isPlaying': false,
       }  
     },
@@ -2683,7 +2684,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q20.mp3'),
+        'file': 'audio/u6_q20.mp3',
         'isPlaying': false,
       }  
     },
@@ -2698,7 +2699,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q21.mp3'),
+        'file': 'audio/u6_q21.mp3',
         'isPlaying': false,
       }  
     },
@@ -2713,7 +2714,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q22.mp3'),
+        'file': 'audio/u6_q22.mp3',
         'isPlaying': false,
       }  
     },
@@ -2728,7 +2729,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q23.mp3'),
+        'file': 'audio/u6_q23.mp3',
         'isPlaying': false,
       }  
     },
@@ -2743,7 +2744,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q24.mp3'),
+        'file': 'audio/u6_q24.mp3',
         'isPlaying': false,
       }  
     },
@@ -2758,7 +2759,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q25.mp3'),
+        'file': 'audio/u6_q25.mp3',
         'isPlaying': false,
       }  
     },
@@ -2773,7 +2774,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q26.mp3'),
+        'file': 'audio/u6_q26.mp3',
         'isPlaying': false,
       }  
     },
@@ -2788,7 +2789,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q27.mp3'),
+        'file': 'audio/u6_q27.mp3',
         'isPlaying': false,
       }  
     },
@@ -2803,7 +2804,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q28.mp3'),
+        'file': 'audio/u6_q28.mp3',
         'isPlaying': false,
       }  
     },
@@ -2818,7 +2819,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q29.mp3'),
+        'file': 'audio/u6_q29.mp3',
         'isPlaying': false,
       }  
     },
@@ -2833,7 +2834,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q30.mp3'),
+        'file': 'audio/u6_q30.mp3',
         'isPlaying': false,
       }  
     },
@@ -2848,7 +2849,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q31.mp3'),
+        'file': 'audio/u6_q31.mp3',
         'isPlaying': false,
       }  
     },
@@ -2863,7 +2864,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q32.mp3'),
+        'file': 'audio/u6_q32.mp3',
         'isPlaying': false,
       }  
     },
@@ -2878,7 +2879,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q33.mp3'),
+        'file': 'audio/u6_q33.mp3',
         'isPlaying': false,
       }  
     },
@@ -2893,7 +2894,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q34.mp3'),
+        'file': 'audio/u6_q34.mp3',
         'isPlaying': false,
       }  
     },
@@ -2908,7 +2909,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q35.mp3'),
+        'file': 'audio/u6_q35.mp3',
         'isPlaying': false,
       }  
     },
@@ -2923,7 +2924,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q36.mp3'),
+        'file': 'audio/u6_q36.mp3',
         'isPlaying': false,
       }  
     },
@@ -2938,7 +2939,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q37.mp3'),
+        'file': 'audio/u6_q37.mp3',
         'isPlaying': false,
       }  
     },
@@ -2953,7 +2954,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q38.mp3'),
+        'file': 'audio/u6_q38.mp3',
         'isPlaying': false,
       }  
     },
@@ -2968,7 +2969,7 @@ const questionsU6 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u6_q39.mp3'),
+        'file': 'audio/u6_q39.mp3',
         'isPlaying': false,
       }  
     },
@@ -2985,7 +2986,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q1.mp3'),
+        'file': 'audio/u7_q1.mp3',
         'isPlaying': false,
       }
     },
@@ -3000,7 +3001,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q2.mp3'),
+        'file': 'audio/u7_q2.mp3',
         'isPlaying': false,
       }
     },
@@ -3015,7 +3016,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q3.mp3'),
+        'file': 'audio/u7_q3.mp3',
         'isPlaying': false,
       }  
     },
@@ -3030,7 +3031,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q4.mp3'),
+        'file': 'audio/u7_q4.mp3',
         'isPlaying': false,
       }  
     },
@@ -3045,7 +3046,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q5.mp3'),
+        'file': 'audio/u7_q5.mp3',
         'isPlaying': false,
       }  
     },
@@ -3060,7 +3061,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q6.mp3'),
+        'file': 'audio/u7_q6.mp3',
         'isPlaying': false,
       }  
     },
@@ -3075,7 +3076,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q7.mp3'),
+        'file': 'audio/u7_q7.mp3',
         'isPlaying': false,
       }  
     },
@@ -3090,7 +3091,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q8.mp3'),
+        'file': 'audio/u7_q8.mp3',
         'isPlaying': false,
       }  
     },
@@ -3105,7 +3106,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q9.mp3'),
+        'file': 'audio/u7_q9.mp3',
         'isPlaying': false,
       }  
     },
@@ -3120,7 +3121,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q10.mp3'),
+        'file': 'audio/u7_q10.mp3',
         'isPlaying': false,
       }  
     },
@@ -3135,7 +3136,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q11.mp3'),
+        'file': 'audio/u7_q11.mp3',
         'isPlaying': false,
       }  
     },
@@ -3150,7 +3151,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q12.mp3'),
+        'file': 'audio/u7_q12.mp3',
         'isPlaying': false,
       }  
     },
@@ -3165,7 +3166,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q13.mp3'),
+        'file': 'audio/u7_q13.mp3',
         'isPlaying': false,
       }  
     },
@@ -3180,7 +3181,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q14.mp3'),
+        'file': 'audio/u7_q14.mp3',
         'isPlaying': false,
       }  
     },
@@ -3195,7 +3196,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q15.mp3'),
+        'file': 'audio/u7_q15.mp3',
         'isPlaying': false,
       }  
     },
@@ -3210,7 +3211,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q16.mp3'),
+        'file': 'audio/u7_q16.mp3',
         'isPlaying': false,
       }  
     },
@@ -3225,7 +3226,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q17.mp3'),
+        'file': 'audio/u7_q17.mp3',
         'isPlaying': false,
       }  
     },
@@ -3240,7 +3241,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q18.mp3'),
+        'file': 'audio/u7_q18.mp3',
         'isPlaying': false,
       }  
     },
@@ -3255,7 +3256,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q19.mp3'),
+        'file': 'audio/u7_q19.mp3',
         'isPlaying': false,
       }  
     },
@@ -3270,7 +3271,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q20.mp3'),
+        'file': 'audio/u7_q20.mp3',
         'isPlaying': false,
       }  
     },
@@ -3285,7 +3286,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q21.mp3'),
+        'file': 'audio/u7_q21.mp3',
         'isPlaying': false,
       }  
     },
@@ -3300,7 +3301,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q22.mp3'),
+        'file': 'audio/u7_q22.mp3',
         'isPlaying': false,
       }  
     },
@@ -3315,7 +3316,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q23.mp3'),
+        'file': 'audio/u7_q23.mp3',
         'isPlaying': false,
       }  
     },
@@ -3330,7 +3331,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q24.mp3'),
+        'file': 'audio/u7_q24.mp3',
         'isPlaying': false,
       }  
     },
@@ -3345,7 +3346,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q25.mp3'),
+        'file': 'audio/u7_q25.mp3',
         'isPlaying': false,
       }  
     },
@@ -3360,7 +3361,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q26.mp3'),
+        'file': 'audio/u7_q26.mp3',
         'isPlaying': false,
       }  
     },
@@ -3375,7 +3376,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q27.mp3'),
+        'file': 'audio/u7_q27.mp3',
         'isPlaying': false,
       }  
     },
@@ -3390,7 +3391,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q28.mp3'),
+        'file': 'audio/u7_q28.mp3',
         'isPlaying': false,
       }  
     },
@@ -3405,7 +3406,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q29.mp3'),
+        'file': 'audio/u7_q29.mp3',
         'isPlaying': false,
       }  
     },
@@ -3420,7 +3421,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q30.mp3'),
+        'file': 'audio/u7_q30.mp3',
         'isPlaying': false,
       }  
     },
@@ -3435,7 +3436,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q31.mp3'),
+        'file': 'audio/u7_q31.mp3',
         'isPlaying': false,
       }  
     },
@@ -3450,7 +3451,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q32.mp3'),
+        'file': 'audio/u7_q32.mp3',
         'isPlaying': false,
       }  
     },
@@ -3465,7 +3466,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q33.mp3'),
+        'file': 'audio/u7_q33.mp3',
         'isPlaying': false,
       }  
     },
@@ -3480,7 +3481,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q34.mp3'),
+        'file': 'audio/u7_q34.mp3',
         'isPlaying': false,
       }  
     },
@@ -3495,7 +3496,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q35.mp3'),
+        'file': 'audio/u7_q35.mp3',
         'isPlaying': false,
       }  
     },
@@ -3510,7 +3511,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q36.mp3'),
+        'file': 'audio/u7_q36.mp3',
         'isPlaying': false,
       }  
     },
@@ -3525,7 +3526,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q37.mp3'),
+        'file': 'audio/u7_q37.mp3',
         'isPlaying': false,
       }  
     },
@@ -3540,7 +3541,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q38.mp3'),
+        'file': 'audio/u7_q38.mp3',
         'isPlaying': false,
       }  
     },
@@ -3555,7 +3556,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q39.mp3'),
+        'file': 'audio/u7_q39.mp3',
         'isPlaying': false,
       }  
     },
@@ -3570,7 +3571,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q40.mp3'),
+        'file': 'audio/u7_q40.mp3',
         'isPlaying': false,
       }  
     },
@@ -3585,7 +3586,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q41.mp3'),
+        'file': 'audio/u7_q41.mp3',
         'isPlaying': false,
       }  
     },
@@ -3600,7 +3601,7 @@ const questionsU7 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u7_q42.mp3'),
+        'file': 'audio/u7_q42.mp3',
         'isPlaying': false,
       }  
     },
@@ -3617,7 +3618,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q1.mp3'),
+        'file': 'audio/u8_q1.mp3',
         'isPlaying': false,
       }
     },
@@ -3632,7 +3633,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q2.mp3'),
+        'file': 'audio/u8_q2.mp3',
         'isPlaying': false,
       }
     },
@@ -3647,7 +3648,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q3.mp3'),
+        'file': 'audio/u8_q3.mp3',
         'isPlaying': false,
       }  
     },
@@ -3662,7 +3663,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q4.mp3'),
+        'file': 'audio/u8_q4.mp3',
         'isPlaying': false,
       }  
     },
@@ -3677,7 +3678,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q5.mp3'),
+        'file': 'audio/u8_q5.mp3',
         'isPlaying': false,
       }  
     },
@@ -3692,7 +3693,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q6.mp3'),
+        'file': 'audio/u8_q6.mp3',
         'isPlaying': false,
       }  
     },
@@ -3707,7 +3708,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q7.mp3'),
+        'file': 'audio/u8_q7.mp3',
         'isPlaying': false,
       }  
     },
@@ -3722,7 +3723,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q8.mp3'),
+        'file': 'audio/u8_q8.mp3',
         'isPlaying': false,
       }  
     },
@@ -3737,7 +3738,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q9.mp3'),
+        'file': 'audio/u8_q9.mp3',
         'isPlaying': false,
       }  
     },
@@ -3752,7 +3753,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q10.mp3'),
+        'file': 'audio/u8_q10.mp3',
         'isPlaying': false,
       }  
     },
@@ -3767,7 +3768,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q11.mp3'),
+        'file': 'audio/u8_q11.mp3',
         'isPlaying': false,
       }  
     },
@@ -3782,7 +3783,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q12.mp3'),
+        'file': 'audio/u8_q12.mp3',
         'isPlaying': false,
       }  
     },
@@ -3797,7 +3798,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q13.mp3'),
+        'file': 'audio/u8_q13.mp3',
         'isPlaying': false,
       }  
     },
@@ -3812,7 +3813,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q14.mp3'),
+        'file': 'audio/u8_q14.mp3',
         'isPlaying': false,
       }  
     },
@@ -3827,7 +3828,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q15.mp3'),
+        'file': 'audio/u8_q15.mp3',
         'isPlaying': false,
       }  
     },
@@ -3842,7 +3843,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q16.mp3'),
+        'file': 'audio/u8_q16.mp3',
         'isPlaying': false,
       }  
     },
@@ -3857,7 +3858,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q17.mp3'),
+        'file': 'audio/u8_q17.mp3',
         'isPlaying': false,
       }  
     },
@@ -3872,7 +3873,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q18.mp3'),
+        'file': 'audio/u8_q18.mp3',
         'isPlaying': false,
       }  
     },
@@ -3887,7 +3888,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q19.mp3'),
+        'file': 'audio/u8_q19.mp3',
         'isPlaying': false,
       }  
     },
@@ -3902,7 +3903,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q20.mp3'),
+        'file': 'audio/u8_q20.mp3',
         'isPlaying': false,
       }  
     },
@@ -3917,7 +3918,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q21.mp3'),
+        'file': 'audio/u8_q21.mp3',
         'isPlaying': false,
       }  
     },
@@ -3932,7 +3933,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q22.mp3'),
+        'file': 'audio/u8_q22.mp3',
         'isPlaying': false,
       }  
     },
@@ -3947,7 +3948,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q23.mp3'),
+        'file': 'audio/u8_q23.mp3',
         'isPlaying': false,
       }  
     },
@@ -3962,7 +3963,7 @@ const questionsU8 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u8_q24.mp3'),
+        'file': 'audio/u8_q24.mp3',
         'isPlaying': false,
       }  
     },
@@ -3979,7 +3980,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q1.mp3'),
+        'file': 'audio/u9_q1.mp3',
         'isPlaying': false,
       }
     },
@@ -3994,7 +3995,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q2.mp3'),
+        'file': 'audio/u9_q2.mp3',
         'isPlaying': false,
       }
     },
@@ -4009,7 +4010,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q3.mp3'),
+        'file': 'audio/u9_q3.mp3',
         'isPlaying': false,
       }  
     },
@@ -4024,7 +4025,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q4.mp3'),
+        'file': 'audio/u9_q4.mp3',
         'isPlaying': false,
       }  
     },
@@ -4039,7 +4040,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q5.mp3'),
+        'file': 'audio/u9_q5.mp3',
         'isPlaying': false,
       }  
     },
@@ -4054,7 +4055,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q6.mp3'),
+        'file': 'audio/u9_q6.mp3',
         'isPlaying': false,
       }  
     },
@@ -4069,7 +4070,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q7.mp3'),
+        'file': 'audio/u9_q7.mp3',
         'isPlaying': false,
       }  
     },
@@ -4084,7 +4085,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q8.mp3'),
+        'file': 'audio/u9_q8.mp3',
         'isPlaying': false,
       }  
     },
@@ -4099,7 +4100,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q9.mp3'),
+        'file': 'audio/u9_q9.mp3',
         'isPlaying': false,
       }  
     },
@@ -4114,7 +4115,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q10.mp3'),
+        'file': 'audio/u9_q10.mp3',
         'isPlaying': false,
       }  
     },
@@ -4129,7 +4130,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q11.mp3'),
+        'file': 'audio/u9_q11.mp3',
         'isPlaying': false,
       }  
     },
@@ -4144,7 +4145,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q12.mp3'),
+        'file': 'audio/u9_q12.mp3',
         'isPlaying': false,
       }  
     },
@@ -4159,7 +4160,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q13.mp3'),
+        'file': 'audio/u9_q13.mp3',
         'isPlaying': false,
       }  
     },
@@ -4174,7 +4175,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q14.mp3'),
+        'file': 'audio/u9_q14.mp3',
         'isPlaying': false,
       }  
     },
@@ -4189,7 +4190,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q15.mp3'),
+        'file': 'audio/u9_q15.mp3',
         'isPlaying': false,
       }  
     },
@@ -4204,7 +4205,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q16.mp3'),
+        'file': 'audio/u9_q16.mp3',
         'isPlaying': false,
       }  
     },
@@ -4219,7 +4220,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q17.mp3'),
+        'file': 'audio/u9_q17.mp3',
         'isPlaying': false,
       }  
     },
@@ -4234,7 +4235,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q18.mp3'),
+        'file': 'audio/u9_q18.mp3',
         'isPlaying': false,
       }  
     },
@@ -4249,7 +4250,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q19.mp3'),
+        'file': 'audio/u9_q19.mp3',
         'isPlaying': false,
       }  
     },
@@ -4264,7 +4265,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q20.mp3'),
+        'file': 'audio/u9_q20.mp3',
         'isPlaying': false,
       }  
     },
@@ -4279,7 +4280,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q21.mp3'),
+        'file': 'audio/u9_q21.mp3',
         'isPlaying': false,
       }  
     },
@@ -4294,7 +4295,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q22.mp3'),
+        'file': 'audio/u9_q22.mp3',
         'isPlaying': false,
       }  
     },
@@ -4309,7 +4310,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q23.mp3'),
+        'file': 'audio/u9_q23.mp3',
         'isPlaying': false,
       }  
     },
@@ -4324,7 +4325,7 @@ const questionsU9 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u9_q24.mp3'),
+        'file': 'audio/u9_q24.mp3',
         'isPlaying': false,
       }  
     },
@@ -4341,7 +4342,7 @@ const questionsU10 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q1.mp3'),
+        'file': 'audio/q1.mp3',
         'isPlaying': false,
       }
     },
@@ -4356,7 +4357,7 @@ const questionsU10 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q2.mp3'),
+        'file': 'audio/q2.mp3',
         'isPlaying': false,
       }
     },
@@ -4371,7 +4372,7 @@ const questionsU10 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q3.mp3'),
+        'file': 'audio/q3.mp3',
         'isPlaying': false,
       }  
     },
@@ -4388,7 +4389,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q1.mp3'),
+        'file': 'audio/u11_q1.mp3',
         'isPlaying': false,
       }
     },
@@ -4403,7 +4404,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q2.mp3'),
+        'file': 'audio/u11_q2.mp3',
         'isPlaying': false,
       }
     },
@@ -4418,7 +4419,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q3.mp3'),
+        'file': 'audio/u11_q3.mp3',
         'isPlaying': false,
       }  
     },
@@ -4433,7 +4434,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q4.mp3'),
+        'file': 'audio/u11_q4.mp3',
         'isPlaying': false,
       }  
     },
@@ -4448,7 +4449,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q5.mp3'),
+        'file': 'audio/u11_q5.mp3',
         'isPlaying': false,
       }  
     },
@@ -4463,7 +4464,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q6.mp3'),
+        'file': 'audio/u11_q6.mp3',
         'isPlaying': false,
       }  
     },
@@ -4478,7 +4479,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q7.mp3'),
+        'file': 'audio/u11_q7.mp3',
         'isPlaying': false,
       }  
     },
@@ -4493,7 +4494,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q8.mp3'),
+        'file': 'audio/u11_q8.mp3',
         'isPlaying': false,
       }  
     },
@@ -4508,7 +4509,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q9.mp3'),
+        'file': 'audio/u11_q9.mp3',
         'isPlaying': false,
       }  
     },
@@ -4523,7 +4524,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q10.mp3'),
+        'file': 'audio/u11_q10.mp3',
         'isPlaying': false,
       }  
     },
@@ -4538,7 +4539,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q11.mp3'),
+        'file': 'audio/u11_q11.mp3',
         'isPlaying': false,
       }  
     },
@@ -4553,7 +4554,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q12.mp3'),
+        'file': 'audio/u11_q12.mp3',
         'isPlaying': false,
       }  
     },
@@ -4568,7 +4569,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q13.mp3'),
+        'file': 'audio/u11_q13.mp3',
         'isPlaying': false,
       }  
     },
@@ -4583,7 +4584,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q14.mp3'),
+        'file': 'audio/u11_q14.mp3',
         'isPlaying': false,
       }  
     },
@@ -4598,7 +4599,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q15.mp3'),
+        'file': 'audio/u11_q15.mp3',
         'isPlaying': false,
       }  
     },
@@ -4613,7 +4614,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q16.mp3'),
+        'file': 'audio/u11_q16.mp3',
         'isPlaying': false,
       }  
     },
@@ -4628,7 +4629,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q17.mp3'),
+        'file': 'audio/u11_q17.mp3',
         'isPlaying': false,
       }  
     },
@@ -4643,7 +4644,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q18.mp3'),
+        'file': 'audio/u11_q18.mp3',
         'isPlaying': false,
       }  
     },
@@ -4658,7 +4659,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q19.mp3'),
+        'file': 'audio/u11_q19.mp3',
         'isPlaying': false,
       }  
     },
@@ -4673,7 +4674,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q20.mp3'),
+        'file': 'audio/u11_q20.mp3',
         'isPlaying': false,
       }  
     },
@@ -4688,7 +4689,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q21.mp3'),
+        'file': 'audio/u11_q21.mp3',
         'isPlaying': false,
       }  
     },
@@ -4703,7 +4704,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q22.mp3'),
+        'file': 'audio/u11_q22.mp3',
         'isPlaying': false,
       }  
     },
@@ -4718,7 +4719,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q23.mp3'),
+        'file': 'audio/u11_q23.mp3',
         'isPlaying': false,
       }  
     },
@@ -4733,7 +4734,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q24.mp3'),
+        'file': 'audio/u11_q24.mp3',
         'isPlaying': false,
       }  
     },
@@ -4748,7 +4749,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q25.mp3'),
+        'file': 'audio/u11_q25.mp3',
         'isPlaying': false,
       }  
     },
@@ -4763,7 +4764,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q26.mp3'),
+        'file': 'audio/u11_q26.mp3',
         'isPlaying': false,
       }  
     },
@@ -4778,7 +4779,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q27.mp3'),
+        'file': 'audio/u11_q27.mp3',
         'isPlaying': false,
       }  
     },
@@ -4793,7 +4794,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q28.mp3'),
+        'file': 'audio/u11_q28.mp3',
         'isPlaying': false,
       }  
     },
@@ -4808,7 +4809,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q29.mp3'),
+        'file': 'audio/u11_q29.mp3',
         'isPlaying': false,
       }  
     },
@@ -4823,7 +4824,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q30.mp3'),
+        'file': 'audio/u11_q30.mp3',
         'isPlaying': false,
       }  
     },
@@ -4838,7 +4839,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q31.mp3'),
+        'file': 'audio/u11_q31.mp3',
         'isPlaying': false,
       }  
     },
@@ -4853,7 +4854,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q32.mp3'),
+        'file': 'audio/u11_q32.mp3',
         'isPlaying': false,
       }  
     },
@@ -4868,7 +4869,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q33.mp3'),
+        'file': 'audio/u11_q33.mp3',
         'isPlaying': false,
       }  
     },
@@ -4883,7 +4884,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q34.mp3'),
+        'file': 'audio/u11_q34.mp3',
         'isPlaying': false,
       }  
     },
@@ -4898,7 +4899,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q35.mp3'),
+        'file': 'audio/u11_q35.mp3',
         'isPlaying': false,
       }  
     },
@@ -4913,7 +4914,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q36.mp3'),
+        'file': 'audio/u11_q36.mp3',
         'isPlaying': false,
       }  
     },
@@ -4928,7 +4929,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q37.mp3'),
+        'file': 'audio/u11_q37.mp3',
         'isPlaying': false,
       }  
     },
@@ -4943,7 +4944,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q38.mp3'),
+        'file': 'audio/u11_q38.mp3',
         'isPlaying': false,
       }  
     },
@@ -4958,7 +4959,7 @@ const questionsU11 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/u11_q39.mp3'),
+        'file': 'audio/u11_q39.mp3',
         'isPlaying': false,
       }  
     },
@@ -4975,7 +4976,7 @@ const questionsU12 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q1.mp3'),
+        'file': 'audio/q1.mp3',
         'isPlaying': false,
       }
     },
@@ -4990,7 +4991,7 @@ const questionsU12 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q2.mp3'),
+        'file': 'audio/q2.mp3',
         'isPlaying': false,
       }
     },
@@ -5005,7 +5006,7 @@ const questionsU12 = [
     'question': { 
       'description': 'correct', 
       'audio': {
-        'file': new Audio('audio/q3.mp3'),
+        'file': 'audio/q3.mp3',
         'isPlaying': false,
       }  
     },
@@ -5020,6 +5021,11 @@ const questionsU12 = [
 
 Vue.component('hexquestion', {
   props: ['q', 'answers'],
+  data() {
+    return {
+      myAudio: new Audio(this.q.audio.file)
+    }
+  },
   template: `
 <div>
   <pre class="code">{{this.q.description}}</pre>
@@ -5033,16 +5039,21 @@ Vue.component('hexquestion', {
   methods: {
     playQuestion(item) {
       item.isPlaying = true;
-      item.file.play();
+      this.myAudio.play();
       
-      item.file.addEventListener('ended', async () => {
+      this.myAudio.addEventListener('ended', async () => {
         item.isPlaying = false;
         this.$emit('played', true);
       });
     },
     pauseQuestion(item) {
       item.isPlaying = false;
-      item.file.pause();
+      this.myAudio.pause();
+    }
+  },
+  watch: {
+    q () {
+      this.myAudio = new Audio(this.q.audio.file)
     }
   }
 });
@@ -5234,11 +5245,10 @@ new Vue({
       var level;
 
       // try sessionStorage
-      if(sessionStorage.getItem('unit1vo') == null){
+      if(sessionStorage.getItem('unitIframe') == null){
         level = 1;
       }else{
-        level = sessionStorage.getItem('unit1vo');
-        sessionStorage.removeItem('unit1vo');
+        level = sessionStorage.getItem('unitIframe');
       }
 
       if(level == 1)
