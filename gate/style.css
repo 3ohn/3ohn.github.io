@@ -1,7 +1,7 @@
 html {
     background-color: #fff;
     font-family: 'Roboto Slab', serif;
-    height: 100%
+    height: 100%;
 }
 
 body {
@@ -63,8 +63,8 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    text-decoration: none;
     color: #000;
+    text-decoration: none!important;
 }
 
 a:hover {
@@ -230,7 +230,8 @@ span.tooltiptext.grade {
 }
 
 .iframe {
-    height: 100%;
+    height: 120%;
+    display:block;
 }
 
 .unitMobile {
@@ -280,11 +281,12 @@ span.tooltiptext.grade {
 }
 
 .mobileSpace img {
-    width: 43px;
-    height: 43px;
-    margin-left: 17px;
-    margin-top: 6px;
+    width: 3.5rem;
+    height: 32px;
+    margin-left: 2rem;
     cursor: pointer;
+    position: relative;
+    top: 8px;
 }
 
 .typeHeader i {
@@ -348,6 +350,18 @@ span.tooltiptext.grade {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
+    a {
+        font-size: 1.8rem;
+    }
+
+    .logo {
+        font-size: 3.6rem;
+    }
+
+    .gradeTxt {
+        font-size: 1.5rem;
+    }
+
     .unit {
         display: none;
     }
@@ -390,8 +404,19 @@ span.tooltiptext.grade {
         font-size: 24px;
     }
 
+    .gradeTxt {
+        font-size: 1.2rem;
+    }
+
     .unitMobile {
         top: 49px;
+    }
+
+    .mobileSpace img {
+        width: 3.1rem;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        top: 0px;
     }
 
 }
@@ -409,7 +434,11 @@ span.tooltiptext.grade {
     }
 
     .logo {
-        font-size: 24px;
+        font-size: 21px;
+    }
+
+    .gradeTxt {
+        font-size: 1rem;
     }
 
     .mobileSpace {
@@ -430,6 +459,13 @@ span.tooltiptext.grade {
 
     .unitMobile {
         top: 49px;
+    }
+
+    .mobileSpace img {
+        width: 2.8rem;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        top: 0px;
     }
 
 }

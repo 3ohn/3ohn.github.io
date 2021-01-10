@@ -474,16 +474,17 @@ function generateQuestionAnswer() {
 										<div class="choice-number">
 										<p>${i+1 + ":"}</p>
 										</div>
-										<div class="choice-bullet">
-											<label class="container">${myQuestion.questionText[i].optionA}
-												<input type="radio" name="option_answer_${i+1}" class="option-answer" value="A">
-												<span class="checkmark"></span>
-											</label>
-											<label class="container">${myQuestion.questionText[i].optionB}
-												<input type="radio" name="option_answer_${i+1}" class="option-answer" value="B">
-												<span class="checkmark"></span>
-											</label>
-										</div>
+											<div class="choiceOneContainer">
+													<p>${myQuestion.questionText[i].optionA}</p>
+													<input type="radio" name="option_answer_${i+1}" class="option-answer" value="A">
+													<span class="checkmark"></span>
+												
+											</div>
+											<div class="choiceTwoContainer">
+													<p>${myQuestion.questionText[i].optionB}</p>
+													<input type="radio" name="option_answer_${i+1}" class="option-answer" value="B">
+													<span class="checkmark"></span>
+											</div>
 									</div>`;
 	}
 }

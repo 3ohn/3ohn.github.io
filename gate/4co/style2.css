@@ -147,6 +147,14 @@ img {
         margin: 0 12vw;
     }
 
+    h1 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 21px;
+    }
+
 }
 
 /*  Smartphones in landscape mode */
@@ -200,7 +208,7 @@ img {
     }
 
     #div-text_audio h1 {
-        font-size: 22px;
+        font-size: 19px;
     }
 
 }
@@ -249,7 +257,7 @@ img {
     }
 
     #div-text_audio h1 {
-        font-size: 22px;
+        font-size: 16px;
     }
 
 }

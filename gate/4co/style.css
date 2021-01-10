@@ -40,10 +40,21 @@ p {
 }
 
 .check {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
+    display: block;
+    margin-top: 4rem;
+    padding-top: 0;
+    position: relative;
+    height: 152px;
+    top: -38px;
+}
+
+.button-zone {
+    width: 100%;
+    text-align: center;
+}
+
+.message-zone {
+    width: 100%;
 }
 
 .container {
@@ -70,7 +81,7 @@ button {
 
 #message {
     margin-left: 1rem;
-    font-weight: 700;
+    text-align: center;
 }
 
 .green {
@@ -110,6 +121,10 @@ button {
         top: -38px;
     }
 
+    .personOne {
+        font-size: 23px;
+    }
+
     .button-zone {
         width: 100%;
         text-align: center;
@@ -124,6 +139,33 @@ button {
         text-align: center;
     }
 
+    .sentence {
+        font-size: 23px;
+        margin-left: 4px;
+    }
+
+    select {
+        font-size: 20px;
+    }
+
+    .dropdown-answers {
+        padding-left: 1px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .sentence span {
+        left: -5px;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
 }
 
 /*  Smartphones in landscape mode */
@@ -131,13 +173,13 @@ button {
 @media only screen and (min-width: 421px) and (max-width: 767px) {
 
     .personOne {
-        font-size: 21px;
+        font-size: 19px;
         margin: 0;
         font-weight: 700;
     }
 
     .sentence {
-        font-size: 21px;
+        font-size: 19px;
         padding: 0.2rem;
     }
 
@@ -172,6 +214,20 @@ button {
         text-align: center;
     }
 
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+
+    select {
+        font-size: 1rem;
+        position: relative;
+        left: -5px;
+    }
+
 }
 
 /*  Smartphones in portrait mode  */
@@ -179,14 +235,26 @@ button {
 @media only screen and (max-width: 420px) {
 
     .personOne {
-        font-size: 21px;
+        font-size: 16px;
         margin: 0;
         font-weight: 700;
     }
 
     .sentence {
-        font-size: 21px;
+        font-size: 16px;
         padding: 0.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    button {
+        font-size: 0.7rem;
+    }
+
+    select {
+        font-size: 0.8rem;
     }
 
     .dropdown-answers {

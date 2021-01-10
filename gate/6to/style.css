@@ -33,6 +33,7 @@ p {
 	margin: .7rem .5rem .5rem 0;
 }
 
+
 .container2.vid {
     position: fixed;
     width: 66%;
@@ -99,10 +100,15 @@ p {
 	margin-top: 2rem;
 }
 
-#div-question_answer {
-	-ms-overflow-style: none;  /* IE and Edge */
-	scrollbar-width: 0px;  /* Firefox */
+body {
+	overflow: scroll;
 }
+
+body::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
 
   
 /* Above CSS for monitors with screen width 1366px or above */
@@ -117,6 +123,14 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
+	p {
+		font-size: 1.1rem;
+	}
+
+	.container {
+		font-size: 19px;
+	}
+
 	.container2.vid {
 		width: 59%;
 	}
@@ -126,12 +140,30 @@ p {
         grid-column-gap: 3%;
 	}
 
+	.checkmark {
+		top: 4px;
+		left: 0;
+		height: 17px;
+		width: 17px;
+	}
+
+	.checkmark:after {
+		top: 5px!important;
+		left: 5px!important;
+		width: 7px!important;
+		height: 7px!important;
+	}
+
+	button {
+		font-size: 1.2rem;
+	}
+
+
 }
 
 /*  Smartphones in landscape mode */
 
 @media only screen and (min-width: 421px) and (max-width: 767px) {
-
 	.containerWrapper {
 		grid-template-columns: 64% auto;
 	}
@@ -139,19 +171,19 @@ p {
 	.checkmark {
 		height: 7px;
 		width: 7px;
-		top: 5px;
+		top: 3px;
 		left: -5px;
 	}
 
 	p {
-		font-size: 15px;
+		font-size: 12px;
 		margin: -0.3rem 0px .5rem 0;
 		position: relative;
 		top: 7px;
 	}
 
 	.container {
-		font-size: 14px;
+		font-size: 11px;
 		padding-left: 6px;
 	}
 
@@ -165,7 +197,8 @@ p {
 	}
 
 	button {
-		font-size: 0.9rem;
+		font-size: 0.7rem;
+		padding: 7px 10px 7px 10px;
 	}
 
 }
@@ -201,6 +234,19 @@ p {
 	#div-question_answer {
 		overflow: scroll;
 		padding-top: 224px;
+	}
+
+	button {
+		color: white;
+		font-size: 1rem;
+		padding: .5rem 1rem;
+		border: none;
+		border-radius: .2rem;
+		cursor: pointer;
+	}
+	
+	.checkmark {
+		top: 6px;
 	}
 
 }

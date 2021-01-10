@@ -9,7 +9,7 @@ h2 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 1.5rem;
 }
 
 .sentence {
@@ -100,6 +100,10 @@ button {
 /*  Tablets in portrait mode, large display smartphones landscape mode */
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    p {
+        font-size: 1.2rem;
+    }
+
     .sentence {
         font-size: 18px;
     }
@@ -118,13 +122,17 @@ button {
 
 @media only screen and (min-width: 421px) and (max-width: 767px) {
 
+    p {
+        font-size: 0.9rem;
+    }
+
     .sentence {
         font-size: 14px;
     }
 
     .dropdown-answers {
         width: 63px;
-        height: 27px;
+        height: 24px;
         position: relative;
         top: 3px;
     }
@@ -137,6 +145,10 @@ button {
         width: fit-content;
         font-size: 14px;
         top: 0;
+    }
+
+    button {
+        font-size: 11px;
     }
 
 }
@@ -144,26 +156,26 @@ button {
 /*  Smartphones in portrait mode  */
 
 @media only screen and (max-width: 420px) {
+
+    p {
+        font-size: 0.6rem;
+    }
     
     .sentence {
-        font-size: 14px;
-    }
-
-    .dropdown-answers {
-        width: 63px;
-        height: 27px;
-        position: relative;
-        top: 3px;
-    }
-
-    button {
-        font-size: 15px;
+        font-size: 11px;
     }
 
     .dropdown-answers {
         width: fit-content;
-        font-size: 14px;
+        height: 21px;
+        position: relative;
         top: 0;
+        font-size: 11px;
+    }
+
+    button {
+        font-size: 8px;
+        padding: 0.4rem 1rem;
     }
 
 }

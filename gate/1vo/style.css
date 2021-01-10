@@ -474,6 +474,13 @@ button:focus:after {
 /*  Tablets in portrait mode, large display smartphones landscape mode */
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.progress {
+		font-size: 1.7rem;
+	}
+
+	button {
+		font-size: 1.2rem;
+	}
 
 	.label-ctnr .span-not_selected svg {
 		width: 7rem;
@@ -492,15 +499,35 @@ button:focus:after {
 /*  Smartphones in landscape mode */
 
 @media only screen and (min-width: 421px) and (max-width: 767px) {
+	.progress {
+		font-size: 1.4rem;
+	}
+
 	.label-ctnr {
 		display: block;
 		justify-content: center;
 	}
+
+	button {
+		font-size: 0.9rem;
+		padding: 0.775rem 1.7rem 0.775rem;
+	}
+
 }
 
 /*  Smartphones in portrait mode  */
 
 @media only screen and (max-width: 420px) {
+
+	.progress {
+		font-size: 1.1rem;
+	}
+
+	button {
+		font-size: 0.6rem;
+		padding: 0.675rem 1.5rem 0.675rem;
+	}
+
 	.label-ctnr {
 		display: flex;
 		flex-direction: column;
