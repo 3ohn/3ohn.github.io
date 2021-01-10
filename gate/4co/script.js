@@ -38,7 +38,7 @@ function getQuestionFromUnit(){
         borderColorDefault = "gray",
         borderColorRight = "#00ff00",
         borderColorWrong = "#FF3333",
-        messageOnUnselectedBlanks = "Please Fill all the blanks",
+        messageOnUnselectedBlanks = "Again",
         i,
         answersArray = [], 
         selectedAnswersArray = [], 
@@ -186,7 +186,7 @@ function getQuestionFromUnit(){
 
     //this send the data to the index2
     $( "#play-answers" ).click(function() {
-        window.location.href = "index2.html?unit=" + $("#testUnit").val();
+        window.location.href = "index2.html?unit=" + sessionStorage.getItem('unitIframe');;
         // $.ajax({
         //     type: 'GET',
         //     url: 'http://127.0.0.1:5500/4co/index2.html',

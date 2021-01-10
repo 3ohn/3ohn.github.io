@@ -38,10 +38,8 @@ function setIframe(link,type,unit){
 
     //set body to make fixed element in 5li and 6to
     if($('#navType').val() == 5 || $('#navType').val() == 4){
-        console.log('hidden');
         $('body').css('overflow','hidden');
     }else{
-        console.log('scroll');
         $('body').css('overflow','scroll');
     }
 
@@ -128,10 +126,8 @@ function goForward() {
 
     //set body to make fixed element in 5li and 6to
     if($('#navType').val() == 5 || $('#navType').val() == 4){
-        console.log('hidden');
         $('body').css('overflow','hidden');
     }else{
-        console.log('scroll');
         $('body').css('overflow','scroll');
     }
 

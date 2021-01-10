@@ -34,7 +34,7 @@ const questions = [
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'src': 'videos/g1_u1_to.m4v'
 		}
 	}
 ];
@@ -66,7 +66,7 @@ const questionsU2 = [
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'src': 'videos/g1_u2_to.m4v'
 		}
 	}
 ];
@@ -98,7 +98,7 @@ const questionsU3 = [
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'src': 'videos/g1_u3_to.m4v'
 		}
 	}
 ];
@@ -130,7 +130,7 @@ const questionsU4 = [
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'src': 'videos/g1_u4_to.m4v'
 		}
 	}
 ];
@@ -163,7 +163,7 @@ const questionsU5 = [
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'src': 'videos/g1_u5_to.m4v'
 		}
 	}
 ];
@@ -195,7 +195,7 @@ const questionsU6 = [
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'src': 'videos/g1_u6_to.m4v'
 		}
 	}
 ];
@@ -214,20 +214,20 @@ const questionsU7 = [
             { answer: 'C' },
 		],
 		'questionText': [
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'src': 'videos/g1_u7_to.m4v'
 		}
 	}
 ];
@@ -246,20 +246,20 @@ const questionsU8 = [
             { answer: 'A' },
 		],
 		'questionText': [
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'src': 'videos/g1_u8_to.m4v'
 		}
 	}
 ];
@@ -278,20 +278,20 @@ const questionsU9 = [
             { answer: 'A' },
 		],
 		'questionText': [
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'src': 'videos/g1_u9_to.m4v'
 		}
 	}
 ];
@@ -310,20 +310,20 @@ const questionsU10 = [
             { answer: 'C' },
 		],
 		'questionText': [
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'src': 'videos/g1_u10_to.m4v'
 		}
 	}
 ];
@@ -342,20 +342,20 @@ const questionsU11 = [
             { answer: 'C' },
 		],
 		'questionText': [
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'src': 'videos/g1_u11_to.m4v'
 		}
 	}
 ];
@@ -374,20 +374,20 @@ const questionsU12 = [
             { answer: 'C' },
 		],
 		'questionText': [
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'src': 'videos/g1_u12_to.m4v'
 		}
 	}
 ];

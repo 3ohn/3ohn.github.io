@@ -32,7 +32,6 @@ function playAudio(mode, keyAudio) {
             if((keyAudio + 1) % 2 == 1) {
                 textAudio.style.color = '#fc0b03';
                 copyAudio.muted = true;
-                console.log($('.isMobile').css('background-color'));
                 if($('.isMobile').css('background-color') == 'rgb(0, 0, 255)'){
                   mobileWait = 3000;
                 }
@@ -43,7 +42,6 @@ function playAudio(mode, keyAudio) {
             if((keyAudio + 1) % 2 == 0) {
                 textAudio.style.color = '#fc0b03';
                 copyAudio.muted = true;
-                console.log($('.isMobile').css('background-color'));
                 if($('.isMobile').css('background-color') == 'rgb(0, 0, 255)'){
                   mobileWait = 3000;
                 }
