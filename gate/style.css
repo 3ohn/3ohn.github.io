@@ -370,6 +370,10 @@ span.tooltiptext.grade {
         display: flex;
     }
 
+    .unitMobile {
+        top: 51px;
+    }
+
 }
 
 /*  Smartphones in landscape mode */
@@ -409,7 +413,7 @@ span.tooltiptext.grade {
     }
 
     .unitMobile {
-        top: 49px;
+        top: 42px;
     }
 
     .mobileSpace img {
@@ -458,7 +462,7 @@ span.tooltiptext.grade {
     }
 
     .unitMobile {
-        top: 49px;
+        top: 42px;
     }
 
     .mobileSpace img {

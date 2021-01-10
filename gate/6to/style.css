@@ -17,7 +17,9 @@ button {
 	display: grid;
 	grid-template-columns: 66% auto;
 	grid-column-gap: 5%;
+	overflow: scroll;
 }
+
 body {
 	margin: 0.2rem;
     font-family:'Open Sans',sans-serif;
@@ -31,6 +33,10 @@ p {
 	font-size: 1.3rem;
 	font-weight: 700;
 	margin: .7rem .5rem .5rem 0;
+}
+
+.container2 {
+    height: 150%;
 }
 
 
@@ -207,8 +213,13 @@ body::-webkit-scrollbar {
 
 @media only screen and (max-width: 420px) {
 
+	body {
+		margin: 0;
+	}
+
     .containerWrapper {
-        display: block;
+		display: block;
+		padding-bottom: 200px;
     }
 
     .container2.vid {
@@ -216,9 +227,7 @@ body::-webkit-scrollbar {
         z-index: 100;
         background-color: #fff!important;
         padding-bottom: 8px;
-        margin-left: 4px;
-		margin-right: 8px;
-		width: 96%;
+		width: 100%;
 	}
 	
 	.choices {
@@ -247,6 +256,10 @@ body::-webkit-scrollbar {
 	
 	.checkmark {
 		top: 6px;
+	}
+
+	.container2 {
+		height: fit-content;
 	}
 
 }

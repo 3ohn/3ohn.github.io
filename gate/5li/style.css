@@ -41,6 +41,12 @@ button {
     display: grid;
     grid-template-columns: 60% 40%;
     grid-column-gap: 5%;
+    overflow: scroll;
+}
+
+.containerWrapper::-webkit-scrollbar {
+	width: 0;
+	height: 0;
 }
 
 body {
@@ -70,6 +76,8 @@ p {
 
 .center-vid {
     padding-right: 42px;
+    position: fixed;
+    width: 62%;
 }
 
 /* The container */
@@ -172,14 +180,13 @@ body::-webkit-scrollbar {
 	height: 0;
 }
 
-#div-question_answer {
-    max-height: 600px;
-    overflow: scroll;
-}
-
 #div-question_answer::-webkit-scrollbar {
 	width: 0;
 	height: 0;
+}
+
+.container2.choice {
+    height: 150%;
 }
 
 /* Above CSS for monitors with screen width 1366px or above */
@@ -220,6 +227,10 @@ body::-webkit-scrollbar {
         height: 6px;
     }
 
+    .center-vid {
+        width: 56%;
+    }
+
 }
 
 /*  Smartphones in landscape mode */
@@ -236,7 +247,7 @@ body::-webkit-scrollbar {
     }
 
     p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     button {
@@ -283,7 +294,8 @@ body::-webkit-scrollbar {
     }
 
     .center-vid {
-        padding-right: 0;
+        padding-right: 0;    
+        width: 52%;
     }
   
 }
@@ -292,8 +304,17 @@ body::-webkit-scrollbar {
 
 @media only screen and (max-width: 420px) {
 
+    body {
+        margin: 0;
+    }
+
     .containerWrapper {
         display: block;
+        padding-bottom: 200px;
+    }
+
+    .center-vid {
+        z-index: 1;
     }
 
     .container2.vid {
@@ -301,8 +322,9 @@ body::-webkit-scrollbar {
         z-index: 100;
         background-color: #fff!important;
         padding-bottom: 8px;
-        margin-left: 4px;
-        margin-right: 8px;
+        margin-left: 0;
+        margin-right: 0;
+        z-index: 0;
     }
 
     .container2.choice {
@@ -357,6 +379,10 @@ body::-webkit-scrollbar {
     .check {
         text-align: center;
         margin-right: 137px;
+    }
+
+    .container2.choice {
+        height: 200%;
     }
 
 }

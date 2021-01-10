@@ -30,6 +30,7 @@ const questions = [
 			{optionA: "flew", optionB: "flown"},
 			{optionA: "snoker", optionB: "snorkeling"},
 			{optionA: "every", optionB: "ever"},
+			
 		],
 		'video': {
 			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
