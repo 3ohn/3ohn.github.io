@@ -429,10 +429,6 @@ span.tooltiptext.grade {
 
 @media only screen and (max-width: 420px) {
 
-    body {
-        min-height: 557px;
-    }
-
     .unit {
         display: none;
     }

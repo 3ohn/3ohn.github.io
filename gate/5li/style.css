@@ -304,13 +304,19 @@ body::-webkit-scrollbar {
 
 @media only screen and (max-width: 420px) {
 
+    .choice-number p {
+        font-size: 1.2rem;
+    }
+
     body {
         margin: 0;
     }
 
     .containerWrapper {
         display: block;
-        padding-bottom: 200px;
+        padding-bottom: 395px;
+        height: 100%;
+        overflow: hidden;
     }
 
     .center-vid {
@@ -331,10 +337,6 @@ body::-webkit-scrollbar {
         padding-left: 0;
     }
 
-    p {
-        font-size: 0.6rem;
-    }
-
     #div-question_answer {
         width: 287px;
         margin: auto;
@@ -343,15 +345,16 @@ body::-webkit-scrollbar {
 
     .checkmark {
         position: absolute;
-        top: 3px;
-        left: 20px;
+        top: 8px;
+        left: 26px;
         height: 12px;
         width: 12px;
     }
 
     .choiceOneContainer {
-        padding-left: 40px;
+        padding-left: 46px;
         padding-top: 6px;
+        width: 40%;
     }
 
     .choiceTwoContainer {
@@ -367,13 +370,21 @@ body::-webkit-scrollbar {
         background: white;
     }
 
+    .choiceOneContainer p, .choiceTwoContainer p {
+        font-size: 1rem;
+    }
+
+    .choice-number p {
+        font-size: 1rem;
+    }
+
     .choiceOneContainer input{
         left: 15px;
         top: 2px;
     }
 
     button {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 
     .check {

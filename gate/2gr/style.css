@@ -162,6 +162,11 @@ button {
         font-size: 11px;
     }
 
+    .sentence span{
+        margin-right: -3px;
+        margin-left: -3px;
+    }
+
 }
 
 /*  Smartphones in portrait mode  */
@@ -170,6 +175,10 @@ button {
 
     p {
         font-size: 0.6rem;
+    }
+
+    .container {
+        padding-bottom: 200px;
     }
     
     .sentence {
@@ -187,6 +196,11 @@ button {
     button {
         font-size: 8px;
         padding: 0.4rem 1rem;
+    }
+
+    .sentence span{
+        margin-right: -3px;
+        margin-left: -3px;
     }
 
 }

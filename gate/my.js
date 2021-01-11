@@ -36,6 +36,15 @@ function setIframe(link,type,unit){
 
     sessionStorage.setItem('unitIframe', (parseInt(unit)));
 
+    //set body to make fixed element in 5li and 6to
+    if($('#navType').val() == 5 || $('#navType').val() == 4){
+        console.log('hidden');
+        $('body').css('overflow','hidden');
+    }else{
+        console.log('scroll');
+        $('body').css('overflow','scroll');
+    }
+
 }
 
 function goBack() {
@@ -84,6 +93,16 @@ function goBack() {
 
     $(".iframe-src").attr('src',link);
     sessionStorage.setItem('unitIframe', (parseInt(unit)+1));
+
+    //set body to make fixed element in 5li and 6to
+    if($('#navType').val() == 5 || $('#navType').val() == 4){
+        console.log('hidden');
+        $('body').css('overflow','hidden');
+    }else{
+        console.log('scroll');
+        $('body').css('overflow','scroll');
+    }
+
 }
 
 function goForward() {
@@ -106,6 +125,15 @@ function goForward() {
 
     //set background color
     colorNav(parseInt(unit)+1)
+
+    //set body to make fixed element in 5li and 6to
+    if($('#navType').val() == 5 || $('#navType').val() == 4){
+        console.log('hidden');
+        $('body').css('overflow','hidden');
+    }else{
+        console.log('scroll');
+        $('body').css('overflow','scroll');
+    }
 
     var link = null;
     if(parseInt(type) == 0){
@@ -272,6 +300,7 @@ if(sessionStorage.getItem('previousType') != null){
 
     // put in the previous hover
     unitHover(sessionStorage.getItem('previousUnit')-1)
+
 }
 
 

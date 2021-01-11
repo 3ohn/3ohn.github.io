@@ -211,11 +211,19 @@ img {
         font-size: 19px;
     }
 
+    .isMobile {
+        background-color: blue!important;
+    }
+
 }
 
 /*  Smartphones in portrait mode  */
 
 @media only screen and (max-width: 420px) {
+
+    .container {
+        padding-bottom: 200px;
+    }
 
     .playerContainer {
         display: flex;
@@ -258,6 +266,10 @@ img {
 
     #div-text_audio h1 {
         font-size: 16px;
+    }
+
+    .isMobile {
+        background-color: blue!important;
     }
 
 }
