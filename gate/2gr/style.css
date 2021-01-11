@@ -29,7 +29,7 @@ p {
     margin-bottom: 0.2rem;
     font-weight: 400;
     margin-left: 6px;
-    line-height: 51px;
+    line-height: 3rem;
     display: inline;
 }
 
@@ -183,6 +183,8 @@ button {
     
     .sentence {
         font-size: 11px;
+        line-height: 2rem;
+
     }
 
     .dropdown-answers {
