@@ -139,6 +139,8 @@ button {
 
     .sentence {
         font-size: 14px;
+        line-height: 2rem;
+
     }
 
     .dropdown-answers {
