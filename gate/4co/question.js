@@ -6,7 +6,7 @@ questions = [
       "<p class='personOne'>A. Pretty good. And you?</p>" +
       "<p class='sentence'>B. <span>Not bad.</span></p>" +
       "<p class='personOne'>A. Hey, who's that girl over there?</p>" +
-      "<p class='sentence'>B. <span>Oh, that's my friend Laura.</span></p>" +
+      "<p class='sentence'>B. <span>Oh, that's my friend Laura. This is John.</span></p>" +
       "<p class='personOne'>A. Where's she from?</p>" +
       "<p class='sentence'>B. <span>She's from Mexico.</span></p>",
       'audioAndText': new Array(
