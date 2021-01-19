@@ -34,21 +34,20 @@ const questionsU2 = [
       "<p class='sentence'> My name is Mark. I <span>am</span> a student.</p>" +
       "<p class='sentence'> I <span>go</span> to Bangkok University.</p>" +
       "<p class='sentence'> I <span>study</span> engineering.</p>" +
-      "<p class='sentence'> I <span>live</span> in Bangkok with my parents.</p>" +
-      "<p class='sentence'> My mother is from Roi-et and my father is from Chiang mai.</p>" +
+      "<p class='sentence'> I <span>live</span> in Bangkok with my parents. My mother is from Roi-et and my father is from Chiang mai.</p>" +
       "<p class='sentence'> They <span>are</span> doctors. They work in a hospital in Bangkok.</p>" +
       "<p class='sentence'> I have a <span>sister</span>. Her name is Julia.</p>" +
       "<p class='sentence'> She <span>is</span> a nurse.</p>" +
       "<p class='sentence'> She doesn't <span>live</span> in Bangkok with us.</p>" +
-      "<p class='sentence'> She <span>works</span> in a hospital in Phuket.</p>" +
-      "<p class='sentence'> My parents and my sister like their Jobs.</p>" +
+      "<p class='sentence'> She <span>works</span> in a hospital in Phuket. My parents and my sister like their Jobs.</p>" +
       "<p class='sentence'> I <span>know</span> their jobs are very interesting.</p>" +
       "<p class='sentence'> But I <span>don't</span> want to be  a doctor.</p>" +
       "<p class='sentence'> I <span>want</span> to be an engineer. I study every weekday.</p>" +
-      "<p class='sentence'> <span>From</span> Monday <span>to</span> Friday.</p>" +
+      "<p class='sentence'> <span>From</span> </p>" +
+      "<p class='sentence'> Monday <span>to</span> Friday.</p>" +
       "<p class='sentence'> I <span>play</span> basketball every evening</p>" +
       "<p class='sentence'> and <span>I</span> really like it.</p>" +
-      "<p class='sentence'> My parents <span>have</span> dayoff</p>" +
+      "<p class='sentence'> My parents <span>have</span> a day off</p>" +
       "<p class='sentence'> <span>on</span> weekends.</p>" +
       "<p class='sentence'> We usually <span>stay</span> home on  Saturdays.</p>" +
       "<p class='sentence'> Sometimes <span>we</span> travel around</p>" +
@@ -61,33 +60,32 @@ const questionsU3 = [
     {
       'question': " " + 
       "<p class='sentence'> Thai food is <span>spicy</span>.</p>" +
-      "<p class='sentence'> American food <span>is</span>.</p>" +
+      "<p class='sentence'> American food <span>is</span> salty.</p>" +
       "<p class='sentence'> Fried food is <span>greasy</span>.</p>" +
       "<p class='sentence'> The barbecue is <span>delicious</span>.</p>" +
       "<p class='sentence'> The rice soup is <span>smooth</span>.</p>" +
       "<p class='sentence'> The cake is <span>creamy</span>.</p>" +
-      "<p class='sentence'> Boiled  chicken  is <span>bland</span>.</p>" +
-      "<p class='sentence'> The   meat is <span>unhealthy</span></p>" +
-      "<p class='sentence'> The fried pork is <span>greasy</span></p>" +
-      "<p class='sentence'> The seafood is <span>healthy</span></p>" +
-      "<p class='sentence'> The soup is <span>smooth</span></p>" +
-      "<p class='sentence'> The potato chips is <span>crunchy</span></p>" +
-      "<p class='sentence'> The pizza is <span>tasty</span></p>" +
-      "<p class='sentence'> The soda is <span>unhealthy</span></p>" +
-      "<p class='sentence'> The   fruits are <span>healthy</span></p>" +
-      "<p class='sentence'> The vegetables are <span>healthy</span></p>" +
-      "<p class='sentence'> The water is <span>bland</span></p>" +
-      "<p class='sentence'> The chocolate is <span>sweet</span></p>" +
+      "<p class='sentence'> Boiled chicken  is <span>bland</span>.</p>" +
+      "<p class='sentence'> The meat is <span>unhealthy</span>.</p>" +
+      "<p class='sentence'> The fried pork is <span>greasy</span>.</p>" +
+      "<p class='sentence'> The seafood is <span>healthy</span>.</p>" +
+      "<p class='sentence'> The soup is <span>smooth</span>.</p>" +
+      "<p class='sentence'> The potato chips is <span>crunchy</span>.</p>" +
+      "<p class='sentence'> The pizza is <span>tasty</span>.</p>" +
+      "<p class='sentence'> The soda is <span>unhealthy</span>.</p>" +
+      "<p class='sentence'> The fruits are <span>healthy</span>.</p>" +
+      "<p class='sentence'> The vegetables are <span>healthy</span>.</p>" +
+      "<p class='sentence'> The water is <span>bland</span>.</p>" +
+      "<p class='sentence'> The chocolate is <span>sweet</span>.</p>" +
       "<p class='sentence'> I like <span>healthy</span> food.</p>" +
       "<p class='sentence'> I don't like <span>greasy</span> food.</p>" +
       "<p class='sentence'> My mom likes <span>iced</span> tea.</p>" +
-      "<p class='sentence'> My  dad likes <span>hot</span> coffee.</p>" +
+      "<p class='sentence'> My dad likes <span>hot</span> coffee.</p>" +
       "<p class='sentence'> We should eat <span>healthy</span> food.</p>" +
       "<p class='sentence'> We shouldn't eat <span>unhealthy</span> food.</p>" +
       "<p class='sentence'> <span>Sweet</span> food is not good for our health.</p>" +
-      "<p class='sentence'> Are there any good  restaurants <span>in</span> this neighborhood?</p>" +
-      "<p class='sentence'> No, there aren't. But if you want to eat fresh, healthy food you should go to the  downtown.</p>" +
-      "<p class='sentence'> And the <span>food</span> at those</p>" +
+      "<p class='sentence'> Are there any good restaurants <span>in</span> this neighborhood?</p>" +
+      "<p class='sentence'> No, there aren't. But if you want to eat fresh, healthy food you should go to the downtown. And the <span>food</span> at those</p>" +
       "<p class='sentence'> restaurants <span>is</span> quite expensive.</p>"
     }
 ];
@@ -104,17 +102,13 @@ const questionsU4 = [
       "<p class='sentence'> and <span>sometimes</span> on Sundays too.</p>" +
       "<p class='sentence'> What about Don? Does he <span>ever</span> go jogging?</p>" +
       "<p class='sentence'> Yes, he does. He <span>usually</span> goes jogging in the evenings.</p>" +
-      "<p class='sentence'> What about Tom? What does he do to keep fit?</p>" +
-      "<p class='sentence'> He <span>usually</span> plays football</p>" +
+      "<p class='sentence'> What about Tom? What does he do to keep fit? He <span>usually</span> plays football</p>" +
       "<p class='sentence'> <span>on</span> Fridays.</p>" +
       "<p class='sentence'> Sam hates exercising so he <span>never</span> goes to the gym.</p>" +
-      "<p class='sentence'> But sometimes he walks from his office to the Big C.</p>" +
-      "<p class='sentence'> He <span>usually</span> drives to his office.</p>" +
+      "<p class='sentence'> But sometimes he walks from his office to the Big C. He <span>usually</span> drives to his office.</p>" +
       "<p class='sentence'> He <span>sometimes</span> goes swimming.</p>" +
       "<p class='sentence'> Most of my friends <span>usually</span> go to the gym in the evenings.</p>" +
-      "<p class='sentence'> Do you want to go to the gym with me this weekend? Where do you usually go for workout?</p>" +
-      "<p class='sentence'> There is a great place near my house.</p>" +
-      "<p class='sentence'> I <span>usually</span> go there. Great idea! I'll go with you.</p>"
+      "<p class='sentence'> Do you want to go to the gym with me this weekend? Where do you usually go for workout? There is a great place near my house. I <span>usually</span> go there. Great idea! I'll go with you.</p>"
     }
 ];
 
@@ -198,8 +192,8 @@ const questionsU7 = [
       "<p class='sentence'> 70 <span>seventy</span>.</p>" +
       "<p class='sentence'> 80 <span>eighty</span>.</p>" +
       "<p class='sentence'> 90 <span>ninety</span>.</p>" +
-      "<p class='sentence'> 100 <span>one</span> <span>hundred</span>.</p>" +
-      "<p class='sentence'> 101 one <span>hundred</span></p>" +
+      "<p class='sentence'> 100 <span>one hundred</span>.</p>" +
+      "<p class='sentence'> 101: one <span>hundred</span></p>" +
       "<p class='sentence'> and <span>one</span>.</p>" +
       "<p class='sentence'> 1,000 one <span>thousandv</span>.</p>" +
       "<p class='sentence'> 2,000,000 <span>two</span></p>" +
@@ -219,29 +213,25 @@ const questionsU7 = [
 const questionsU8 = [ 
     {
       'question': " " +
-      "<p class='sentence'> <span>What does</span> Robert <span>look like</span>?</p>" +
-      "<p class='sentence'> Is he tall or short?</p>" +
+      "<p class='sentence'> <span>What does</span> Robert</p>" +
+      "<p class='sentence'> <span>look like</span>? Is he tall or short?</p>" +
       "<p class='sentence'> He is tall and <span>looks</span> handsome.</p>" +
       "<p class='sentence'> What's your friend Julie <span>like</span>?</p>" +
-      "<p class='sentence'> Is she friendly? <span></p>" +
-      "<p class='sentence'> She <span>seems</span> very nice and friendly.</p>" +
-      "<p class='sentence'> Jack is really handsome.</p>" +
-      "<p class='sentence'> <span>He looks like</span> a movie star.</sentence></p>" +
-      "<p class='sentence'> What do Sara and Lucy <span>look like</span>? <span></p>" +
+      "<p class='sentence'> Is she friendly? She <span>seems</span> very nice and friendly.</p>" +
+      "<p class='sentence'> Jack is really handsome. He <span>looks like</span> a movie star.</sentence></p>" +
+      "<p class='sentence'> What do Sara and Lucy <span>look like</span>?</p>" +
       "<p class='sentence'> They <span>look</span> beautiful.</p>" +
       "<p class='sentence'> What are Dana and her sister <span>like</span>?</p>" +
-      "<p class='sentence'> <span>They are</span> very smart, funny and <span>look</span> pretty too.</p>" +
-      "<p class='sentence'> Who do you <span>look like</span>?</p>" +
-      "<p class='sentence'> Your mother or your father?</p>" +
+      "<p class='sentence'> <span>They are</span> very smart,</p>" +
+      "<p class='sentence'>  funny and <span>look</span> pretty too.</p>" +
+      "<p class='sentence'> Who do you <span>look like</span>? Your mother or your father?</p>" +
       "<p class='sentence'> I <span>look like my</span> father.</p>" +
-      "<p class='sentence'> What are your parents <span>like</span>?</p>" +
-      "<p class='sentence'> Are they kind? Yes, they are.</p>" +
+      "<p class='sentence'> What are your parents <span>like</span>? Are they kind? Yes, they are.</p>" +
       "<p class='sentence'> What about you? Do you <span>look like</span> your father?</p>" +
-      "<p class='sentence'> No, I don't. I <span>look like</span> my mother.</p>" +
-      "<p class='sentence'> Do you have any sisters?</p>" +
-      "<p class='sentence'> Yes, I do.</p>" +
-      "<p class='sentence'> I have 2 younger sisters.</p>" +
-      "<p class='sentence'> Jane <span>is</span> 18 years old and jenny <span>is</span> 16 years old.</p>" +
+      "<p class='sentence'> No, I don't. I <span>look like</span> my mother. Do you have any sisters? Yes, I do.</p>" +
+      "<p class='sentence'> Jane <span>is</span> 18 years old</p>" +
+      "<p class='sentence'> and Jenny <span>is</span> 16 years old.</p>" +
+      
       "<p class='sentence'> What <span>are</span> they like?</p>" +
       "<p class='sentence'> Well, Jenny <span>is</span> friendly, outgoing and smart.</p>" +
       "<p class='sentence'> Jane <span>is</span> Shy, smart and hardworking.</p>"
@@ -251,13 +241,10 @@ const questionsU8 = [
 const questionsU9 = [ 
     {
       'question': " " +
-      "<p class='sentence'> Where <span>can</span> I go in Thailand?</p>" +
-      "<p class='sentence'> There are many interesting places in Thailand.</p>" +
-      "<p class='sentence'> You can go to Pattaya or Chiangmai.</p>" +
-      "<p class='sentence'> How <span>can I get</span> to Pattaya?</p>" +
+      "<p class='sentence'> Where <span>can</span> I go in Thailand? There are many interesting places in Thailand.</p>" +
+      "<p class='sentence'> You can go to Pattaya or Chiangmai. How <span>can I get</span> to Pattaya?</p>" +
       "<p class='sentence'> You <span>can</span> get there by bus or by van.</p>" +
-      "<p class='sentence'> <span>Can I get</span> there by train?</p>" +
-      "<p class='sentence'> No, there isn't any trains from Bangkok go directly to Pattaya.</p>" +
+      "<p class='sentence'> <span>Can I get</span> there by train? No, there isn't any trains from Bangkok go directly to Pattaya.</p>" +
       "<p class='sentence'> How <span>can I get</span> to chiangmai?</p>" +
       "<p class='sentence'> You <span>can</span> get there by bus, train or plane.</p>" +
       "<p class='sentence'> In Chiangmai you <span>can take</span> a taxi from the airport or the bus station to the downtown.</p>" +
@@ -265,37 +252,27 @@ const questionsU9 = [
       "<p class='sentence'> <span>Where can I</span> watch Thai boxing  game in Bangkok?</p>" +
       "<p class='sentence'> You <span>can watch</span> Thai boxing game at Lumpini park, it's in downtown.</p>" +
       "<p class='sentence'> Thank you so <span>much</span> for your information.</p>" +
-      "<p class='sentence'> You're <span>welcome</span>. Goodbye. <span>Goodbye</span>.</p>" +
-      "<p class='sentence'> Have a great time. You too.</p>"
+      "<p class='sentence'> You're <span>welcome</span>.</p>" +
+      "<p class='sentence'> Goodbye. <span>Goodbye</span>. Have a great time. You too.</p>"
     }
 ];
 
 const questionsU10 = [ 
     {
       'question': " " +
-      "<p class='sentence'> Let's go to a movie. Ok, lets go.</p>" +
-      "<p class='sentence'> <span>Is there</span> a movie theater near you?</p>" +
-      "<p class='sentence'> Yes, there is.</p>" +
-      "<p class='sentence'> <span>There is</span> a great movie theater at The Mall Bangkapi.</p>" +
+      "<p class='sentence'> Let's go to a movie. Ok, lets go. <span>Is there</span> a movie theater near you?</p>" +
+      "<p class='sentence'> Yes, there is. <span>There is</span> a great movie theater at The Mall Bangkapi.</p>" +
       "<p class='sentence'> <span>Are there</span> any good restaurants at The Mall?</p>" +
-      "<p class='sentence'> No, <span>there aren't</span>.</p>" +
-      "<p class='sentence'> But there are lots of Thai restaurants on Latprow road.</p>" +
-      "<p class='sentence'> They aren't far from The mall.</p>" +
-      "<p class='sentence'> <span>Is there</span> a bank around here?</p>" +
+      "<p class='sentence'> No, <span>there aren't</span>. But there are lots of Thai restaurants on Latprow road.</p>" +
+      "<p class='sentence'> They aren't far from The mall. <span>Is there</span> a bank around here?</p>" +
       "<p class='sentence'> No, I'm sorry, <span>there isn't</span> any.</p>" +
       "<p class='sentence'> But <span>there are</span> some banks at BigC Supermarket.</p>" +
-      "<p class='sentence'> What about the gym?</p>" +
-      "<p class='sentence'> <span>Are there</span> any fitness centers around here?</p>" +
-      "<p class='sentence'> Yes, <span>there are</span>.</p>" +
-      "<p class='sentence'> There is a place which is called Sport & Spa.</p>" +
-      "<p class='sentence'> It's across from Tesco Lotus.</p>" +
-      "<p class='sentence'> I'm an English teacher and I'm looking for a job.</p>" +
-      "<p class='sentence'> <span>Are there</span> any English schools in this neighborhood?</p>" +
-      "<p class='sentence'> Yes, <span>there are</span>.</p>" +
-      "<p class='sentence'> Perfect English International is at Soi 178 Ramkhamhaeng R.d.</p>" +
-      "<p class='sentence'> It hires English teachers.</p>" +
-      "<p class='sentence'> Sounds great! <span>There are</span> all the things that I need around here.</p>" +
-      "<p class='sentence'> Thank you for your information. You're  welcome.</p>"
+      "<p class='sentence'> What about the gym? <span>Are there</span> any fitness centers around here?</p>" +
+      "<p class='sentence'> Yes, <span>there are</span>. There is a place which is called Sport & Spa.</p>" +
+      "<p class='sentence'> I'm an English teacher and I'm looking for a job. It's across from Tesco Lotus. <span>Are there</span> any English schools in this neighborhood?</p>" +
+      "<p class='sentence'> Yes, <span>there are</span>. Perfect English International is at Soi 178 Ramkhamhaeng R.d.</p>" +
+      "<p class='sentence'> It hires English teachers. Sounds great! <span>There are</span> all the things that I need around here. Thank you for your information. You're  welcome.</p>"
+      
     }
 ];
 
@@ -305,23 +282,30 @@ const questionsU11 = [
       "<p class='sentence'> Where <span>did</span> you go for your last vacation?</p>" +
       "<p class='sentence'> I <span>went</span> to Pattaya.</p>" +
       "<p class='sentence'> I <span>have</span> some friends there.</p>" +
-      "<p class='sentence'> So I call <span>ed</span> them and they <span>met</span> me at the Jamtian beach.</p>" +
+      "<p class='sentence'> So I call <span>ed</span> them and</p>" +
+      "<p class='sentence'> they <span>met</span> me at the Jamtian beach.</p>" +
       "<p class='sentence'> We <span>sat</span> on the beach whole day, just talking!</p>" +
       "<p class='sentence'> We <span>talked</span> about so many interesting things for many hours.</p>" +
-      "<p class='sentence'> That's why I <span>got</span> sunburn, but that <span>was</span> OK,</p>" +
+      "<p class='sentence'> That's why I <span>got</span> sunburn,</p>" +
+      "<p class='sentence'> but that <span>was</span> OK,</p>" +
       "<p class='sentence'> because I <span>was</span> with my friends on vacation.</p>" +
       "<p class='sentence'> The next day I <span>took</span> a tour of the Nong Nuch Park.</p>" +
       "<p class='sentence'> There <span>are</span> so many interesting things to see.</p>" +
-      "<p class='sentence'> I also <span>atev a lot of really delicious food such as Papaya Salad and barbecue.</p>" +
-      "<p class='sentence'> I can't wait to go back.</p>" +
-      "<p class='sentence'> What about you? What <span>did</span> you <span>do</span> on your summer holiday?</p>" +
+      "<p class='sentence'> I also <span>ate</span> a lot of really delicious food such as Papaya Salad and barbecue.</p>" +
+      "<p class='sentence'> I can't wait to go back. What about you? What <span>did</span> you</p>" +
+      "<p class='sentence'>  <span>do</span> on your summer holiday?</p>" +
+
       "<p class='sentence'> I <span>didn't</span> go anywhere!</p>" +
-      "<p class='sentence'> I <span>had</span> too many things to <span>do</span> at home.</p>" +
+      "<p class='sentence'> I <span>had</span> too many things</p>" +
+      "<p class='sentence'> to <span>do</span> at home.</p>" +
+
       "<p class='sentence'> I <span>stayed</span> home helping my parents.</p>" +
       "<p class='sentence'> I also <span>did</span> my homework.</p>" +
       "<p class='sentence'> I <span>helped</span> my mom cleaning the house.</p>" +
       "<p class='sentence'> We also <span>had</span> fun together.</p>" +
-      "<p class='sentence'> We <span>cooked</span> and <span>ate</span> food together.</p>" +
+      "<p class='sentence'> We <span>cooked</span> and</p>" +
+      "<p class='sentence'> <span>ate</span> food together.</p>" +
+
       "<p class='sentence'> I also <span>watched</span> some football games on the TV.</p>"
     }
 ];
@@ -332,25 +316,21 @@ const questionsU12 = [
       "<p class='sentence'> What are you and Lily <span>going to</span> do this summer?</p>" +
       "<p class='sentence'> We <span>are going to</span> study English at PEI.</p>" +
       "<p class='sentence'> Are Sara and Jack <span>going to play</span> tennis this weekend?</p>" +
-      "<p class='sentence'> Yes, <span>they are.</span></p>" +
+      "<p class='sentence'> Yes, <span>they are</span>.</p>" +
       "<p class='sentence'> Where is Sam <span>going to go</span> on his vacation?</p>" +
       "<p class='sentence'> He <span>is going to</span> visit his friends in Canada.</p>" +
-      "<p class='sentence'> Is Amy <span>going to</span> start studying this month?</p>" +
-      "<p class='sentence'> No, she isn't.</p>" +
-      "<p class='sentence'> She <span>is going to start</span> studying next month.</p>" +
-      "<p class='sentence'> What about John?</p>" +
+      "<p class='sentence'> Is Amy <span>going to</span> start studying this month? No, she isn't.</p>" +
+      "<p class='sentence'> She <span>is going to start</span> studying next month. What about John?</p>" +
       "<p class='sentence'> What is <span>he going to</span> do?</p>" +
       "<p class='sentence'> He's <span>going</span> to teach English at PEI next month.</p>" +
       "<p class='sentence'> Then he <span>is going to</span> get married in December.</p>" +
       "<p class='sentence'> <span>Will</span> you go to his wedding party?</p>" +
       "<p class='sentence'> Sure, I <span>will</span>.</p>" +
       "<p class='sentence'> Where is <span>he going to</span> make the party?</p>" +
-      "<p class='sentence'> He <span>is going to</span> have the party at his house in Bangkok.</p>" +
-      "<p class='sentence'> Wow, that's great!</p>" +
+      "<p class='sentence'> He <span>is going to</span> have the party at his house in Bangkok. Wow, that's great!</p>" +
       "<p class='sentence'> Everything <span>will be</span> prepared for his wedding.</p>" +
       "<p class='sentence'> By the way, I have to <span>go</span> now.</p>" +
-      "<p class='sentence'> I'm <span>going to go</span> to the airport at 4 pm this afternoon.</p>" +
-      "<p class='sentence'> OK, have a safe flight. Thank you. Bye.</p>"
+      "<p class='sentence'> I'm <span>going to go</span> to the airport at 4 pm this afternoon. OK, have a safe flight. Thank you. Bye.</p>"
     }
 ];
 
@@ -551,4 +531,11 @@ function getQuestionFromUnit(){
         return result;
     }
     
+    $('button#grReadText').on("click",function() {
+      var level = sessionStorage.getItem('unitIframe');
+      var audioName = "u"+level+"Audio";
+      if($('#'+audioName).length > 0){
+          document.getElementById(audioName).play()
+      }
+  });
 })(jQuery); // End of use strict

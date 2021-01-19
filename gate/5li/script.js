@@ -33,8 +33,8 @@ const questions = [
 			
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'cover' : '',
+			'src': 'videos/gr1li_1.m4v'
 		}
 	}
 ]
@@ -66,8 +66,8 @@ const questionsU2 = [
 			{optionA: "write", optionB: "right"},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'cover' : '',
+			'src': 'videos/gr1li_2.m4v'
 		}
 	}
 ]
@@ -99,8 +99,8 @@ const questionsU3 = [
 			{optionA: "use too", optionB: "used to"},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'cover' : '',
+			'src': 'videos/gr1li_3.m4v'
 		}
 	}
 ]
@@ -132,8 +132,8 @@ const questionsU4 = [
 			{optionA: "horde", optionB: "horn"},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'cover' : '',
+			'src': 'videos/gr1li_4.m4v'
 		}
 	}
 ]
@@ -165,8 +165,8 @@ const questionsU5 = [
 			{optionA: "pet cure", optionB: "pedicure"},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'cover' : '',
+			'src': 'videos/gr1li_5.m4v'
 		}
 	}
 ]
@@ -198,8 +198,8 @@ const questionsU6 = [
 			{optionA: "live", optionB: "stay"},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'cover' : '',
+			'src': 'videos/gr1li_6.m4v'
 		}
 	}
 ]
@@ -231,8 +231,8 @@ const questionsU7 = [
 			{optionA: "flatter", optionB: "warm"},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'cover' : '',
+			'src': 'videos/gr1li_7.m4v'
 		}
 	}
 ]
@@ -264,8 +264,8 @@ const questionsU8 = [
 			{optionA: "winner", optionB: "winter"},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'cover' : '',
+			'src': 'videos/gr1li_8.m4v'
 		}
 	}
 ]
@@ -297,8 +297,8 @@ const questionsU9 = [
 			{optionA: "coast", optionB: "cost"},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'cover' : '',
+			'src': 'videos/gr1li_9.m4v'
 		}
 	}
 ]
@@ -330,8 +330,8 @@ const questionsU10 = [
 			{optionA: "lose", optionB: "rose"},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'cover' : '',
+			'src': 'videos/gr1li_10.m4v'
 		}
 	}
 ]
@@ -363,8 +363,8 @@ const questionsU11 = [
 			{optionA: "vertically", optionB: "actually"},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'cover' : '',
+			'src': 'videos/gr1li_11.m4v'
 		}
 	}
 ]
@@ -396,8 +396,8 @@ const questionsU12 = [
 			{optionA: "thought", optionB: "thoughts"},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-			'src': 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4'
+			'cover' : '',
+			'src': 'videos/gr1li_12.m4v'
 		}
 	}
 ]

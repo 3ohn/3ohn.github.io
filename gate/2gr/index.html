@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <audio id="u1Audio" src="./audio/u1.mp3"></audio>
+    <audio id="u2Audio" src="./audio/u2.mp3"></audio>
+    <audio id="u3Audio" src="./audio/u3.mp3"></audio>
+    <audio id="u4Audio" src="./audio/u4.mp3"></audio>
+    <audio id="u5Audio" src="./audio/u5.mp3"></audio>
+    <audio id="u6Audio" src="./audio/u6.mp3"></audio>
+    <audio id="u7Audio" src="./audio/u7.mp3"></audio>
+    <audio id="u8Audio" src="./audio/u8.mp3"></audio>
+    <audio id="u9Audio" src="./audio/u9.mp3"></audio>
+    <audio id="u10Audio" src="./audio/u10.mp3"></audio>
+    <audio id="u11Audio" src="./audio/u11.mp3"></audio>
+    <audio id="u12Audio" src="./audio/u12.mp3"></audio>
 <!-- partial:index.partial.html -->
 <div class="container">
         <div class="row lesson-titles">
@@ -17,8 +29,10 @@
         
         <div class="check">
             <button id="check-answers" type="button" class="btn btn-success btn-lg blue">Check</button>&nbsp;&nbsp;
-            <button id="show-answers" type="button" class="btn btn-success btn-lg green">Answers</button>&nbsp;&nbsp;
-            <button id="tryagain" type="button" class="btn btn-success btn-lg gray" >Try again</button>
+            <button onclick="ShowPlayBtn()" id="show-answers" type="button" class="btn btn-success btn-lg green">Answers</button>&nbsp;&nbsp;
+            <button id="tryagain" type="button" class="btn btn-success btn-lg gray" >Try again</button>&nbsp;&nbsp;
+            <button id="grReadText" type="button" class="btn btn-success btn-lg" >Read Text</button>
+
             <p id="message"></p>
         </div>
         <input type="hidden" id="testUnit" name="testUnit">
@@ -28,4 +42,9 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
 <script src="script.js"></script>
+<script>
+    function ShowPlayBtn() {
+        document.getElementById('grReadText').style.display='inline';
+    }
+</script>
 </html>

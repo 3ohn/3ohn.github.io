@@ -9,7 +9,7 @@ window.player = player;
 const questions = [
 	{
 		'question': [
-            { answer: 'D' },
+            { answer: 'C' },
             { answer: 'C' },
             { answer: 'A' },
             { answer: 'C' },
@@ -21,19 +21,19 @@ const questions = [
             { answer: 'B' },
 		],
 		'questionText': [
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+			'cover' : '',
 			'src': 'videos/g1_u1_to.m4v'
 		}
 	}
@@ -41,7 +41,7 @@ const questions = [
 const questionsU2 = [
 	{
 		'question': [
-            { answer: 'D' },
+            { answer: 'C' },
             { answer: 'C' },
             { answer: 'C' },
             { answer: 'B' },
@@ -53,19 +53,19 @@ const questionsU2 = [
             { answer: 'B' },
 		],
 		'questionText': [
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+			'cover' : '',
 			'src': 'videos/g1_u2_to.m4v'
 		}
 	}
@@ -85,19 +85,19 @@ const questionsU3 = [
             { answer: 'B' },
 		],
 		'questionText': [
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+			'cover' : '',
 			'src': 'videos/g1_u3_to.m4v'
 		}
 	}
@@ -106,7 +106,7 @@ const questionsU4 = [
 	{
 		'question': [
             { answer: 'B' },
-            { answer: 'D' },
+            { answer: 'C' },
             { answer: 'C' },
             { answer: 'C' },
             { answer: 'B' },
@@ -117,19 +117,19 @@ const questionsU4 = [
             { answer: 'C' },
 		],
 		'questionText': [
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+			'cover' : '',
 			'src': 'videos/g1_u4_to.m4v'
 		}
 	}
@@ -143,26 +143,26 @@ const questionsU5 = [
             { answer: 'A' },
             { answer: 'C' },
             { answer: 'B' },
-            { answer: 'D' },
+            { answer: 'C' },
             { answer: 'B' },
             { answer: 'A' },
-            { answer: 'D' },
+            { answer: 'C' },
             { answer: 'A' },
 		],
 		'questionText': [
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+			'cover' : '',
 			'src': 'videos/g1_u5_to.m4v'
 		}
 	}
@@ -174,27 +174,27 @@ const questionsU6 = [
             { answer: 'A' },
             { answer: 'A' },
             { answer: 'B' },
-            { answer: 'D' },
             { answer: 'C' },
-            { answer: 'D' },
-            { answer: 'D' },
+            { answer: 'C' },
+            { answer: 'C' },
+            { answer: 'C' },
             { answer: 'B' },
             { answer: 'B' },
 		],
 		'questionText': [
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
-			{optionA: "A", optionB: "B", optionC:'C', optionD: 'D'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
+			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+			'cover' : '',
 			'src': 'videos/g1_u6_to.m4v'
 		}
 	}
@@ -226,7 +226,7 @@ const questionsU7 = [
 			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+			'cover' : '',
 			'src': 'videos/g1_u7_to.m4v'
 		}
 	}
@@ -258,7 +258,7 @@ const questionsU8 = [
 			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+			'cover' : '',
 			'src': 'videos/g1_u8_to.m4v'
 		}
 	}
@@ -290,7 +290,7 @@ const questionsU9 = [
 			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+			'cover' : '',
 			'src': 'videos/g1_u9_to.m4v'
 		}
 	}
@@ -322,7 +322,7 @@ const questionsU10 = [
 			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+			'cover' : '',
 			'src': 'videos/g1_u10_to.m4v'
 		}
 	}
@@ -354,7 +354,7 @@ const questionsU11 = [
 			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+			'cover' : '',
 			'src': 'videos/g1_u11_to.m4v'
 		}
 	}
@@ -386,7 +386,7 @@ const questionsU12 = [
 			{optionA: "A", optionB: "B", optionC:'C'},
 		],
 		'video': {
-			'cover' : 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+			'cover' : '',
 			'src': 'videos/g1_u12_to.m4v'
 		}
 	}
@@ -462,7 +462,7 @@ function generateQuestionAnswer() {
         divQuestionAnswer.innerHTML = divQuestionAnswer.innerHTML
                                     + `<div class="choices">
                                         <div>
-                                        <p>${i+1 + ":"}</p>
+                                        <p id="test">${i+1 + ":"}</p>
                                         </div>
                                         <div>
                                             <label class="container">${myQuestion.questionText[i].optionA}
@@ -477,15 +477,16 @@ function generateQuestionAnswer() {
                                                 <input type="radio" name="option_answer_${i+1}" class="option-answer" value="C">
                                                 <span class="checkmark"></span>
                                             </label>
-                                            <label class="container">${myQuestion.questionText[i].optionD}
-                                                <input type="radio" name="option_answer_${i+1}" class="option-answer" value="D">
-                                                <span class="checkmark"></span>
-                                            </label>
+                                            
                                         </div>
                                     </div>`;
 	}
 	console.log("fnish generate question");
+	
+	
 }
+
+
 
 generateQuestionAnswer();
 // set up video image and link

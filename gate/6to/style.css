@@ -16,7 +16,7 @@ button {
 .containerWrapper {
 	display: grid;
 	grid-template-columns: 66% auto;
-	grid-column-gap: 5%;
+	grid-column-gap: 1%;
 	overflow: scroll;
 }
 
@@ -60,7 +60,7 @@ p {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	margin-left: 0.5rem;
+	margin-left: 2rem;
 }
 
 /* Hide the browser's default radio button */

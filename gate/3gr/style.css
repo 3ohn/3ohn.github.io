@@ -14,7 +14,12 @@ body::-webkit-scrollbar {
 	width: 0;
 	height: 0;
 }
+#grReadText {
+    background-color: black;
+    color: white;
+    display: none;
 
+}
 h2 {
     font-size: 24px;
 }

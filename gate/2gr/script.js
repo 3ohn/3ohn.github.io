@@ -540,5 +540,13 @@ function getQuestionFromUnit(){
         });
         return result;
     }
+
+    $('button#grReadText').on("click",function() {
+        var level = sessionStorage.getItem('unitIframe');
+        var audioName = "u"+level+"Audio";
+        if($('#'+audioName).length > 0){
+            document.getElementById(audioName).play()
+        }
+    });
     
 })(jQuery); // End of use strict
