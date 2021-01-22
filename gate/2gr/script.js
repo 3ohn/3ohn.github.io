@@ -22,20 +22,20 @@ const questions = [
       "<p class='sentence'> We <span>are</span> from Thailand.</p>" +
       "<p class='sentence'> <span>Are</span> Julia and Sara students?</p>" +
       "<p class='sentence'> No, they are <span>not</span>. They/'re teachers.</p>" +
-      "<p class='sentence'> They're <span>are</span>from Thailand.</p>" +
-      "<p class='sentence'> <span>Is</span>Sam a teacher too?</p>" +
+      "<p class='sentence'> They're <span>are</span> from Thailand.</p>" +
+      "<p class='sentence'> <span>Is</span> Sam a teacher too?</p>" +
       "<p class='sentence'> Yes, he <span>is</span>.</p>" +
-      "<p class='sentence'> How old <span>is</span>he?</p>" +
-      "<p class='sentence'> He <span>is</span>49 years old.</p>" +
+      "<p class='sentence'> How old <span>is</span> he?</p>" +
+      "<p class='sentence'> He <span>is</span> 49 years old.</p>" +
       "<p class='sentence'> Where <span>is</span>his home? It is in Bangkok.</p>" +
-      "<p class='sentence'> My brother <span>is</span>a student.</p>" +
-      "<p class='sentence'> He <span>is</span>18 years old.</p>" +
-      "<p class='sentence'> He <span>is</span>at school now.</p>" +   
+      "<p class='sentence'> My brother <span>is</span> a student.</p>" +
+      "<p class='sentence'> He <span>is</span> 18 years old.</p>" +
+      "<p class='sentence'> He <span>is</span> at school now.</p>" +   
       "<p class='sentence'> Lily <span>is</span> a student too.</p>" +
-      "<p class='sentence'> She <span>is</span>20 years old.</p>" +
-      "<p class='sentence'> John and Julie <span>are</span>doctors.</p>" +
-      "<p class='sentence'> They <span>are</span>at the hospital now.</p>" +
-      "<p class='sentence'> This lesson <span>is</span>fun.</p>"
+      "<p class='sentence'> She <span>is</span> 20 years old.</p>" +
+      "<p class='sentence'> John and Julie <span>are</span> doctors.</p>" +
+      "<p class='sentence'> They <span>are</span> at the hospital now.</p>" +
+      "<p class='sentence'> This lesson <span>is</span> fun.</p>"
     }
 ];
 
