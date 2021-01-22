@@ -5415,7 +5415,6 @@ Vue.component('hexquestion', {
         playQuestion(item) {
             item.isPlaying = true;
             this.myAudio.play();
-
             this.myAudio.addEventListener('ended', async () => {
                 item.isPlaying = false;
                 this.$emit('played', true);
@@ -5429,16 +5428,23 @@ Vue.component('hexquestion', {
     watch: {
         q() {
             this.myAudio = new Audio(this.q.audio.file)
+            let newItem = [];
+            newItem.isPlaying = true;
             this.myAudio.play()
+            this.myAudio.addEventListener('ended', async () => {
+                newItem.isPlaying = false;
+                this.$emit('played', true);
+            });
         }
     },
     mounted() {
-        //autoplay
-        this.myAudio.play()
-
-        this.myAudio.addEventListener('ended', async () => {
-            this.$emit('played', true);
-        });
+        let newFile = [];
+        newFile.isPlaying = false
+        this.playQuestion(newFile)
+        // this.myAudio.play()
+        // this.myAudio.addEventListener('ended', async () => {
+        //     this.$emit('played', true);
+        // });
     }
 });
 
@@ -5586,7 +5592,7 @@ new Vue({
             this.questions = this.getQuestionByValue();
 
             this.isIdle = false;
-            console.log(this.disabledAnswer);
+            // console.log(this.disabledAnswer);
         },
         shuffle() {
             this.questions = questions.sort(function (a, b) {
@@ -5595,7 +5601,7 @@ new Vue({
         },
         setAnswerDisable(isPlayedQuestion) {
             if (isPlayedQuestion) this.disabledAnswer = false;
-            console.log(this.disabledAnswer);
+            // console.log(this.disabledAnswer);
         },
         go(r) {
             this.v = r;
@@ -5609,7 +5615,7 @@ new Vue({
             }
         },
         checkAnswer() {
-            console.log(this.v, this.questions[this.currentIndex].question.description, this.v === this.questions[this.currentIndex].question.description);
+            // console.log(this.v, this.questions[this.currentIndex].question.description, this.v === this.questions[this.currentIndex].question.description);
             return this.v === this.questions[this.currentIndex].question.description;
         },
         resetStep() {
@@ -5631,31 +5637,6 @@ new Vue({
         },
         showResults() {
             this.askedForResults = true;
-        },
-        getCurrentQuestionByValue() {
-            var level;
-
-            // try sessionStorage
-            if (sessionStorage.getItem('unitIframe') === null) {
-                level = 1;
-            } else {
-                level = sessionStorage.getItem('unitIframe');
-            }
-            const currentLiveQuestion = this.getQuestionByValue()
-            return currentLiveQuestion[level].question.audio;
-        },
-        getCurrentQuestionByValue() {
-            var level;
-
-            // try sessionStorage
-            if (sessionStorage.getItem('unitIframe') == null) {
-                level = 1;
-            } else {
-                level = sessionStorage.getItem('unitIframe');
-            }
-
-            const allQ = this.getQuestionByValue()
-            return allQ[level].question.audio
         },
         getQuestionByValue() {
             var level;
