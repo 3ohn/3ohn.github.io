@@ -487,8 +487,44 @@ function generateQuestionAnswer() {
 }
 
 
+function generateQuestionAnswerAnother() {
+    let divQuestionAnswer = document.querySelector('#div-question_answer');
+	var myQuestion = getQuestionFromUnit()[0];
+    for(const [i, v] of myQuestion.question.entries()) {
+        divQuestionAnswer.innerHTML = divQuestionAnswer.innerHTML
+                                    + `<div class="choices">
+                                        <div>
+                                        <p id="test">${i+11 + ":"}</p>
+                                        </div>
+                                        <div>
+                                            <label class="container">${myQuestion.questionText[i].optionA}
+                                                <input type="radio" name="option_answer_${i+1}" class="option-answer" value="A">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">${myQuestion.questionText[i].optionB}
+                                                <input type="radio" name="option_answer_${i+1}" class="option-answer" value="B">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">${myQuestion.questionText[i].optionC}
+                                                <input type="radio" name="option_answer_${i+1}" class="option-answer" value="C">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            
+                                        </div>
+                                    </div>`;
+	}
+	console.log("fnish generate question");
+	
+}
 
-generateQuestionAnswer();
+
+var level = sessionStorage.getItem('unitIframe');
+
+if(level > 6){
+	generateQuestionAnswerAnother();
+}else{
+	generateQuestionAnswer();
+}
 // set up video image and link
 var video = document.getElementById('myVideoTag');
 var sources = video.getElementsByTagName('source');

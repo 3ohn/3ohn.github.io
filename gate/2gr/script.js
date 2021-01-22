@@ -1,19 +1,19 @@
 const questions = [ 
     {
       'question': " " + 
-      "<p class='sentence'> I <span>am</span>.</p>" +
+      "<p class='sentence'> I <span>am, this is a test</span>.</p>" +
       "<p class='sentence'> You <span>are</span>.</p>" +
       "<p class='sentence'> They <span>are</span>.</p>" +
       "<p class='sentence'> We <span>are</span>.</p>" +
       "<p class='sentence'> He <span>is</span>.</p>" +
       "<p class='sentence'> She <span>is</span>.</p>" +
-      "<p class='sentence'> It <span>is</span>.</p>" +
+      "<p class='sentence'> It <span>is, test test test</span>.</p>" +
       "<p class='sentence'> The cars <span>are</span>.</p>" +
       "<p class='sentence'> Sara and Jack <span>are</span>.</p>" +
       "<p class='sentence'> The people <span>are</span>.</p>" +
       "<p class='sentence'> The dogs <span>are</span>.</p>" +
       "<p class='sentence'> The water <span>are</span>.</p>" +
-      "<p class='sentence'> My uncle <span>is</span>.</p>" +
+      "<p class='sentence'> My uncle <span>is test</span>.</p>" +
       "<p class='sentence'> March <span>is</span>.</p>" +
       "<p class='sentence'> Today <span>is</span>.</p>" +
       "<p class='sentence'> These books <span>are</span>.</p>" +
@@ -461,6 +461,7 @@ function getQuestionFromUnit(){
         totalUnanswered = answersArray.length;
           $('.sentence span select').each(function(index) {
               var indexInc = index + 1;
+
             // Accessing answer in span and storing in answer variable
             var answer = $(this).find(':selected').text();
             var answerIndex = $(this).find(':selected').index();
@@ -474,6 +475,7 @@ function getQuestionFromUnit(){
               if(answerIndex != 0) {
                   totalUnanswered = totalUnanswered - 1;
               }
+
         });
         
         // Check if all options are selected, if yes then set its status to true
@@ -506,10 +508,47 @@ function getQuestionFromUnit(){
     });
     $( "#show-answers" ).click(function() {
         $('.sentence span select').each(function(i, el) {
-            console.log(answersArray);
             $(el).val(answersArray[i]).change();
             $(el).css('borderColor', borderColorRight);
             $('#message').hide();
+         
+            (function($, window){
+                var arrowWidth = 30;
+            
+                $.fn.resizeselect = function(settings) {  
+                  return this.each(function() { 
+            
+                    $(this).change(function(){
+                      var $this = $(this);
+            
+                      // create test element
+                      var text = $this.find("option:selected").text();
+            
+                      var $test = $("<span>").html(text).css({
+                        "font-size": $this.css("font-size"), // ensures same size text
+                        "visibility": "hidden" 							 // prevents FOUC
+                      });
+            
+            
+                      // add to body, get width, and get out
+                      $test.appendTo($this.parent());
+                      var width = $test.width() - 5;
+                      $test.remove();
+        
+                      // set select width
+                      var finalWidth = width > 1200 ? 145 : width;
+                      $this.width(finalWidth + arrowWidth);
+                     
+                      // run on start
+                    }).change();
+            
+                  });
+                };
+            
+                // run by default
+                $("select#answer-"+(i+1)).resizeselect();                       
+            
+              })(jQuery, window);
         });  
     });
 
@@ -548,5 +587,52 @@ function getQuestionFromUnit(){
             document.getElementById(audioName).play()
         }
     });
-    
 })(jQuery); // End of use strict
+
+
+setTimeout(function(){
+
+    for(var i = 1;i<=$('.dropdown-answers').length;i++){
+      $('p #answer-'+i).on('change', function () {
+        var arrowWidth = 30;
+        var $this = $(this);
+        var text = $this.find("option:selected").text();
+        var $test = $("<span>").html(text).css({
+          "font-size": $this.css("font-size"), // ensures same size text
+          "visibility": "hidden" 							 // prevents FOUC
+        });
+        $test.appendTo($this.parent());
+        var width = $test.width() - 5;
+        $test.remove();
+  
+        // set select width
+        $this.width(width + arrowWidth);
+    })                 
+    }
+},203)
+  
+
+var level = sessionStorage.getItem('unitIframe');
+//change the title unit wise by below code
+// unit-grammar-2
+if($('.unit-grammar-2').length > 0){
+    //here is title of unit wise section
+    var array_title = [
+        "Blan blah <strong>test test etststd </strong> 111111",
+        "This is a test with a br tag<strong>to see if there will be a new line</strong> Some text on line 1 <br><br> Some text on line 2",
+        "Present simp wer ewrle <strong>verb to be qwf wq</strong> 3222",
+        "Present simp werwer le <strong>verb to be qwaefqw ef qwef qwef rwqef qwef wqefr wqrfwqfrwqffwe</strong> 42",
+        "Present simp wer werle <strong>verb to beqwe wqe rwe rwer </strong> 5.2222",
+        "Present simp wer wele <strong>verb to bew efrwq erwe we we</strong> 6222.222",
+        "Present simpwer wer le <strong>verb to be werf wqefr wer wer we</strong> 7.5.5.5.5.",
+        "Present simpr wer le <strong>verb to be wefr wer </strong> 8.6.6.6.",
+        "Present simpw erf wele <strong>verb to bewe wer </strong> 9343545",
+        "Present simp wer wele <strong>verb to be wefr we</strong> 10ffff",
+        "Present simpw er wele <strong>verb to be wefr wer </strong> 11ssss",
+        "Present simpl ewr wee <strong>verb to bw rwer wer e</strong> 12ghhhh",
+    ]
+    $('.unit-grammar-2').html(array_title[level - 1])
+}
+
+
+

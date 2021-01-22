@@ -403,7 +403,7 @@ function getQuestionFromUnit(){
 
         // collecting answers
         $('.sentence').each(function(index) {
-            // Accessing answer in span and storing in answer variable
+          // Accessing answer in span and storing in answer variable
             var answer = $(this).find('span').text();
             // sotring each answer in answersArray
             answersArray.push(answer);
@@ -444,6 +444,7 @@ function getQuestionFromUnit(){
             );
             
         });
+
     },201);
 
     // ON CLICK FUNCTIONALITY
@@ -498,10 +499,44 @@ function getQuestionFromUnit(){
     });
     $( "#show-answers" ).click(function() {
         $('.sentence span select').each(function(i, el) {
-            console.log(answersArray);
             $(el).val(answersArray[i]).change();
             $(el).css('borderColor', borderColorRight);
             $('#message').hide();
+            (function($, window){
+              var arrowWidth = 30;
+          
+              $.fn.resizeselect = function(settings) {  
+                return this.each(function() { 
+          
+                  $(this).change(function(){
+                    var $this = $(this);
+          
+                    // create test element
+                    var text = $this.find("option:selected").text();
+          
+                    var $test = $("<span>").html(text).css({
+                      "font-size": $this.css("font-size"), // ensures same size text
+                      "visibility": "hidden" 							 // prevents FOUC
+                    });
+          
+          
+                    // add to body, get width, and get out
+                    $test.appendTo($this.parent());
+
+                    var width = $test.width() - 5;
+                    $test.remove();
+                    var finalWidth = width > 1200 ? 145 : width;
+                    $this.width(finalWidth + arrowWidth);
+                    // run on start
+                  }).change();
+          
+                });
+              };
+          
+              // run by default
+              $("select#answer-"+(i+1)).resizeselect();                       
+          
+            })(jQuery, window);
         });  
     });
 
@@ -539,3 +574,51 @@ function getQuestionFromUnit(){
       }
   });
 })(jQuery); // End of use strict
+
+
+
+setTimeout(function(){
+
+  for(var i = 1;i<=$('.dropdown-answers').length;i++){
+    $('p #answer-'+i).on('change', function () {
+      var arrowWidth = 30;
+      var $this = $(this);
+      var text = $this.find("option:selected").text();
+      var $test = $("<span>").html(text).css({
+        "font-size": $this.css("font-size"), // ensures same size text
+        "visibility": "hidden" 							 // prevents FOUC
+      });
+      $test.appendTo($this.parent());
+      var width = $test.width() - 5;
+      $test.remove();
+
+      // set select width
+      $this.width(width + arrowWidth);
+  })                 
+  }
+},203)
+
+
+
+var level = sessionStorage.getItem('unitIframe');
+//change the title unit wise by below code
+// unit-grammar-3
+if($('.unit-grammar-3').length > 0){
+    //here is title of unit wise section
+    var array_title = [
+        "title w4 g<strong>1 g wg w</strong>",
+        "title w4 gw4g <strong>2</strong>",
+        "title e5 g <strong>3</strong>",
+        "title we rg<strong>4</strong>",
+        "titlewre gerg rg  <strong>5</strong>",
+        "title e yee g rtg rg<strong>6</strong>",
+        "titlee4e4e4 <strong>7</strong>",
+        "title5 y45 y4y <strong>8</strong>",
+        "titleg 45g 45 4 <strong>9</strong>",
+        "titleergterg ertg45 <strong>1</strong>0",
+        "titletg rtg  <strong>1</strong>1",
+        "titlew rgt r <strong>12</strong>",
+    ]
+    $('.unit-grammar-3').html(array_title[level - 1])
+}
+

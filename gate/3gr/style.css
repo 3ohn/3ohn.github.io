@@ -1,25 +1,27 @@
 body {
     margin: 0;
     padding: 0;
-    font-family:'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     overflow: scroll;
 }
 
 body::-webkit-scrollbar {
-	width: 0;
-	height: 0;
+    width: 0;
+    height: 0;
 }
 
 #div-question_answer::-webkit-scrollbar {
-	width: 0;
-	height: 0;
+    width: 0;
+    height: 0;
 }
+
 #grReadText {
     background-color: black;
     color: white;
     display: none;
 
 }
+
 h2 {
     font-size: 24px;
 }
@@ -43,12 +45,14 @@ p {
 }
 
 .dropdown-answers {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    border: 1.5px solid gray;   
+    /* padding-left: 0.5em;
+    padding-right: 0.5em; */
+    border: 1.5px solid gray;
+    margin: 0px;
+    width: 4.4rem;
 }
 
-.sentence span{
+.sentence span {
     margin-right: 4px;
 }
 
@@ -72,7 +76,7 @@ p {
 
 select {
     font-size: 1.5rem;
-    margin: 0 0.3rem;
+    /* margin: 0 0.3rem; */
 }
 
 .text-center {
@@ -126,7 +130,7 @@ button {
     }
 
     .dropdown-answers {
-        width: fit-content;
+        /* width: fit-content; */
         font-size: 17px;
     }
 
@@ -144,11 +148,11 @@ button {
     }
 
     .sentence {
+        line-height: 2.5;
         font-size: 14px;
     }
 
     .dropdown-answers {
-        width: 63px;
         height: 24px;
         position: relative;
         top: 3px;
@@ -159,16 +163,16 @@ button {
     }
 
     .dropdown-answers {
-        width: fit-content;
         font-size: 14px;
         top: 0;
+        margin-right: 0.3rem;
     }
 
     button {
         font-size: 11px;
     }
 
-    .sentence span{
+    .sentence span {
         margin-right: -3px;
         margin-left: -3px;
     }
@@ -186,7 +190,7 @@ button {
     .container {
         padding-bottom: 200px;
     }
-    
+
     .sentence {
         font-size: 11px;
         line-height: 2rem;
@@ -194,7 +198,6 @@ button {
     }
 
     .dropdown-answers {
-        width: fit-content;
         height: 21px;
         position: relative;
         top: 0;
@@ -206,7 +209,7 @@ button {
         padding: 0.4rem 1rem;
     }
 
-    .sentence span{
+    .sentence span {
         margin-right: -3px;
         margin-left: -3px;
     }
