@@ -5441,10 +5441,6 @@ Vue.component('hexquestion', {
         let newFile = [];
         newFile.isPlaying = false
         this.playQuestion(newFile)
-        // this.myAudio.play()
-        // this.myAudio.addEventListener('ended', async () => {
-        //     this.$emit('played', true);
-        // });
     }
 });
 
@@ -5676,6 +5672,8 @@ new Vue({
         },
     },
     mounted() {
-        this.start();
+        // this.start();
     },
 });
+
+

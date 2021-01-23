@@ -1,15 +1,23 @@
+.container-fluid {
+    padding: 0 !important;
+}
+
+.container-fluid .col-sm-6 {
+    padding-right: 0 !important;
+}
+
 button {
     color: white;
     font-size: 1.5rem;
     padding: .5rem 1rem;
     border: none;
-	border-radius: .2rem;
-	cursor: pointer;
+    border-radius: .2rem;
+    cursor: pointer;
 }
 
 .choice-number {
     position: absolute;
-    top: -7px;
+    top: 2px;
 }
 
 .choiceOneContainer {
@@ -45,13 +53,13 @@ button {
 }
 
 .containerWrapper::-webkit-scrollbar {
-	width: 0;
-	height: 0;
+    width: 0;
+    height: 0;
 }
 
 body {
-	margin: 0.2rem;
-    font-family:'Open Sans',sans-serif;
+    margin: 0.2rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .choices {
@@ -69,9 +77,9 @@ body {
 }
 
 p {
-	font-size: 1.3rem;
-	font-weight: 700;
-	margin: .7rem .5rem .5rem 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: .7rem .5rem .5rem 0;
 }
 
 .center-vid {
@@ -122,13 +130,13 @@ p {
 }
 
 /* On mouse-over, add a grey background color */
-.choiceOneContainer:hover input ~ .checkmark, 
-.choiceTwoContainer:hover input ~ .checkmark{
+.choiceOneContainer:hover input ~ .checkmark,
+.choiceTwoContainer:hover input ~ .checkmark {
     background-color: #D8D8D8;
 }
 
 /* When the radio button is checked, add a blue background */
-.choiceOneContainer input:checked ~ .checkmark, 
+.choiceOneContainer input:checked ~ .checkmark,
 .choiceTwoContainer input:checked ~ .checkmark {
     background-color: #2196F3;
 }
@@ -141,13 +149,13 @@ p {
 }
 
 /* Show the indicator (dot/circle) when checked */
-.choiceOneContainer input:checked ~ .checkmark:after, 
+.choiceOneContainer input:checked ~ .checkmark:after,
 .choiceTwoContainer input:checked ~ .checkmark:after {
     display: block;
 }
 
 /* Style the indicator (dot/circle) */
-.choiceOneContainer .checkmark:after, 
+.choiceOneContainer .checkmark:after,
 .choiceTwoContainer .checkmark:after {
     top: 6px;
     left: 6px;
@@ -172,17 +180,17 @@ p {
 }
 
 body {
-	overflow: scroll;
+    overflow: scroll;
 }
 
 body::-webkit-scrollbar {
-	width: 0;
-	height: 0;
+    width: 0;
+    height: 0;
 }
 
 #div-question_answer::-webkit-scrollbar {
-	width: 0;
-	height: 0;
+    width: 0;
+    height: 0;
 }
 
 .container2.choice {
@@ -267,7 +275,7 @@ body::-webkit-scrollbar {
         width: 6px;
         height: 6px;
     }
-    
+
     .choiceOneContainer {
         padding-left: 40px;
     }
@@ -294,10 +302,10 @@ body::-webkit-scrollbar {
     }
 
     .center-vid {
-        padding-right: 0;    
+        padding-right: 0;
         width: 52%;
     }
-  
+
 }
 
 /*  Smartphones in portrait mode  */
@@ -326,7 +334,7 @@ body::-webkit-scrollbar {
     .container2.vid {
         position: fixed;
         z-index: 100;
-        background-color: #fff!important;
+        background-color: #fff !important;
         padding-bottom: 22px;
         margin-left: 0;
         margin-right: 0;
@@ -338,9 +346,9 @@ body::-webkit-scrollbar {
     }
 
     #div-question_answer {
-        width: 287px;
-        margin: auto;
-        padding-top: 231px;
+        /*width: 287px;*/
+        margin: 0px auto;
+        /*padding-top: 231px;*/
     }
 
     .checkmark {
@@ -354,7 +362,7 @@ body::-webkit-scrollbar {
     .choiceOneContainer {
         padding-left: 46px;
         padding-top: 6px;
-        width: 40%;
+        width: 50%;
     }
 
     .choiceTwoContainer {
@@ -378,7 +386,7 @@ body::-webkit-scrollbar {
         font-size: 1rem;
     }
 
-    .choiceOneContainer input{
+    .choiceOneContainer input {
         left: 15px;
         top: 2px;
     }
@@ -389,11 +397,12 @@ body::-webkit-scrollbar {
 
     .check {
         text-align: center;
-        margin-right: 137px;
+        /*margin-right: 137px;*/
     }
 
     .container2.choice {
         height: 200%;
+        /*padding-left: 50px;*/
     }
 
 }

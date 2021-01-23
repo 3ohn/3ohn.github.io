@@ -462,7 +462,7 @@ function generateQuestionAnswer() {
         divQuestionAnswer.innerHTML = divQuestionAnswer.innerHTML
                                     + `<div class="choices">
                                         <div>
-                                        <p id="test">${i+1 + ":"}</p>
+                                        <p>${(i + 1 < 10) ? "&nbsp;&nbsp;" + (i + 1) : i + 1}</p>
                                         </div>
                                         <div>
                                             <label class="container">${myQuestion.questionText[i].optionA}
