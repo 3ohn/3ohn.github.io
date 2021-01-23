@@ -16,7 +16,12 @@
 		<div v-if="!isIdle" class="progress">{{currentIndex+1}} / {{total}}</div>
 		<transition name="fade" mode="out-in">
 			<header v-if="isIdle">
-				<!-- <button type="button" @click="start">Start!</button> -->
+				<div class="row lesson-titles text-center main_div_audio">
+					<h1 class="startH1" style="margin-bottom: 0">Start Exam</h1>
+					<p id="demo" class="col-md-12 col-lg-12 text-center startH1"><span
+							class="unit-1vo">By Click below button</span></p>
+					<button type="button" @click="start" id="start">Start!</button>
+				</div>
 			</header>
 			<div class="main-ctnr" v-else>
 				<div class="container">
@@ -61,7 +66,12 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script>
 <script src="./script.js"></script>
 <script type="text/javascript">
-    var audio = new Audio("./audio/u1_q1.mp3");
+    $(document).ready(function () {
+        $(window).height();
+        var h = $(window).height() - $(".main_div_audio").height()
+        // console.log(h / 2)
+        $(".main_div_audio").css({"margin-top": h / 3.3 + "px"})
+    })
 </script>
 </body>
 </html>

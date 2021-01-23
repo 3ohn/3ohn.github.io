@@ -3,20 +3,23 @@ html {
     font-family: 'Roboto Slab', serif;
     height: 100%;
 }
+
 h3 {
     margin: 0;
 }
+
 body {
     margin: 0;
     height: 100%;
+    width: 100%;
 }
 
 header {
     background-color: #d3d3d3;
     display: grid;
     grid-template-columns: 20% auto 20%;
-    
-    
+
+
 }
 
 button {
@@ -70,7 +73,7 @@ a {
     align-items: center;
     font-size: 2rem;
     color: #000;
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 a:hover {
@@ -261,7 +264,7 @@ span.tooltiptext.grade {
 
 .iframe {
     height: 120%;
-    display:block;
+    display: block;
 }
 
 .unitMobile {
@@ -413,7 +416,7 @@ span.tooltiptext.grade {
     body {
         min-height: 557px;
     }
-    
+
     .unit {
         display: none;
     }
