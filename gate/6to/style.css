@@ -141,6 +141,13 @@ body::-webkit-scrollbar {
 
 /*  Below CSS for tablets in landscape mode, older desktop monitors */
 
+/*mobile*/
+@media only screen and (max-width: 767px) {
+    .choices {
+        justify-content: center;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         margin: 0px !important;
@@ -209,9 +216,9 @@ body::-webkit-scrollbar {
 
     p {
         font-size: 12px;
-        margin: -0.3rem 0px .5rem 0;
-        position: relative;
-        top: 7px;
+        /*margin: -0.3rem 0px .5rem 0;*/
+        /*position: relative;*/
+        /*top: 7px;*/
     }
 
     .container {

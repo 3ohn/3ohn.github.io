@@ -2,9 +2,9 @@
     padding: 0 !important;
 }
 
-.container-fluid .col-sm-6 {
-    padding-right: 0 !important;
-}
+/*.container-fluid .col-sm-6 {*/
+/*    padding-right: 0 !important;*/
+/*}*/
 
 button {
     color: white;
@@ -68,6 +68,7 @@ body {
     position: relative;
     margin-bottom: 7px;
     top: 17px;
+    justify-content: left;
 }
 
 .choiceOneContainer p,
@@ -309,6 +310,66 @@ body::-webkit-scrollbar {
 }
 
 /*  Smartphones in portrait mode  */
+@media only screen and (min-width: 426px) and  (max-width: 459px) {
+    #div-question_answer {
+        padding-left: 25px !important;
+    }
+
+    .choiceOneContainer, .choiceTwoContainer {
+        width: 30% !important;
+    }
+
+    .choiceOneContainer {
+        padding-left: 50px !important;
+    }
+
+    .choiceTwoContainer {
+        padding-left: 30px !important;
+    }
+
+    .choice-number {
+        left: 3rem !important;
+    }
+
+    .check {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 460px) and  (max-width: 568px) {
+    .choiceOneContainer, .choiceTwoContainer {
+        width: 20% !important;
+        padding-left: 25px;
+        justify-content: center;
+    }
+
+    .choice-number {
+        left: 7rem !important;
+        top: 4px;
+    }
+
+    .checkmark {
+        left: 0 !important;
+    }
+
+    .check {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .choices {
+        justify-content: center;
+    }
+
+    .choice-number {
+        left: 0;
+    }
+
+    .choiceOneContainer, .choiceTwoContainer {
+        width: 50%;
+    }
+}
 
 @media only screen and (max-width: 420px) {
 
@@ -360,13 +421,13 @@ body::-webkit-scrollbar {
     }
 
     .choiceOneContainer {
-        padding-left: 46px;
-        padding-top: 6px;
-        width: 50%;
+        /*padding-left: 46px;*/
+        /*padding-top: 6px;*/
+        /*width: 50%;*/
     }
 
     .choiceTwoContainer {
-        padding-left: 15px;
+        /*padding-left: 15px;*/
     }
 
     .choiceOneContainer .checkmark:after, .choiceTwoContainer .checkmark:after {
