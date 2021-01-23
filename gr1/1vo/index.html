@@ -1,63 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Picture Quiz</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <title>Picture Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <div id="app" class="app">
-	<section v-show="!askedForResults">
-		<div v-if="!isIdle" class="progress">{{currentIndex+1}} / {{total}}</div>
-		<transition name="fade" mode="out-in">
-			<header v-if="isIdle">
-<!--				<div class="row lesson-titles text-center main_div_audio">-->
-				<!--					<h1 class="startH1" style="margin-bottom: 0">Start Exam</h1>-->
-				<!--					<p id="demo" class="col-md-12 col-lg-12 text-center startH1"><span-->
-				<!--							class="unit-1vo">By Click below button</span></p>-->
-				<!--					<button type="button" @click="start" id="start">Start!</button>-->
-				<!--				</div>-->
-			</header>
-			<div class="main-ctnr" v-else>
-				<div class="container">
-					<div>
-						<hexquestion class="hex" :q="question" :answers="answers"
-						             @played="setAnswerDisable"></hexquestion>
-						<answers class="answers" :v="v" :q="question" :answers="answers" @answered="go"
-						         :disabled="{disabledQuestion: disabled, disabledAnswer: disabledAnswer}"></answers>
-					</div>
-					<div>
-						<transition name="fade">
-							<button v-show="shouldShowNext" type="button" @click="displayNext">Next</button>
-						</transition>
-						<transition name="fade">
-							<button v-show="allDone" type="button" @click="showResults">Results</button>
-						</transition>
-					</div>
-				</div>
-			</div>
-		</transition>
-	</section>
-	<transition name="fade2">
-		<section class="score" v-show="askedForResults">
-			<h1>Your Result:</h1>
-			<finalresults :finalpercentage="finalPercentage"></finalresults>
-			<button type="button" @click="playAgain">Start Again</button>
-		</section>
-	</transition>
-	<!-- this is for display the status and store level of the question -->
-	<input type="hidden" id="testType" name="testType" value="vo">
-	<input type="hidden" id="testUnit" name="testUnit" v-model="myUnit">
+    <section v-show="!askedForResults">
+        <div v-if="!isIdle" class="progress">{{currentIndex + 1}} / {{total}}</div>
+        <transition name="fade" mode="out-in">
+            <header v-if="isIdle">
+            </header>
+            <div class="main-ctnr" v-else>
+                <div class="container">
+                    <div>
+                        <hexquestion class="hex" :q="question" :answers="answers"
+                                     @played="setAnswerDisable"></hexquestion>
+                        <answers class="answers" :v="v" :q="question" :answers="answers" @answered="go"
+                                 :disabled="{disabledQuestion: disabled, disabledAnswer: disabledAnswer}"></answers>
+                    </div>
+                    <div>
+                        <transition name="fade">
+                            <button v-show="shouldShowNext" type="button" @click="displayNext">Next</button>
+                        </transition>
+                        <transition name="fade">
+                            <button v-show="allDone" type="button" @click="showResults">Results</button>
+                        </transition>
+                    </div>
+                </div>
+            </div>
+        </transition>
+    </section>
+    <transition name="fade2">
+        <section class="score" v-show="askedForResults">
+            <h1>Your Result:</h1>
+            <finalresults :finalpercentage="finalPercentage"></finalresults>
+            <button type="button" @click="playAgain">Start Again</button>
+        </section>
+    </transition>
+    <!-- this is for display the status and store level of the question -->
+    <input type="hidden" id="testType" name="testType" value="vo">
+    <input type="hidden" id="testUnit" name="testUnit" v-model="myUnit">
 </div>
 <script type="text/x-template" id="finalresults">
-	<div>
-		<p>{{finalpercentage}}</p>
-	</div>
+    <div>
+        <p>{{finalpercentage}}</p>
+    </div>
 </script>
 <!-- partial -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -65,13 +59,5 @@
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script>
 <script src="./script.js"></script>
-<!--<script type="text/javascript">-->
-<!--    $(document).ready(function () {-->
-<!--        $(window).height();-->
-<!--        var h = $(window).height() - $(".main_div_audio").height()-->
-<!--        // console.log(h / 2)-->
-<!--        $(".main_div_audio").css({"margin-top": h / 3.3 + "px"})-->
-<!--    })-->
-<!--</script>-->
 </body>
 </html>
