@@ -5672,7 +5672,7 @@ new Vue({
         },
     },
     mounted() {
-        // this.start();
+        this.start();
     },
 });
 
