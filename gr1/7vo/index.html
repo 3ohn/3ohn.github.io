@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+        <div class="row lesson-titles">
+            <p id="demo" class="col-md-12 col-lg-12 text-center">Topic: <strong style="color: DodgerBlue">Conversation</strong> </p>
+            <div class="question-grid">
+                <div class="question-section"></div>
+                <div class="question-section"></div>
+                <div class="question-section"></div>
+            </div>
+        </div>
+        <div class="check">
+            <div class="button-zone">
+                <button id="check-answers" type="button" class="btn btn-success btn-lg blue">Check</button>&nbsp;&nbsp;
+                <button id="show-answers" type="button" class="btn btn-success btn-lg green">Answers</button>&nbsp;&nbsp;
+                
+            </div>
+            <div class="message-zone">
+                <p id="message"></p>
+            </div>
+        </div>
+        <input type="hidden" id="testUnit" name="testUnit">
+    </div>
+</body>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src="question.js"></script>
+<script src="script.js"></script>
+</html>
