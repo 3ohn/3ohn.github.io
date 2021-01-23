@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+#grReadText {
+    background-color: black;
+    color: white;
+    display: none;
+
+}
+
+#div-question_answer::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p#demo {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    margin-bottom: .8rem;
+}
+
+.sentence {
+    font-weight: 400;
+    line-height: 51px;
+    display: inline;
+    font-size: 1.5rem;
+    margin: .3rem 0;
+    padding: 0;
+    word-spacing: 0px
+}
+
+.sentence:first-child {
+    margin-left: 0;
+}
+
+.dropdown-answers {
+    border: 1.5px solid gray;
+    margin: 0px;
+    width: 4.4rem;
+    height: 30px;
+}
+
+/*!*.sentence span {*!*/
+/*!*    margin-right: 4px;*!*/
+/*!*}*!*/
+
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.container {
+    margin: auto;
+    margin: 0 3vw;
+}
+
+select {
+    font-size: 1.5rem;
+    margin: 0 0.3rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+button {
+    color: white;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+#message {
+    margin-left: 1rem;
+    font-weight: 700;
+}
+
+.green {
+    background-color: #4CAF50;
+}
+
+.blue {
+    background-color: DodgerBlue;
+}
+
+.gray {
+    background-color: #616161;
+}
+
+
+/*!* Above CSS for monitors with screen width 1366px or above *!*/
+
+/*!*  Below CSS for tablets in landscape mode, older desktop monitors *!*/
+
+/*@media only screen and (min-width: 1024px) and (max-width: 1365px) {*/
+
+/*}*/
+
+/*!*  Tablets in portrait mode, large display smartphones landscape mode *!*/
+
+/*@media only screen and (min-width: 768px) and (max-width: 1023px) {*/
+/*    p {*/
+/*        font-size: 1.2rem;*/
+/*    }*/
+
+/*    .sentence {*/
+/*        font-size: 18px;*/
+/*    }*/
+
+/*    .dropdown-answers {*/
+/*        font-size: 17px;*/
+/*    }*/
+
+/*    button {*/
+/*        font-size: 14px;*/
+/*    }*/
+/*}*/
+
+/*!*  Smartphones in landscape mode *!*/
+
+/*@media only screen and (min-width: 421px) and (max-width: 767px) {*/
+
+/*    p {*/
+/*        font-size: 0.9rem;*/
+/*    }*/
+
+/*    .sentence {*/
+/*        font-size: 14px;*/
+/*        line-height: 2.5;*/
+/*    }*/
+
+/*    .dropdown-answers {*/
+/*        height: 24px;*/
+/*        position: relative;*/
+/*        top: 3px;*/
+/*    }*/
+
+/*    button {*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .dropdown-answers {*/
+/*        font-size: 14px;*/
+/*        top: 0;*/
+/*        margin-right: 0.3rem;*/
+/*    }*/
+
+/*    button {*/
+/*        font-size: 11px;*/
+/*    }*/
+
+/*    !*.sentence span {*!*/
+/*    !*    margin-right: -3px;*!*/
+/*    !*    margin-left: -3px;*!*/
+/*    !*}*!*/
+
+/*}*/
+
+/*!*  Smartphones in portrait mode  *!*/
+
+/*@media only screen and (max-width: 420px) {*/
+
+/*    p {*/
+/*        font-size: 0.6rem;*/
+/*    }*/
+
+/*    .container {*/
+/*        padding-bottom: 200px;*/
+/*    }*/
+
+/*    .sentence {*/
+/*        font-size: 11px;*/
+/*        line-height: 2rem;*/
+/*    }*/
+
+/*    .dropdown-answers {*/
+/*        height: 21px;*/
+/*        position: relative;*/
+/*        top: 0;*/
+/*        font-size: 11px;*/
+/*    }*/
+
+/*    button {*/
+/*        font-size: 8px;*/
+/*        padding: 0.4rem 1rem;*/
+/*    }*/
+
+/*    .sentence span {*/
+/*        margin-right: -3px;*/
+/*        margin-left: -3px;*/
+/*    }*/
+
+/*}*/
+
