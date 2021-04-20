@@ -21,12 +21,12 @@
             color: gold;
         }
         input[type="email"] {
-            width: 60vw !important;
+            width: 30vw !important;
             height: 3rem !important;
             border-radius: 2px !important;
             border: 1px gray solid !important;
             font-family: 'Inter', sans-serif !important;
-            font-size: 2rem !important;
+            font-size: 1rem !important;
             color: black;
             padding-left: 1rem !important;
         }
@@ -49,6 +49,11 @@
         .response {
             color: darkgreen !important;
             margin: 0 !important;
+        }
+        @media only screen and (max-width: 600px) {
+            input[type="email"] {
+                width: 80vw !important;
+            }
         }
     </style>
 </head>
